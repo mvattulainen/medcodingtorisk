@@ -1,0 +1,2690 @@
+{
+  "query": "burn of hand",
+  "requestUrl": "https://id.who.int/icd/release/11/2026-01/mms/search?q=burn+of+hand&useFlexisearch=true&flatResults=true&highlightingEnabled=false&medicalCodingMode=true",
+  "retrievedAt": "2026-07-27T00:00:00.000Z",
+  "apiVersion": "v2",
+  "release": "2026-01",
+  "linearization": "mms",
+  "response": {
+    "destinationEntities": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/428347394/unspecified",
+        "title": "Burn of wrist or hand, depth of burn unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/428347394/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Burn of hand",
+            "score": 1,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/333264155",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Burn of wrist or hand",
+            "score": 0.6431578511569384,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/428347394",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burn of wrist or hand of unspecified degree",
+            "score": 0.40414344372341066,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/428347394",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of finger",
+            "score": 0.35574758016673547,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2093578020",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of wrist",
+            "score": 0.3316067663837569,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1790873921",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of thumb",
+            "score": 0.27805926155161215,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1839404474",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of palm",
+            "score": 0.20916641434348054,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/870907225",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of finger nail",
+            "score": -0.015451446641244143,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/51883181",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of thumb nail",
+            "score": -0.09313976525636744,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1397045234",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "corrosion of hand",
+            "score": -0.5743834830375224,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/333264155",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND95.Z",
+        "score": 1,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/163532889/unspecified",
+        "title": "Burns, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/163532889/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": true,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Scald",
+            "score": 0.6884489152268185,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/163532889",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burns damage",
+            "score": 0.47957625880167926,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/163532889",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "thermal burns",
+            "score": 0.3509985098554787,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/163532889",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burns injury",
+            "score": 0.31012580068145784,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/163532889",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burns from friction",
+            "score": 0.20277326946503052,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/163532889",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burns from lightning",
+            "score": 0.13817647502207958,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/163532889",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burns from hot objects",
+            "score": 0.005021449505605511,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/163532889",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burns from hot air and hot gases",
+            "score": -0.28869448724098506,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/163532889",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "external chemical burn or corrosion",
+            "score": -0.6643419774640831,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/163532889",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "internal chemical burn or corrosion",
+            "score": -0.6862987861234517,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/163532889",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "NE2Z",
+        "score": 0.6884489152268185,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/987760868",
+        "title": "Burn of unspecified body region",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/987760868",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "burn NOS",
+            "score": 0.6884489152268185,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/987760868",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burn and corrosion, body region unspecified",
+            "score": -0.5403769551950938,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/987760868",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NE11",
+        "score": 0.6884489152268185,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1446309782",
+        "title": "Osteochondrosis or osteochondritis dissecans",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1446309782",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Burns disease",
+            "score": 0.582249793645963,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/108649610",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Adult osteochondrosis of hand",
+            "score": -0.7181754339433363,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1963472404",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Juvenile osteochondrosis of hand",
+            "score": -0.7418182499473357,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/119152609",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "15",
+        "theCode": "FB82.1",
+        "score": 0.582249793645963,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/764709846/unspecified",
+        "title": "Burns of external body surface, unspecified site",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/764709846/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": true,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "cutaneous burns",
+            "score": 0.492506302476389,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/764709846",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burns and corrosions of external body surface, specified by site",
+            "score": -0.41019867230749485,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/764709846",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND9Z",
+        "score": 0.492506302476389,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/129180281",
+        "title": "Burnout",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/129180281",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "24",
+        "theCode": "QD85",
+        "score": 0.46215597592142915,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/516674409",
+        "title": "Burn of respiratory tract",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/516674409",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "burn of lung",
+            "score": 0.44955884218687775,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/480902057",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "inhalation burn",
+            "score": 0.44879518056895484,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/516674409",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of larynx",
+            "score": 0.3210758555585471,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/881770128",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "laryngeal burn",
+            "score": 0.3210758555585471,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/881770128",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of trachea",
+            "score": 0.3052622267490885,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2115365259",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "tracheal burn",
+            "score": 0.3052622267490885,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2115365259",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of thoracic cavity",
+            "score": 0.15997636769631324,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1831101514",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of larynx with lung",
+            "score": 0.08218578251860637,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1658823738",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of trachea with lung",
+            "score": 0.06637215370914783,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1291001796",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of other parts of respiratory tract",
+            "score": -0.04207756429992768,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1745136470",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of larynx or trachea",
+            "score": -0.06211083291918284,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2044868157",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Chemical burn of other parts of respiratory tract",
+            "score": -0.28814414998631754,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1866950717",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Chemical burn of larynx or trachea",
+            "score": -0.3081774186055727,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2124543320",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn involving larynx or trachea with lung",
+            "score": -0.470389816655052,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/480902057",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "epiglottic chemical burn",
+            "score": -0.5838590695456121,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/490095652",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burn and corrosion of respiratory tract",
+            "score": -0.6136175062144591,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/516674409",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Chemical burn involving larynx or trachea with lung",
+            "score": -0.7164564023414418,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/468334786",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NE01",
+        "score": 0.44955884218687775,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2071994109",
+        "title": "Burn of eye or ocular adnexa",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2071994109",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "corneal burn",
+            "score": 0.42571668728101425,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1642596913",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "conjunctival burn",
+            "score": 0.3835194504136471,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1594763385",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "scleral burn",
+            "score": 0.2967014896103865,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1194075549",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of cornea",
+            "score": 0.26883683391929447,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1642596913",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of conjunctiva",
+            "score": 0.2408367487364376,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1594763385",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of sclera",
+            "score": 0.1857816699364854,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1194075549",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burn of eye and adnexa",
+            "score": 0.08622940283131736,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2071994109",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of eyelid",
+            "score": 0.056361155147005834,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/340263996",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "thermal conjunctival burn",
+            "score": 0.0460690450423072,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1594763385",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Chemical burn of cornea",
+            "score": 0.02277024823290464,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/345125950",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Chemical burn of conjunctiva",
+            "score": -0.0052298369499521775,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1542583975",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "periocular burns",
+            "score": -0.12496374607411209,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2071994109",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Thermal burn of eyelid",
+            "score": -0.2810892502243339,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/464766032",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of cornea or conjunctival sac",
+            "score": -0.3232141498919938,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/5321514",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of periocular area",
+            "score": -0.3435361980887707,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/979681218",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn with resulting rupture or destruction of eyeball",
+            "score": -0.5526754524348884,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1962697687",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Chemical burn of cornea or conjunctival sac",
+            "score": -0.5692807355783837,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1941938366",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Chemical burn with resulting rupture or destruction of eyeball",
+            "score": -0.7987420381212782,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/385117480",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NE00",
+        "score": 0.42571668728101425,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1671611947",
+        "title": "Burn of other internal organs",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1671611947",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Burn of uterus",
+            "score": 0.40557428918783744,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1540188150",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of oesophagus",
+            "score": 0.3868193752988462,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1378691093",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "esophageal burn",
+            "score": 0.3868193752988462,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1378691093",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burn of oesophagus",
+            "score": 0.3868193752988462,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1378691093",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burn of pharynx",
+            "score": 0.37032897829221906,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/929490305",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "pharyngeal burn",
+            "score": 0.37032897829221906,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/929490305",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of stomach",
+            "score": 0.36980212486180075,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1683474898",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of colon",
+            "score": 0.33497223515732727,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/617597755",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of rectum",
+            "score": 0.328968313240023,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1851038754",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of tongue",
+            "score": 0.3262230336983156,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/429239141",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of mouth",
+            "score": 0.301541368820804,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/934875291",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burn of throat",
+            "score": 0.2812006461020241,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/929490305",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Chemical burn of oesophagus",
+            "score": 0.1407527896124564,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/566475649",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of vagina",
+            "score": 0.06335875614848652,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1280848475",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "thermal burn of oesophagus",
+            "score": 0.04936896992750637,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/860092671",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of cervix uteri",
+            "score": 0.04912909692336366,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1084510364",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of mouth or pharynx",
+            "score": -0.01657856811379542,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/929490305",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of tonsil",
+            "score": -0.07124200457241653,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/943902953",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of small intestine",
+            "score": -0.07295236482830116,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1521609626",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of other parts of alimentary tract",
+            "score": -0.2294435344318598,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/645953772",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of internal genitourinary organs",
+            "score": -0.24934549835603692,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1137423742",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Chemical burn of mouth or pharynx",
+            "score": -0.2626451538001852,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1433332608",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Chemical burn of other parts of alimentary tract",
+            "score": -0.47551012011824983,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1149793813",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Chemical burn of internal genitourinary organs",
+            "score": -0.49541208404242676,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/971072343",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burn and corrosion of other internal organs",
+            "score": -0.7401044391300214,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1671611947",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NE02",
+        "score": 0.40557428918783744,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/799238711/unspecified & http://id.who.int/icd/release/11/2026-01/mms/269345714",
+        "title": "Burn of temple region",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/799238711/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "temporal burn",
+            "score": 0.4043763365872683,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1750136887",
+            "propertyValueType": 2
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "temple burn",
+            "score": 0.12278482170009283,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1750136887",
+            "propertyValueType": 2
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND91.Z&XA9T94",
+        "score": 0.4043763365872683,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/141462889/unspecified & http://id.who.int/icd/release/11/2026-01/mms/1656376572",
+        "title": "Burn of chest wall",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/141462889/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "thoracic burn",
+            "score": 0.3936105561706959,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/439225489",
+            "propertyValueType": 2
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "thorax burn",
+            "score": 0.3936105561706959,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/439225489",
+            "propertyValueType": 2
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND92.Z&XA55T2",
+        "score": 0.3936105561706959,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/141462889/unspecified & http://id.who.int/icd/release/11/2026-01/mms/119571850",
+        "title": "Burn of abdominal wall",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/141462889/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal burn",
+            "score": 0.391531309841224,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2065906964",
+            "propertyValueType": 2
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal wall radiation burn",
+            "score": -0.07279974356912534,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2065906964",
+            "propertyValueType": 2
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND92.Z&XA3KX0",
+        "score": 0.391531309841224,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/254627332/unspecified & http://id.who.int/icd/release/11/2026-01/mms/1896004518",
+        "title": "Burn of foot",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/254627332/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND97.Z&XA47V8",
+        "score": 0.3905368822507169,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1831158013/unspecified & http://id.who.int/icd/release/11/2026-01/mms/956558826",
+        "title": "Burn of neck",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1831158013/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND90.Z&XA7AA6",
+        "score": 0.3653121281314802,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/141462889/unspecified & http://id.who.int/icd/release/11/2026-01/mms/831985561",
+        "title": "Burn of breast",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/141462889/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND92.Z&XA12C1",
+        "score": 0.3586588563287387,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/254627332/unspecified & http://id.who.int/icd/release/11/2026-01/mms/1106248434",
+        "title": "Burn of ankle",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/254627332/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND97.Z&XA67V4",
+        "score": 0.35771730225467985,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1831158013/unspecified & http://id.who.int/icd/release/11/2026-01/mms/768242906",
+        "title": "Burn of ear",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1831158013/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND90.Z&XA6ZY6",
+        "score": 0.35744586804890466,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/254627332/unspecified & http://id.who.int/icd/release/11/2026-01/mms/1735902769",
+        "title": "Burn of toes",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/254627332/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND97.Z&XA4LC9",
+        "score": 0.3431696256898989,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2093211032/unspecified",
+        "title": "Burn of shoulder or arm except wrist or hand, depth of burn unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2093211032/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Burn of shoulder",
+            "score": 0.3415273045588969,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2008460988",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of axilla",
+            "score": 0.24916053860079734,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1484301964",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of upper limb",
+            "score": 0.22178747920231562,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/704464479",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "upper extremity burn NOS",
+            "score": 0.22178747920231562,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/704464479",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of scapular region",
+            "score": 0.16305375841265746,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/141063475",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Burn of shoulder or arm, except wrist or hand",
+            "score": -0.26872888364133957,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2093211032",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burn of shouler or arm of unspecified degree",
+            "score": -0.31111921653224955,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2093211032",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND94.Z",
+        "score": 0.3415273045588969,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1785103254/unspecified",
+        "title": "Burn of hip or leg except ankle or foot, depth of burn unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1785103254/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Burn of hip",
+            "score": 0.33401844697475463,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1072785168",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of thigh",
+            "score": 0.3325948346923876,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1520711717",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Burn of knee",
+            "score": 0.3255734076587012,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1000933792",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burn of lower limb",
+            "score": 0.23047775165029183,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1785103254",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "lower extremity burn NOS",
+            "score": 0.23047775165029183,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1785103254",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burn of hip or leg of unspecified degree",
+            "score": -0.2376044006798486,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1785103254",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Burn of hip or leg, except ankle or foot",
+            "score": -0.9018117221002472,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1785103254",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND96.Z",
+        "score": 0.33401844697475463,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/799238711/unspecified & http://id.who.int/icd/release/11/2026-01/mms/396837934",
+        "title": "Burn of lip",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/799238711/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND91.Z&XA8JD4",
+        "score": 0.3321355271279799,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/115936191",
+        "title": "Burns of multiple body regions",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/115936191",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": true,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "total body burn",
+            "score": 0.33072389339405317,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/115936191",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NE10",
+        "score": 0.33072389339405317,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/141462889/unspecified & http://id.who.int/icd/release/11/2026-01/mms/1187030",
+        "title": "Burn of back, any part",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/141462889/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "back burn",
+            "score": 0.3254281972780098,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/780743627",
+            "propertyValueType": 2
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND92.Z&XA2P90",
+        "score": 0.3254281972780098,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/141462889/unspecified",
+        "title": "Burn of trunk except perineum or genitalia, depth of burn unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/141462889/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "trunk burn",
+            "score": 0.32477087495656237,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/141462889",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "torso burn",
+            "score": 0.31322349274698363,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/141462889",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burn of trunk of unspecified degree",
+            "score": 0.08575646752303467,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/141462889",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burn and corrosion of trunk",
+            "score": -0.5611636928541416,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/141462889",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Burn of trunk except perineum or genitalia",
+            "score": -0.64371370076446,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/141462889",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND92.Z",
+        "score": 0.32477087495656237,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/141462889/unspecified & http://id.who.int/icd/release/11/2026-01/mms/1169905822",
+        "title": "Burn of groin",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/141462889/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND92.Z&XA2XG2",
+        "score": 0.30028939685725725,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/387174738",
+        "title": "Burn arising during procedure, as mode of injury or harm",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/387174738",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": true,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "burn complicating procedure",
+            "score": 0.2973372418737662,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/387174738",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "accidental burn during intervention",
+            "score": 0.0011902737751653283,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/387174738",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "scald during medical or surgical care",
+            "score": -0.08116282411072985,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/387174738",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "scald during medical or surgical procedure",
+            "score": -0.08488250093821231,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/387174738",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "accidental burn during medical or surgical care",
+            "score": -0.3491720181307916,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/387174738",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burn during radiation therapy",
+            "score": -0.46178590961813454,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/387174738",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "23",
+        "theCode": "PL11.1",
+        "score": 0.2973372418737662,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/250905801/other",
+        "title": "Other specified calcification or ossification of muscle",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/250905801/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Calcification of muscle due to burns",
+            "score": 0.29351628574665733,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1824423340",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "muscle ossification due to burns",
+            "score": 0.26746027982231924,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1824423340",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, hand",
+            "score": 0.2052410898089093,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/57423332",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns",
+            "score": -0.10630999496427215,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1824423340",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Other calcification of muscle, hand",
+            "score": -0.19569921855335015,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2135411694",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Other ossification of muscle, hand",
+            "score": -0.22175522447768825,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/679642101",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscle, hand",
+            "score": -0.3528788689135561,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2136993755",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, carpus",
+            "score": -0.3638367435121654,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1431414877",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, tarsus",
+            "score": -0.39396027805537087,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/298400722",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, neck",
+            "score": -0.42944678205961034,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1899394215",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, fingers",
+            "score": -0.43901133002435516,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1312333623",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, multiple sites",
+            "score": -0.44364114887075035,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/70252169",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, toes",
+            "score": -0.4515892845011916,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/466251298",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, metatarsus",
+            "score": -0.5100241101407986,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/294351664",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Myositis ossificans associated with burns",
+            "score": -0.5321365813042541,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1824423340",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, buttock",
+            "score": -0.5575605248186873,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1903070061",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Paralytic calcification or ossification of muscle, hand",
+            "score": -0.5861921416511786,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1420393979",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, upper arm",
+            "score": -0.5874880949866763,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/365521890",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, ankle joint",
+            "score": -0.5969432601287106,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1073040658",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, hip joint",
+            "score": -0.6206421154086356,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2029895910",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, lower leg",
+            "score": -0.6210192215351055,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/311077001",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, wrist joint",
+            "score": -0.6230537959996333,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1666305694",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, knee joint",
+            "score": -0.629087154724689,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1842334932",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, shoulder region",
+            "score": -0.638285311041892,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1633958685",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, elbow joint",
+            "score": -0.6586074756753414,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1550635208",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, head",
+            "score": -0.6716141319602589,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/178810975",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, other joints in foot",
+            "score": -0.6764413539790439,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1784628173",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, vertebral column",
+            "score": -0.6922002351258386,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/645491459",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, ankle or foot",
+            "score": -0.7349536409125121,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2009163037",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, forearm",
+            "score": -0.7558335825322219,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1887610488",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, sternoclavicular joint",
+            "score": -0.7849272654161322,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/40202443",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, acromioclavicular joint",
+            "score": -0.7912993569741964,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1123906082",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, pelvic region or thigh",
+            "score": -0.8545345148483048,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1713895542",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, glenohumeral joint",
+            "score": -0.9081912905172086,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/575715465",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "15",
+        "theCode": "FB31.Y",
+        "score": 0.29351628574665733,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1831158013/unspecified & http://id.who.int/icd/release/11/2026-01/mms/570444145",
+        "title": "Burn of scalp, any part",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1831158013/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "scalp burn",
+            "score": 0.2916541003547112,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1223410411",
+            "propertyValueType": 2
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND90.Z&XA6CW5",
+        "score": 0.2916541003547112,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1023978656/unspecified",
+        "title": "Burns of unspecified internal organ",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1023978656/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "burns and corrosions confined to eye and internal organs",
+            "score": -0.6491688866832064,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1023978656",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "NE0Z",
+        "score": 0.2581478025270528,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/643246807",
+        "title": "Burn of wrist or hand, epidermal burn",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/643246807",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Burn of wrist and hand, first degree",
+            "score": 0.19463783011246488,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/643246807",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "ND95.0",
+        "score": 0.24466761743131193,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/141462889/unspecified & http://id.who.int/icd/release/11/2026-01/mms/1894266247",
+        "title": "Burn of buttock",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/141462889/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND92.Z&XA3VA7",
+        "score": 0.23719838537240315,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/141462889/unspecified & http://id.who.int/icd/release/11/2026-01/mms/1045965002",
+        "title": "Burn of flank",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/141462889/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND92.Z&XA1DN2",
+        "score": 0.17261532505161686,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1559380866",
+        "title": "Heartburn",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1559380866",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "heartburn symptom",
+            "score": -0.0016875474461955785,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1559380866",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD95",
+        "score": 0.16060897651264514,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/934393790",
+        "title": "Burn of wrist or hand, full thickness burn",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/934393790",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Burn of wrist and hand, third degree",
+            "score": 0.15009854184937463,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/934393790",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "ND95.3",
+        "score": 0.15009854184937463,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/32216920",
+        "title": "Traumatic amputation of hand at metacarpal level",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/32216920",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "severed hand",
+            "score": 0.1454875058463247,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/32216920",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NC59.4",
+        "score": 0.1454875058463247,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/799238711/unspecified",
+        "title": "Burn of face except eye, depth of burn unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/799238711/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "burn of face of unspecified degree",
+            "score": 0.14510647303457028,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/799238711",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Burn of face except eye or ocular adnexa",
+            "score": -0.7303508418591852,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/799238711",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND91.Z",
+        "score": 0.14510647303457028,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1831158013/unspecified & http://id.who.int/icd/release/11/2026-01/mms/1357976561",
+        "title": "Burn of head",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1831158013/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND90.Z&XA20Q1",
+        "score": 0.12314477823083174,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/682019515",
+        "title": "Acquired absence of limb",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/682019515",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "absence of hand",
+            "score": 0.11686746754052676,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/85076559",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "acquired absence of hand",
+            "score": -0.06858662394101471,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/85076559",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Acquired absence of hand or wrist",
+            "score": -0.4254287727840763,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/85076559",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "acquired absence hand and wrist, bilateral",
+            "score": -0.6572867427095929,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/351581988",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "absence of hand and wrist with lower limb",
+            "score": -0.6979458448790615,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1860067597",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "24",
+        "theCode": "QF00",
+        "score": 0.11686746754052676,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/662291803",
+        "title": "Burn of wrist or hand, deep full thickness or complex burn",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/662291803",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Burn of wrist and hand, fourth degree",
+            "score": 0.10867412405010919,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/662291803",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "ND95.4",
+        "score": 0.10867412405010919,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/764709846/other",
+        "title": "Burns of external body surface, other specified site",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/764709846/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": true,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Extremities burns, not elsewhere classified",
+            "score": 0.09803767115969478,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1678708702",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "first degree burns or corrosions",
+            "score": -0.08068219481439898,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/116689948",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "third degree burns or corrosions",
+            "score": -0.12522148307748923,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/112641278",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "second degree burns or corrosions",
+            "score": -0.13538864407122805,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2032818067",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Superficial burns or corrosion",
+            "score": -0.4215418931775299,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/116689948",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Partial thickness burns or corrosion",
+            "score": -0.6931532027287499,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2032818067",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Full thickness burns or corrosion",
+            "score": -0.7581923441517195,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/112641278",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "ND9Y",
+        "score": 0.09803767115969478,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1421673399/unspecified",
+        "title": "Monoplegia of upper extremity, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1421673399/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "paralysis of hand",
+            "score": 0.07823781203555899,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1421673399",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "21",
+        "theCode": "MB54.Z",
+        "score": 0.07823781203555899,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/141462889/unspecified & http://id.who.int/icd/release/11/2026-01/mms/149928665",
+        "title": "Burn of interscapular region",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/141462889/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND92.Z&XA9LN5",
+        "score": 0.06456488907928382,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/254627332/unspecified",
+        "title": "Burn of ankle or foot, depth of burn unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/254627332/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Burn of ankle or foot",
+            "score": 0.05980526927857823,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/254627332",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burn of ankle or foot of unspecified degree",
+            "score": -0.17920913815494954,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/254627332",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burn and corrosion of ankle or foot",
+            "score": -0.8261292985321258,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/254627332",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND97.Z",
+        "score": 0.05980526927857823,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1739890344/unspecified",
+        "title": "Disorders of muscles, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1739890344/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Disorders of muscle, hand",
+            "score": 0.05901807189281891,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1332841098",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "disorder of muscle, unspecified, hand",
+            "score": 0.05901807189281891,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1332841098",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "15",
+        "theCode": "FB3Z",
+        "score": 0.05901807189281891,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1936927312",
+        "title": "Other specified soft tissue disorders",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1936927312",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Swelling of hand",
+            "score": 0.05422874718957158,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/845888649",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Other specified soft tissue disorders, hand",
+            "score": -0.31736421187936437,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/864954222",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "15",
+        "theCode": "FB56.6",
+        "score": 0.05422874718957158,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1428065029",
+        "title": "Acheiria",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1428065029",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "agenesis of hand",
+            "score": 0.048818856827377216,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1428065029",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Congenital absence of hand",
+            "score": -0.024163096490980234,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1428065029",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Absence of both hands",
+            "score": -0.10952825804918648,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1430605018",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Unilateral absence of hand",
+            "score": -0.12292445005094123,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1906312110",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "congenital absence of hand and finger",
+            "score": -0.3568644315510633,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1428065029",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "congenital absence of hand and wrist",
+            "score": -0.3810052453340418,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1428065029",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "20",
+        "theCode": "LB99.6",
+        "score": 0.048818856827377216,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1172376859",
+        "title": "Functional heartburn",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1172376859",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "13",
+        "theCode": "DD90.2",
+        "score": -0.0032858558561542394,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/405818185/unspecified",
+        "title": "Burn of perineum or genitalia, depth of burn unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/405818185/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Burn of perineum or genitalia",
+            "score": -0.005457577588517803,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/405818185",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "burn of peritoneum or genitalia of unspecified degree",
+            "score": -0.209903433786114,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/405818185",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND93.Z",
+        "score": -0.005457577588517803,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1831158013/unspecified & http://id.who.int/icd/release/11/2026-01/mms/347265434",
+        "title": "Burn of ear drum",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1831158013/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND90.Z&XA08X4",
+        "score": -0.007141283506495411,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1872438533",
+        "title": "Disorder of ligament",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1872438533",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Disorder of ligament, hand",
+            "score": -0.013028699228025459,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1329811239",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "15",
+        "theCode": "FA34.1",
+        "score": -0.013028699228025459,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      }
+    ],
+    "error": false,
+    "errorMessage": null,
+    "resultChopped": true,
+    "wordSuggestionsChopped": false,
+    "guessType": 2,
+    "uniqueSearchId": "a48d064d-a4e6-466a-b1cc-204cb15e51c3",
+    "words": null
+  }
+}

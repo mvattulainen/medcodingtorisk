@@ -1,0 +1,22 @@
+# Secrets and local credentials
+credentials/
+.env
+.env.*
+!.env.example
+*.token
+
+# Dependencies and generated build output
+node_modules/
+.npm-cache/
+public/
+.quartz-cache/
+.turbo/
+work/
+*.tsbuildinfo
+
+# Local tooling and operating-system files
+.git/
+*.bundle
+.DS_Store
+Thumbs.db
+*.log

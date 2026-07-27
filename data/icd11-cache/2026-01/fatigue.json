@@ -1,0 +1,655 @@
+{
+  "query": "fatigue",
+  "requestUrl": "https://id.who.int/icd/release/11/2026-01/mms/search?q=fatigue&useFlexisearch=true&flatResults=true&highlightingEnabled=false&medicalCodingMode=true",
+  "retrievedAt": "2026-07-27T00:00:00.000Z",
+  "apiVersion": "v2",
+  "release": "2026-01",
+  "linearization": "mms",
+  "response": {
+    "destinationEntities": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1109546957",
+        "title": "Fatigue",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1109546957",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MG22",
+        "score": 1,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/254923627",
+        "title": "Muscle strain or sprain",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/254923627",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "muscular fatigue",
+            "score": 0.7974500977649873,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/254923627",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "muscle fatigue",
+            "score": 0.7974500977649873,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/254923627",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "15",
+        "theCode": "FB32.5",
+        "score": 0.7974500977649873,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/569175314",
+        "title": "Postviral fatigue syndrome",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/569175314",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "chronic fatigue syndrome",
+            "score": 0.6406330215094159,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/569175314",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "CFS - [chronic fatigue syndrome]",
+            "score": 0.11126755227832617,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/569175314",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "PVFS - [postviral fatigue syndrome]",
+            "score": -0.8026732349643,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/569175314",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "myalgic encephalomyelitis/chronic fatigue syndrome",
+            "score": -3.1730483660789157,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/569175314",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "ME/CFS – [myalgic encephalomyelitis/chronic fatigue syndrome]",
+            "score": -4.258270053928822,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/569175314",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "08",
+        "theCode": "8E49",
+        "score": 0.6406330215094159,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/176555113/other",
+        "title": "Other specified voice disturbances",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/176555113/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Voice fatigue",
+            "score": 0.5647153993410468,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2111910240",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MA82.Y",
+        "score": 0.5647153993410468,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1458683894/unspecified",
+        "title": "Heart failure, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1458683894/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Myocardial fatigue",
+            "score": 0.5111601361343049,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2031753305",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "11",
+        "theCode": "BD1Z",
+        "score": 0.5111601361343049,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/469673529/other",
+        "title": "Maternal care for other specified conditions predominantly related to pregnancy",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/469673529/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Fatigue complicating pregnancy",
+            "score": 0.5067082493724815,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1430926096",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "pregnancy-related exhaustion and fatigue",
+            "score": -0.7483491378334847,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1430926096",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "18",
+        "theCode": "JA65.Y",
+        "score": 0.5067082493724815,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/505909942",
+        "title": "Acute stress reaction",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/505909942",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Combat fatigue",
+            "score": 0.413266425246792,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/143278359",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "24",
+        "theCode": "QE84",
+        "score": 0.413266425246792,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1439320197",
+        "title": "Stress fracture, not elsewhere classified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1439320197",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "fatigue fracture",
+            "score": 0.27310122138607695,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1439320197",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "15",
+        "theCode": "FB80.A",
+        "score": 0.27310122138607695,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/791667961",
+        "title": "Heat fatigue, transient",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/791667961",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "heat fatigue NOS",
+            "score": -0.07850419905951853,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/791667961",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "transient effects of heat fatigue",
+            "score": -1.2985946329029074,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/791667961",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NF01.3",
+        "score": -0.07850419905951853,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/835503193",
+        "title": "Ageing associated decline in intrinsic capacity",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/835503193",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "senile fatigue",
+            "score": -0.10787151466802623,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/835503193",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MG2A",
+        "score": -0.10787151466802623,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1449247265",
+        "title": "Fatigue fracture of vertebra",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1449247265",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "fatigue fracture of vertebra, site unspecified",
+            "score": -0.3563101065245542,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1449247265",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "15",
+        "theCode": "FA72.3",
+        "score": -0.1397118248912421,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1390117811/other",
+        "title": "Other specified general symptoms",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1390117811/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Toxaemia fatigue",
+            "score": -0.418461897009384,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/51354860",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MG4Y",
+        "score": -0.418461897009384,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/601591344/other",
+        "title": "Other specified disorders with hearing impairment",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/601591344/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Auditory fatigue deafness",
+            "score": -0.4284648425737203,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1116329731",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "10",
+        "theCode": "AB5Y",
+        "score": -0.4284648425737203,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1811820459/other",
+        "title": "Other specified secondary tremor",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1811820459/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Tremor due to anxiety, stress, or fatigue",
+            "score": -2.152740818399746,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/214584974",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "08",
+        "theCode": "8A04.3Y",
+        "score": -2.152740818399746,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2136808878 & http://id.who.int/icd/release/11/2026-01/mms/537685513",
+        "title": "Congestive heart failure NYHA Class III",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2136808878",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "congestive heart failure NYHA Class III - Marked limitation of physical activity. Comfortable at rest. Less than ordinary activity causes fatigue, palpitation or dyspnoea.",
+            "score": -7.523055014164886,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1068960732",
+            "propertyValueType": 2
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "11",
+        "theCode": "BD10&XS9T",
+        "score": -7.523055014164886,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1653508908 & http://id.who.int/icd/release/11/2026-01/mms/206731332",
+        "title": "Left ventricular failure with reduced ejection fraction NYHA Class I",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1653508908",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Left ventricular failure with reduced ejection fraction NYHA Class I - No limitation of physical activity. Ordinary physical activity does not cause undue fatigue, palpitation, dyspnoea (shortness of breath)",
+            "score": -8.185676872954074,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/413390388",
+            "propertyValueType": 2
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "11",
+        "theCode": "BD11.2&XS3A",
+        "score": -8.185676872954074,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1653508908 & http://id.who.int/icd/release/11/2026-01/mms/1232119755",
+        "title": "Left ventricular failure with reduced ejection fraction NYHA Class II",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1653508908",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Left ventricular failure with reduced ejection fraction NYHA Class II - slight limitation of physical activity. Comfortable at rest. Ordinary physical activity results in fatigue, palpitation, dyspnoea (shortness of breath)",
+            "score": -8.458297931019011,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/125269858",
+            "propertyValueType": 2
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "11",
+        "theCode": "BD11.2&XS6B",
+        "score": -8.458297931019011,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/572130061 & http://id.who.int/icd/release/11/2026-01/mms/206731332",
+        "title": "Left ventricular failure with mid range ejection fraction NYHA Class I",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/572130061",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Left ventricular failure with mid range ejection fraction NYHA Class I - no limitation of physical activity. Ordinary physical activity does not cause undue fatigue, palpitation , dyspnoea (shortness of breath)",
+            "score": -8.749628889859503,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/187475415",
+            "propertyValueType": 2
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "11",
+        "theCode": "BD11.1&XS3A",
+        "score": -8.749628889859503,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1653508908 & http://id.who.int/icd/release/11/2026-01/mms/537685513",
+        "title": "Left ventricular failure with reduced ejection fraction NYHA Class III",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1653508908",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Left ventricular failure with reduced ejection fraction NYHA Class III - Marked limitation of physical activity. Comfortable at rest. Less than ordinary activity causes fatigue, palpitation or dyspnoea (shortness of breath)",
+            "score": -8.952183463825257,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1117328023",
+            "propertyValueType": 2
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "11",
+        "theCode": "BD11.2&XS9T",
+        "score": -8.952183463825257,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      }
+    ],
+    "error": false,
+    "errorMessage": null,
+    "resultChopped": false,
+    "wordSuggestionsChopped": false,
+    "guessType": 2,
+    "uniqueSearchId": "af6bfec9-5bae-4575-9ef3-24fe71902ac3",
+    "words": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "deviceFamily": "CPAP",
+  "language": "en",
+  "complaintCount": 20,
+  "terminologies": {
+    "icd11": {
+      "enabled": true,
+      "linearization": "mms",
+      "release": "2026-01",
+      "language": "en",
+      "minimumAcceptedConfidence": 0.8
+    },
+    "imdrf": {
+      "enabled": true,
+      "release": "2026",
+      "annexes": ["A", "B", "C", "D", "E", "F", "G"]
+    },
+    "snomedCt": {
+      "enabled": true,
+      "mode": "human-reviewed-web-fallback",
+      "automaticApiAccess": false
+    }
+  },
+  "riskManagement": {
+    "enabled": true,
+    "registerPath": "data/risk-management/cpap-risk-register.json",
+    "minimumAcceptedLinkConfidence": 0.85,
+    "maximumCandidates": 3,
+    "automaticRiskFileUpdates": false,
+    "requireHumanReview": true,
+    "requireExposureDenominatorForOccurrenceAssessment": true
+  },
+  "rendering": {
+    "target": "quartz",
+    "contentDirectory": "content",
+    "deterministicBuild": true,
+    "includeRelatedComplaints": true,
+    "includeRiskManagementPage": true,
+    "relatedComplaintPriority": "shared-risk-item"
+  }
+}

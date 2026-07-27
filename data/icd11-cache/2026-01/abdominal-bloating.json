@@ -1,0 +1,2515 @@
+{
+  "query": "abdominal bloating",
+  "requestUrl": "https://id.who.int/icd/release/11/2026-01/mms/search?q=abdominal+bloating&useFlexisearch=true&flatResults=true&highlightingEnabled=false&medicalCodingMode=true",
+  "retrievedAt": "2026-07-27T00:00:00.000Z",
+  "apiVersion": "v2",
+  "release": "2026-01",
+  "linearization": "mms",
+  "response": {
+    "destinationEntities": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/898362405",
+        "title": "Abdominal distension",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/898362405",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "bloating",
+            "score": 0.7912843496254119,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/286057616",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "swollen abdomen",
+            "score": 0.027833149402895475,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/898362405",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdomen distension",
+            "score": -0.013345640173829372,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/898362405",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal and intestinal tympanite",
+            "score": -0.2438696095862086,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/898362405",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Gaseous abdominal distension",
+            "score": -0.29978997693001735,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/286057616",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME01",
+        "score": 0.7912843496254119,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1158740947",
+        "title": "Functional bloating",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1158740947",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Functional bloating and distension",
+            "score": 0.4540146109741469,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1158740947",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "13",
+        "theCode": "DD91.3",
+        "score": 0.6760759015225644,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/245796173",
+        "title": "Acute abdomen",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/245796173",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "surgical abdomen",
+            "score": 0.06109508318581622,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/245796173",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal acute syndrome",
+            "score": 0.023142252874247104,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/245796173",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "severe abdomen pain",
+            "score": -0.26837528533188165,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/245796173",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "severe abdominal pain",
+            "score": -0.26837528533188165,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/245796173",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "acute abdominal pain syndrome",
+            "score": -0.33721573318365244,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/245796173",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Severe localised abdominal pain",
+            "score": -0.42450685788147924,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/245796173",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Severe abdominal pain with abdominal rigidity",
+            "score": -0.4800949307750643,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/245796173",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD81.3",
+        "score": 0.10819598066864679,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1396448570",
+        "title": "Abdominal pregnancy",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1396448570",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "abdomen pregnancy",
+            "score": 0.07831329168145579,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1396448570",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "18",
+        "theCode": "JA01.0",
+        "score": 0.07831329168145579,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1133729855/unspecified",
+        "title": "Ascites, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1133729855/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal fluid",
+            "score": 0.05794011612296347,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1133729855",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal ascites",
+            "score": -0.4824813559638655,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1133729855",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal dropsy",
+            "score": -0.734082299342059,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1133729855",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "21",
+        "theCode": "ME04.Z",
+        "score": 0.05794011612296347,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1878077456 & http://id.who.int/icd/release/11/2026-01/mms/119571850",
+        "title": "Laceration without foreign body of abdominal wall",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1878077456",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal laceration",
+            "score": 0.05054625525351316,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1496562650",
+            "propertyValueType": 2
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NB51.0&XA3KX0",
+        "score": 0.05054625525351316,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1489212950/other",
+        "title": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1489212950/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Abdominal haematoma",
+            "score": 0.03346747776423332,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2011133573",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Abdominal compression, not elsewhere classified",
+            "score": -0.20201714894697376,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1391973335",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Abdominal wall trauma",
+            "score": -0.20583224787016158,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/401590865",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NB9Y",
+        "score": 0.03346747776423332,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/166022696",
+        "title": "Other and unspecified abdominal pain",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/166022696",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal distress",
+            "score": 0.032656741363568734,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/166022696",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal crisis",
+            "score": -0.01131649509392817,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/166022696",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal pain NOS",
+            "score": -0.15164233568331142,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/166022696",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "chronic abdominal pain NOS",
+            "score": -0.2555238267198503,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/166022696",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal colic",
+            "score": -0.28734749200321635,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/166022696",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal cramp",
+            "score": -0.46975081616925185,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/166022696",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD81.4",
+        "score": 0.032656741363568734,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1738794800",
+        "title": "Intra-abdominal or pelvic swelling, mass or lump",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1738794800",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "mass in abdomen",
+            "score": 0.02891369739195307,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/125974564",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "swelling in abdomen",
+            "score": 0.027833149402895475,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/125974564",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "intra-abdominal mass",
+            "score": -0.1581234113201153,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/125974564",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal peritoneal mass",
+            "score": -0.2259629917646037,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/125974564",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Abdominal mass without further specification",
+            "score": -0.43503932043723764,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/125974564",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "diffuse or generalised intra-abdominal, swelling or mass, NOS",
+            "score": -0.6420500762709581,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/125974564",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "intra-abdominal lump",
+            "score": -0.7159759296649905,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/125974564",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD82",
+        "score": 0.02891369739195307,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1601827704",
+        "title": "Peritoneal adhesions",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1601827704",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal adhesion",
+            "score": 0.0277853252504131,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1601827704",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "adhesion of abdominal wall",
+            "score": -0.12082362740190485,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1601827704",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal wall adhesions",
+            "score": -0.12082362740190485,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1601827704",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal cavity adhesion",
+            "score": -0.13644579716431615,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1601827704",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "intra-abdominal adhesion",
+            "score": -0.15925178346165522,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1601827704",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "13",
+        "theCode": "DC51.1",
+        "score": 0.0277853252504131,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1520152220/other",
+        "title": "Other specified disorders of peritoneum or retroperitoneum",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1520152220/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Abdominal granuloma",
+            "score": 0.02691195031390313,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/520504431",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "13",
+        "theCode": "DC51.Y",
+        "score": 0.02691195031390313,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/319731663",
+        "title": "Abdominal rigidity",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/319731663",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "rigid abdomen",
+            "score": -0.003003995068594607,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/319731663",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal rigidity, unspecified site",
+            "score": -0.11687935420893734,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/319731663",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "observation of abdominal rigidity",
+            "score": -0.5473875841347694,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/319731663",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME02",
+        "score": -0.003003995068594607,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/469219785/other",
+        "title": "Other specified symptoms or signs involving the digestive system or abdomen",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/469219785/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal discomfort",
+            "score": -0.010190027777115427,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/657155598",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME1Y",
+        "score": -0.010190027777115427,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/797648408",
+        "title": "Total mirror imagery",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/797648408",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal transposition",
+            "score": -0.020568179656413173,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/282132494",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Transposition of abdominal organs",
+            "score": -0.15240803109210674,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/282132494",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdomen viscera transposition",
+            "score": -0.2050387912858098,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/282132494",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdomen visceral transposition",
+            "score": -0.2050387912858098,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/282132494",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal transposition of viscera",
+            "score": -0.2050387912858098,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/282132494",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal viscera transposition",
+            "score": -0.2050387912858098,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/282132494",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal visceral transposition",
+            "score": -0.2050387912858098,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/282132494",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "20",
+        "theCode": "LA82",
+        "score": -0.020568179656413173,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/553875709",
+        "title": "Abdominal tenderness",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/553875709",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD81.0",
+        "score": -0.021911160192808865,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1599611342",
+        "title": "Traumatic amputations involving multiple body regions",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1599611342",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": true,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Transection of abdomen",
+            "score": -0.033673439186132116,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1140953856",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Traumatic amputation of part of sites classifiable as thorax, abdomen, lower back, or pelvis",
+            "score": -1.5763478135671591,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1244569144",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "ND35",
+        "score": -0.033673439186132116,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1489212950/unspecified",
+        "title": "Injuries to the abdomen, lower back, lumbar spine or pelvis, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1489212950/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal injury NOS",
+            "score": -0.057223295217843605,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/256634448",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Injury of abdomen",
+            "score": -0.057223295217843605,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/256634448",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "injury of abdomen NOS",
+            "score": -0.057223295217843605,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/256634448",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "NB9Z",
+        "score": -0.057223295217843605,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1193804992/other",
+        "title": "Other specified structural developmental anomalies of the diaphragm, abdominal wall or umbilical cord",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1193804992/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal wall defect NOS",
+            "score": -0.0792174865507964,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/942688522",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Congenital deformity of abdominal wall",
+            "score": -0.5054705250733611,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/942688522",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "20",
+        "theCode": "LB0Y",
+        "score": -0.0792174865507964,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1393408621",
+        "title": "Prune belly syndrome",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1393408621",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "abdomen muscle deficiency syndrome",
+            "score": -0.0867811740042641,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1393408621",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal muscle deficiency syndrome",
+            "score": -0.0867811740042641,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1393408621",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdomen muscular deficiency syndrome",
+            "score": -0.0867811740042641,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1393408621",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal muscular deficiency syndrome",
+            "score": -0.0867811740042641,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1393408621",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal muscle aplasia syndrome",
+            "score": -0.17669113324704902,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1393408621",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "20",
+        "theCode": "LD2F.10",
+        "score": -0.0867811740042641,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/918157973",
+        "title": "Abdominal compartment syndrome",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/918157973",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME00",
+        "score": -0.11469122560534106,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/26835366/other & http://id.who.int/icd/release/11/2026-01/mms/119571850 & http://id.who.int/icd/release/11/2026-01/mms/1124176890",
+        "title": "Haematoma of abdominal wall",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/26835366/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NB50.Y&XA3KX0&XJ1C6",
+        "score": -0.11514147488808463,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1247223172",
+        "title": "Flatulence or related conditions",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1247223172",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Abdominal tympany",
+            "score": -0.12178393357706783,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1247223172",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "gas abdominal pain",
+            "score": -0.3224176857055336,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1110335761",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "gas related abdominal pain",
+            "score": -0.446058379334392,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1110335761",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "gas induced abdominal pain",
+            "score": -0.4488522286177308,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1110335761",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME08",
+        "score": -0.12178393357706783,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1103514372/unspecified",
+        "title": "Neoplasms of unknown behaviour of oral cavity or digestive organs, unspecified site",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1103514372/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal viscera growth",
+            "score": -0.1322837782685018,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1103514372",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "02",
+        "theCode": "2F90.Z",
+        "score": -0.1322837782685018,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/389818276/other",
+        "title": "Injury of other specified intra-abdominal organs",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/389818276/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Abdomen viscera laceration",
+            "score": -0.13392435637588346,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1519051508",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Laceration of other intra-abdominal organ",
+            "score": -0.34728343763962555,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1519051508",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Haematoma of other intra-abdominal organ",
+            "score": -0.3643622151289053,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/975644767",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "late effect of injury of intra-abdominal organs",
+            "score": -0.9086392424642628,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1936392744",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Sequelae of injury of intra-abdominal organs",
+            "score": -0.9086392424642628,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1936392744",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Sequelae of injury of intra-abdominal or pelvic organs",
+            "score": -1.05437073892305,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1936392744",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NB91.Y",
+        "score": -0.13392435637588346,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/889756042",
+        "title": "Injury of intra-abdominal organ with pelvic organ",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/889756042",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Abdominal viscera haematoma",
+            "score": -0.15100313386516326,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1223861741",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "injury of abdomen with pelvic organs",
+            "score": -0.3347946431123245,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/889756042",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "injury of pelvic organ with abdominal organ(s)",
+            "score": -0.3347946431123245,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/889756042",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NB95",
+        "score": -0.15100313386516326,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/926729140",
+        "title": "Abdominal aortic aneurysm with rupture",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/926729140",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "abdomen aorta rupture",
+            "score": -0.15122883460143824,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdomen aortic rupture",
+            "score": -0.15122883460143824,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal aorta rupture",
+            "score": -0.15122883460143824,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal aortic rupture",
+            "score": -0.15122883460143824,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "ruptured abdomen aorta",
+            "score": -0.15122883460143824,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "ruptured abdomen aortic",
+            "score": -0.15122883460143824,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "ruptured abdominal aorta",
+            "score": -0.15122883460143824,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "ruptured abdominal aortic",
+            "score": -0.15122883460143824,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdomen aneurysm rupture",
+            "score": -0.42320503601532805,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "ruptured abdomen aneurysm",
+            "score": -0.42320503601532805,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "ruptured abdominal aneurysm",
+            "score": -0.42320503601532805,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal aorta aneurysm rupture",
+            "score": -0.6379976946851986,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal aorta aneurysm ruptured",
+            "score": -0.6379976946851986,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdomen aorta aneurysm ruptured",
+            "score": -0.6379976946851986,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdomen aortic aneurysm rupture",
+            "score": -0.6379976946851986,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdomen aortic aneurysm ruptured",
+            "score": -0.6379976946851986,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "rupture abdomen aorta aneurysm",
+            "score": -0.6379976946851986,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "rupture abdominal aortic aneurysm",
+            "score": -0.6379976946851986,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "false abdomen aorta aneurysm ruptured",
+            "score": -0.8679459212495655,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "false abdominal aortic aneurysm ruptured",
+            "score": -0.8679459212495655,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "false abdominal aorta aneurysm ruptured",
+            "score": -0.8679459212495655,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "false abdomen aortic aneurysm ruptured",
+            "score": -0.8679459212495655,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal aortic aneurysm which has ruptured",
+            "score": -0.8924270520821406,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/926729140",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "11",
+        "theCode": "BD50.41",
+        "score": -0.15122883460143824,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/53173615",
+        "title": "Intestinal angiostrongyliasis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/53173615",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Abdominal angiostrongylosis",
+            "score": -0.15669689095947653,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/53173615",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "01",
+        "theCode": "1F60.1",
+        "score": -0.15669689095947653,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/196209509",
+        "title": "Vesical fistula, not elsewhere classified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/196209509",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "vesicoabdominal fistula",
+            "score": -0.1593279648587321,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/23484346",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "16",
+        "theCode": "GC01.1",
+        "score": -0.1593279648587321,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/929037270",
+        "title": "Female genital tract-skin fistulae",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/929037270",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "uteroabdominal fistula",
+            "score": -0.15978088193104417,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/12608163",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "uterus-abdominal wall fistula",
+            "score": -0.28956873562751945,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/12608163",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "16",
+        "theCode": "GC04.13",
+        "score": -0.15978088193104417,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/598591368/other & http://id.who.int/icd/release/11/2026-01/mms/1983193090",
+        "title": "Abdominal muscular injury",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/598591368/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal muscle injury",
+            "score": -0.16371279590511953,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1462614177",
+            "propertyValueType": 2
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NB94.Y&XA6GV0",
+        "score": -0.16371279590511953,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/289098014",
+        "title": "Minor laceration of abdominal aorta",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/289098014",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "laceration of abdominal aorta NOS",
+            "score": -0.1642464034163574,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/289098014",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "superficial laceration of abdominal aorta",
+            "score": -0.32174479060447025,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/289098014",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "incomplete transection of abdominal aorta",
+            "score": -0.39763381907187956,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/289098014",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NB90.00",
+        "score": -0.1642464034163574,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/464207910",
+        "title": "Abrasion of abdominal wall",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/464207910",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NB50.2",
+        "score": -0.16585078959214491,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/320939116/unspecified",
+        "title": "Obstruction of large intestine, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/320939116/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal colon obstruction",
+            "score": -0.168173816867637,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/320939116",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal colonic obstruction",
+            "score": -0.168173816867637,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/320939116",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "13",
+        "theCode": "DB30.Z",
+        "score": -0.168173816867637,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1675210300",
+        "title": "Ureteral fistula",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1675210300",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Ureteroabdominal fistula",
+            "score": -0.1705345609677289,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/816234715",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Ureterosigmoido-abdominal fistula",
+            "score": -0.2855004406296112,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/898821925",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "16",
+        "theCode": "GC04.2",
+        "score": -0.1705345609677289,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/940081636",
+        "title": "Haemorrhage, not elsewhere classified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/940081636",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Abdomen haemorrhage",
+            "score": -0.17451861584812595,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/838170208",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal haemorrhage",
+            "score": -0.17451861584812595,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/838170208",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "intra-abdominal haemorrhage",
+            "score": -0.3615557245601943,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/838170208",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "intra-abdominal bleed",
+            "score": -0.4654900566587761,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/838170208",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MG27",
+        "score": -0.17451861584812595,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/220248148/other",
+        "title": "Other specified injury of nerves at abdomen, lower back or pelvis level",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/220248148/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Injury of nerve of abdomen",
+            "score": -0.18712213470809222,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/481269667",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NB7Y",
+        "score": -0.18712213470809222,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1823388682/other",
+        "title": "Other specified injury of abdominal aorta",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1823388682/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Punctured abdominal aorta",
+            "score": -0.20399973052417789,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2022334095",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Dissecting abdominal aortic haematoma",
+            "score": -0.39304482634881993,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/463197746",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Perforated abdominal aortic wound",
+            "score": -0.6416046357224973,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1786068207",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Penetrating abdominal aortic wound",
+            "score": -0.6817279323773426,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1908128757",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NB90.0Y",
+        "score": -0.20399973052417789,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1159629836",
+        "title": "Peritoneal abscess",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1159629836",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Abdominal abscess",
+            "score": -0.21947848963126276,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1317471947",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal cavity abscess",
+            "score": -0.383709612045992,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1317471947",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "intra-abdominal abscess",
+            "score": -0.40651559834333106,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1317471947",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "13",
+        "theCode": "DC50.2",
+        "score": -0.21947848963126276,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/389818276/unspecified",
+        "title": "Injury of intra-abdominal organs, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/389818276/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Abdominal cavity trauma",
+            "score": -0.22145441763257281,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1748046304",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "internal injury of abdomen",
+            "score": -0.22785987146789544,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/389818276",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Abdomen viscera injury",
+            "score": -0.2416939068472402,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/389818276",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal viscera trauma",
+            "score": -0.2416939068472402,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/389818276",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal viscera injury",
+            "score": -0.2416939068472402,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/389818276",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "intra-abdominal trauma",
+            "score": -0.24426040392991197,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/389818276",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "internal injury of abdominal organs",
+            "score": -0.35969972290358904,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/389818276",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Injury of intra-abdominal organs",
+            "score": -0.37610025536560543,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/389818276",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal viscera blunt trauma",
+            "score": -0.4475565380204636,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/389818276",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal viscera blunt injury",
+            "score": -0.4475565380204636,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/389818276",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Abdomen viscera contusion",
+            "score": -0.5394973593892183,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1476803407",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Intra-abdominal contusion",
+            "score": -0.54206385647189,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1301425460",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Abdomen viscus penetrating wound",
+            "score": -0.6514058853368686,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1494334765",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "NB91.Z",
+        "score": -0.22145441763257281,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/97145147/other & http://id.who.int/icd/release/11/2026-01/mms/1704980054",
+        "title": "Abdominal carcinomatosis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/97145147/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal metastasis",
+            "score": -0.23899913917565635,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1354270415",
+            "propertyValueType": 2
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal metastases",
+            "score": -0.23899913917565635,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1354270415",
+            "propertyValueType": 2
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "02",
+        "theCode": "2E0Y&XA9M74",
+        "score": -0.23899913917565635,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1294458332/unspecified",
+        "title": "Hernias, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1294458332/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal hernia NOS",
+            "score": -0.25251985664618753,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1294458332",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "13",
+        "theCode": "DD5Z",
+        "score": -0.25251985664618753,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2018477801",
+        "title": "Congenital anomalies of intestinal fixation",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2018477801",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Congenital intra-abdominal adhesions",
+            "score": -0.25838799283632197,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1824137223",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "20",
+        "theCode": "LB18",
+        "score": -0.25838799283632197,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1919487502",
+        "title": "Congenital fistulae between uterus and digestive and urinary tracts",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1919487502",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Congenital uteroabdominal fistula",
+            "score": -0.2589170913057109,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1405058510",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "20",
+        "theCode": "LB44.5",
+        "score": -0.2589170913057109,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1823388682/unspecified",
+        "title": "Injury of abdominal aorta, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1823388682/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Injury of abdominal aorta",
+            "score": -0.27201595388771416,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1823388682",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal aortic trauma",
+            "score": -0.27201595388771416,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1823388682",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal aortic injury",
+            "score": -0.27201595388771416,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1823388682",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal aorta blunt trauma",
+            "score": -0.4778785850609375,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1823388682",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "NB90.0Z",
+        "score": -0.27201595388771416,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/141462889/unspecified & http://id.who.int/icd/release/11/2026-01/mms/119571850",
+        "title": "Burn of abdominal wall",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/141462889/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal burn",
+            "score": -0.275223531691227,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2065906964",
+            "propertyValueType": 2
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal wall radiation burn",
+            "score": -0.6016210104658571,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2065906964",
+            "propertyValueType": 2
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND92.Z&XA3KX0",
+        "score": -0.275223531691227,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1154633768/unspecified",
+        "title": "Abdominal aortic aneurysm, without mention of perforation or rupture",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1154633768/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "abdomen aneurysm",
+            "score": -0.27805320970917236,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1154633768",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal aneurysm",
+            "score": -0.27805320970917236,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1154633768",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Descending abdominal aorta rupture",
+            "score": -0.36063846258950755,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1616394568",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "descending abdomen aorta rupture",
+            "score": -0.36063846258950755,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1616394568",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "descending abdominal aortic rupture",
+            "score": -0.36063846258950755,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1616394568",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "ruptured descending abdomen aorta",
+            "score": -0.36063846258950755,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1616394568",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Abdominal aortic aneurysm",
+            "score": -0.49284586837904293,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1154633768",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal aorta aneurysm",
+            "score": -0.49284586837904293,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1154633768",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "aneurysm of abdominal aorta",
+            "score": -0.49284586837904293,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1154633768",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "aortic abdomen aneurysm",
+            "score": -0.49284586837904293,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1154633768",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Inflammatory abdominal aortic aneurysm",
+            "score": -0.6121908233519385,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2101234748",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Familial abdominal aortic aneurysm",
+            "score": -0.6310027832373709,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/556590106",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Descending abdominal aortic aneurysm",
+            "score": -0.7022554963671123,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/185865681",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "descending abdomen aortic aneurysm",
+            "score": -0.7022554963671123,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/185865681",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Non-inflammatory abdominal aortic aneurysm",
+            "score": -0.7446285485074373,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1122214217",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "AAA - [abdominal aortic aneurysm]",
+            "score": -0.7867142849742483,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1154633768",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "ruptured descending abdominal aorta aneurysm",
+            "score": -0.847407322673268,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1616394568",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "ruptured descending abdominal aortic aneurysm",
+            "score": -0.847407322673268,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1616394568",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "11",
+        "theCode": "BD50.4Z",
+        "score": -0.27805320970917236,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2047598004",
+        "title": "Pain localised to other parts of lower abdomen",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2047598004",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "lower abdominal pain",
+            "score": -0.2796485009201458,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2047598004",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD81.12",
+        "score": -0.2796485009201458,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1883423833/other & http://id.who.int/icd/release/11/2026-01/mms/1983193090",
+        "title": "Syphilis of abdomen",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1883423833/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "01",
+        "theCode": "1A62.2Y&XA6GV0",
+        "score": -0.28423274358426015,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1810710745",
+        "title": "Pain localised to upper abdomen",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1810710745",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "upper abdominal pain",
+            "score": -0.2857572524155521,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1810710745",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal pain of upper abdomen",
+            "score": -0.2857572524155521,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1810710745",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD81.10",
+        "score": -0.2857572524155521,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/330423944",
+        "title": "Generalised abdominal pain",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/330423944",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD81.2",
+        "score": -0.2910441563386234,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      }
+    ],
+    "error": false,
+    "errorMessage": null,
+    "resultChopped": true,
+    "wordSuggestionsChopped": false,
+    "guessType": 2,
+    "uniqueSearchId": "5fc31ac1-81b4-4e3a-a816-0d188781739f",
+    "words": null
+  }
+}

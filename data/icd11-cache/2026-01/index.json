@@ -1,0 +1,1637 @@
+[
+  {
+    "query": "eye irritation",
+    "cacheFile": "data/icd11-cache/2026-01/eye-irritation.json",
+    "responseHash": "sha256:52c8d7726472b4946748bc60d9858def1fcfe991535e98eeea2b8ba6ba216b45",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2140272684",
+        "title": "Irritability",
+        "theCode": "MB24.C",
+        "score": 0.7213721762576264
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1851132850",
+        "title": "Excessive crying of infant",
+        "theCode": "MG44.0",
+        "score": 0.47531107898534675
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1468065226/other",
+        "title": "Other specified disorders of bladder",
+        "theCode": "GC01.Y",
+        "score": 0.4128599515247217
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/885653625/other",
+        "title": "Other specified disorders of penis",
+        "theCode": "GB06.Y",
+        "score": 0.4061171595519644
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1397803237/other",
+        "title": "Other specified disorders of autonomic nervous system",
+        "theCode": "8D8Y",
+        "score": 0.4061171595519644
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1971756453/other",
+        "title": "Other specified upper respiratory tract disorders",
+        "theCode": "CA0Y",
+        "score": 0.4016966611416303
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1158238623/unspecified",
+        "title": "Irritable bowel syndrome, type unspecified",
+        "theCode": "DD91.0Z",
+        "score": 0.36616702667928547
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1123860157",
+        "title": "Transient synovitis",
+        "theCode": "FA27.3",
+        "score": 0.3652085745573799
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/878417869",
+        "title": "Irritant balanoposthitis",
+        "theCode": "GB06.01",
+        "score": 0.3630401671103696
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/4407978/other",
+        "title": "Other diseases of urinary system",
+        "theCode": "GC0Y",
+        "score": 0.3587329810214846
+      }
+    ]
+  },
+  {
+    "query": "dry eye",
+    "cacheFile": "data/icd11-cache/2026-01/dry-eye.json",
+    "responseHash": "sha256:401dd200c5bc456501b9aa6ff6d1c13806c80e402950187530b3e8e5d4803af7",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/868865918/unspecified",
+        "title": "Diseases of the visual system, unspecified",
+        "theCode": "9E1Z",
+        "score": 0.3012130062843292
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/347064800/other",
+        "title": "Other specified acquired absence of organs",
+        "theCode": "QF01.Y",
+        "score": 0.14541576361630662
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/702067523/other",
+        "title": "Other specified structural developmental anomalies of ocular globes",
+        "theCode": "LA10.Y",
+        "score": 0.13386575615309967
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1342802999",
+        "title": "Microphthalmos",
+        "theCode": "LA10.0",
+        "score": 0.12959851831197566
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/674070950",
+        "title": "Ocular laceration without prolapse or loss of intraocular tissue, unilateral",
+        "theCode": "NA06.8D",
+        "score": 0.09201778304254259
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1611503766",
+        "title": "Epiphora",
+        "theCode": "MC13",
+        "score": 0.09125267083889521
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1187945554",
+        "title": "Red eye",
+        "theCode": "MC15",
+        "score": 0.06582964226823851
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1722024459/other",
+        "title": "Other specified retinal vascular occlusions",
+        "theCode": "9B74.Y",
+        "score": 0.0652578559347697
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/895680150",
+        "title": "Visual discomfort",
+        "theCode": "9D50",
+        "score": 0.06104966237194213
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/286686329",
+        "title": "Limited function or disability of body organ or system",
+        "theCode": "QF10",
+        "score": 0.043524651495803576
+      }
+    ]
+  },
+  {
+    "query": "skin lesion",
+    "cacheFile": "data/icd11-cache/2026-01/skin-lesion.json",
+    "responseHash": "sha256:ebab527642dbda7d0f4e7089ff28d24cce5fe2b7df422f506c7efd586fc5ea45",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/402520533/unspecified",
+        "title": "Skin lesion of unspecified nature",
+        "theCode": "ME60.Z",
+        "score": 1
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1412960686/unspecified",
+        "title": "Pyogenic bacterial infection of skin or subcutaneous tissue, unspecified",
+        "theCode": "1B7Z",
+        "score": 0.3881043401462079
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/840155638/other",
+        "title": "Gonococcal infection of other specified sites",
+        "theCode": "1A72.Y",
+        "score": 0.37526097202944525
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2044170142",
+        "title": "Skin disorder of uncertain or unspecified nature",
+        "theCode": "ME67",
+        "score": 0.31608996314424137
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1040820675/other",
+        "title": "Other specified skin changes",
+        "theCode": "ME66.Y",
+        "score": 0.16420849165790133
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1525792972/unspecified",
+        "title": "Arthropathies, unspecified",
+        "theCode": "FA5Z",
+        "score": 0.1073347287982506
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1639304259/other",
+        "title": "Other specified diseases of the skin",
+        "theCode": "EM0Y",
+        "score": 0.09047075256110788
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1473673350/unspecified",
+        "title": "Diseases of the musculoskeletal system or connective tissue, unspecified",
+        "theCode": "FC0Z",
+        "score": 0.06451547787210328
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/944540491",
+        "title": "Changes in skin texture",
+        "theCode": "ME66.1",
+        "score": 0.060272491888686025
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/653663824/unspecified",
+        "title": "Structural developmental anomalies of the skin, unspecified",
+        "theCode": "LC7Z",
+        "score": 0.04974095196554304
+      }
+    ]
+  },
+  {
+    "query": "open wound of nose",
+    "cacheFile": "data/icd11-cache/2026-01/open-wound-of-nose.json",
+    "responseHash": "sha256:de21e1407f3928561b29e6462144b294bdd45621f1a37679eaf4e5f4a310ab3b",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1667404773/unspecified & http://id.who.int/icd/release/11/2026-01/mms/1082634473",
+        "title": "Open wound of nose",
+        "theCode": "NA01.Z&XA3H13",
+        "score": 1
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1667404773/unspecified & http://id.who.int/icd/release/11/2026-01/mms/2095829639",
+        "title": "Open wound of external skin of the nose",
+        "theCode": "NA01.Z&XA04T9",
+        "score": 0.7750611257686415
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/754990790",
+        "title": "Open wound of unspecified body region",
+        "theCode": "ND56.1",
+        "score": 0.6385241209705468
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1056609193 & http://id.who.int/icd/release/11/2026-01/mms/1082634473",
+        "title": "Open bite of nose",
+        "theCode": "NA01.6&XA3H13",
+        "score": 0.5648131351538722
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1679904912/other",
+        "title": "Other specified injury of eye or orbit",
+        "theCode": "NA06.Y",
+        "score": 0.5235234955226445
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/857209897/unspecified",
+        "title": "Open wound of thorax, unspecified",
+        "theCode": "NA81.Z",
+        "score": 0.4958641010443375
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/417426953/unspecified & http://id.who.int/icd/release/11/2026-01/mms/1896004518",
+        "title": "Open wound of foot",
+        "theCode": "ND12.Z&XA47V8",
+        "score": 0.49437687806536473
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2092209979/other",
+        "title": "Other specified injury of thoracic aorta",
+        "theCode": "NB30.0Y",
+        "score": 0.4906750287252866
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/145050711/unspecified & http://id.who.int/icd/release/11/2026-01/mms/430791912",
+        "title": "Open wound of hand, unspecified",
+        "theCode": "NC52.1Z&XA5R12",
+        "score": 0.48777750813475257
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/883416062/unspecified & http://id.who.int/icd/release/11/2026-01/mms/899820155",
+        "title": "Open wound of pharynx",
+        "theCode": "NA21.Z&XA93V5",
+        "score": 0.4845991137655795
+      }
+    ]
+  },
+  {
+    "query": "skin rash",
+    "cacheFile": "data/icd11-cache/2026-01/skin-rash.json",
+    "responseHash": "sha256:0fabf793effc7f0a828eb939abc79c7453007e6ef5b9e8682bf34fb911eb57ae",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1672472938/unspecified",
+        "title": "Rash, unspecified",
+        "theCode": "ME66.6Z",
+        "score": 1
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1672472938/other",
+        "title": "Other specified rash",
+        "theCode": "ME66.6Y",
+        "score": 0.6745712356727795
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/408835699",
+        "title": "Acute skin eruption of uncertain or unspecified nature",
+        "theCode": "ME62",
+        "score": 0.6465575027017746
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/343905295",
+        "title": "Chronic skin disorder of uncertain or unspecified nature",
+        "theCode": "ME63",
+        "score": 0.642190764614498
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1256955195",
+        "title": "Viral exanthem due to unknown or unspecified agent",
+        "theCode": "EA00",
+        "score": 0.6324619452949556
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/923546127/unspecified",
+        "title": "Drug eruption of unspecified type",
+        "theCode": "EH6Z",
+        "score": 0.6242589586845685
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1256786790",
+        "title": "Rash generalised",
+        "theCode": "ME66.61",
+        "score": 0.596052686184452
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1667183601",
+        "title": "Rash localised",
+        "theCode": "ME66.60",
+        "score": 0.5743220712577872
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/186956137",
+        "title": "Other serum reactions",
+        "theCode": "NE80.3",
+        "score": 0.5354457763175293
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2044170142",
+        "title": "Skin disorder of uncertain or unspecified nature",
+        "theCode": "ME67",
+        "score": 0.48753472450201446
+      }
+    ]
+  },
+  {
+    "query": "dry mouth",
+    "cacheFile": "data/icd11-cache/2026-01/dry-mouth.json",
+    "responseHash": "sha256:d43ce64286ab54063895f5c97f450aa7b2e699e5d9b7e3e13f4e9009be1505a8",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1810717437",
+        "title": "Xerostomia",
+        "theCode": "DA02.1",
+        "score": 1
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1888093707",
+        "title": "Mouth ulcers",
+        "theCode": "DA01.15",
+        "score": 0.29830766785882373
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/452386362/unspecified & http://id.who.int/icd/release/11/2026-01/mms/1337584902",
+        "title": "Injury of mouth",
+        "theCode": "NA0Z&XA8182",
+        "score": 0.28547429460959095
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1231509064/unspecified",
+        "title": "Structural developmental anomalies of mouth or tongue, unspecified",
+        "theCode": "LA31.Z",
+        "score": 0.2740098357388958
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/569611257/other",
+        "title": "Other specified disorders of oral mucosa",
+        "theCode": "DA01.Y",
+        "score": 0.2633318320390789
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1667404773/unspecified & http://id.who.int/icd/release/11/2026-01/mms/1337584902",
+        "title": "Open wound in mouth",
+        "theCode": "NA01.Z&XA8182",
+        "score": 0.23893303663026036
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/412010073 & http://id.who.int/icd/release/11/2026-01/mms/1124176890",
+        "title": "Haematoma of mouth",
+        "theCode": "NA00.4&XJ1C6",
+        "score": 0.20307588158617396
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1530206530/unspecified",
+        "title": "Mouth breathing, unspecified",
+        "theCode": "MD11.8Z",
+        "score": 0.19608348062931474
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/430383563",
+        "title": "Symptom or complaint of the mouth, tongue or lip",
+        "theCode": "MD80.1",
+        "score": 0.19124652285434454
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/520566646",
+        "title": "Candidosis of lips or oral mucous membranes",
+        "theCode": "1F23.0",
+        "score": 0.12011781245354233
+      }
+    ]
+  },
+  {
+    "query": "sore throat",
+    "cacheFile": "data/icd11-cache/2026-01/sore-throat.json",
+    "responseHash": "sha256:0666977cbf6e2df614da9a10f57d6032edd2a74164e3e559edd3bf3fcc378c04",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/633724732",
+        "title": "Pain in throat",
+        "theCode": "MD36.0",
+        "score": 1
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1791890273/unspecified",
+        "title": "Acute pharyngitis, unspecified",
+        "theCode": "CA02.Z",
+        "score": 0.7998839694245062
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1101977204",
+        "title": "Chronic pharyngitis",
+        "theCode": "CA09.2",
+        "score": 0.7931912062851996
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1791890273/other",
+        "title": "Other specified acute pharyngitis",
+        "theCode": "CA02.Y",
+        "score": 0.7414146103328108
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1642172022",
+        "title": "Streptococcal pharyngitis",
+        "theCode": "1B51",
+        "score": 0.6377680403081851
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1235618695",
+        "title": "Influenza, virus not identified",
+        "theCode": "1E32",
+        "score": 0.5371145511970866
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/61181798",
+        "title": "Enteroviral vesicular pharyngitis",
+        "theCode": "1F05.1",
+        "score": 0.5026682838094911
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1971756453/other",
+        "title": "Other specified upper respiratory tract disorders",
+        "theCode": "CA0Y",
+        "score": 0.4212959603488188
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1704767204",
+        "title": "Laceration without foreign body of neck",
+        "theCode": "NA21.0",
+        "score": 0.2550278085235357
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/265758211 & http://id.who.int/icd/release/11/2026-01/mms/1124176890",
+        "title": "Haematoma of throat",
+        "theCode": "NA20.2&XJ1C6",
+        "score": 0.22102712817674408
+      }
+    ]
+  },
+  {
+    "query": "nasal dryness",
+    "cacheFile": "data/icd11-cache/2026-01/nasal-dryness.json",
+    "responseHash": "sha256:c46d97bb34e98cc74b4b26fe602babf22ee91ac0e78dbd1523cd1aa744ab6c00",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/641193392",
+        "title": "Nasality",
+        "theCode": "MA82.2",
+        "score": 0.7115516696969947
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1971756453/unspecified",
+        "title": "Upper respiratory tract disorders, unspecified",
+        "theCode": "CA0Z",
+        "score": 0.6061658855056831
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1971756453/other",
+        "title": "Other specified upper respiratory tract disorders",
+        "theCode": "CA0Y",
+        "score": 0.5302668077342307
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2099486655",
+        "title": "Choanal atresia",
+        "theCode": "LA70.2",
+        "score": 0.46710586827565836
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/237738073 & http://id.who.int/icd/release/11/2026-01/mms/1124176890",
+        "title": "Haematoma of nose",
+        "theCode": "NA00.3&XJ1C6",
+        "score": 0.4641540373995417
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/137754914/unspecified",
+        "title": "Nasal polyp, unspecified",
+        "theCode": "CA0J.Z",
+        "score": 0.4594523980150113
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1251924794",
+        "title": "Nasal congestion",
+        "theCode": "MD11.9",
+        "score": 0.43937194614838465
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/774024795",
+        "title": "Nasal step",
+        "theCode": "9D42.22",
+        "score": 0.40657489629002297
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/137754914/other",
+        "title": "Other specified nasal polyp",
+        "theCode": "CA0J.Y",
+        "score": 0.3479949211484841
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1836987572/unspecified",
+        "title": "Chronic rhinosinusitis, unspecified",
+        "theCode": "CA0A.Z",
+        "score": 0.32424355038605884
+      }
+    ]
+  },
+  {
+    "query": "epistaxis",
+    "cacheFile": "data/icd11-cache/2026-01/epistaxis.json",
+    "responseHash": "sha256:fa609c065a40f5338cb443eb4da94a0a3c9933277626472bd3a9119b7e167389",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/608337668",
+        "title": "Epistaxis",
+        "theCode": "MD20",
+        "score": 1
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/903867054",
+        "title": "Neonatal epistaxis",
+        "theCode": "KA83.00",
+        "score": 0.6742631087623776
+      }
+    ]
+  },
+  {
+    "query": "abdominal bloating",
+    "cacheFile": "data/icd11-cache/2026-01/abdominal-bloating.json",
+    "responseHash": "sha256:0f2e3537e537070e4f8ff9038c74cde6dde4f408bcad39025e6138a1adf69a84",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/898362405",
+        "title": "Abdominal distension",
+        "theCode": "ME01",
+        "score": 0.7912843496254119
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1158740947",
+        "title": "Functional bloating",
+        "theCode": "DD91.3",
+        "score": 0.6760759015225644
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/245796173",
+        "title": "Acute abdomen",
+        "theCode": "MD81.3",
+        "score": 0.10819598066864679
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1396448570",
+        "title": "Abdominal pregnancy",
+        "theCode": "JA01.0",
+        "score": 0.07831329168145579
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1133729855/unspecified",
+        "title": "Ascites, unspecified",
+        "theCode": "ME04.Z",
+        "score": 0.05794011612296347
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1878077456 & http://id.who.int/icd/release/11/2026-01/mms/119571850",
+        "title": "Laceration without foreign body of abdominal wall",
+        "theCode": "NB51.0&XA3KX0",
+        "score": 0.05054625525351316
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1489212950/other",
+        "title": "Other specified injuries to the abdomen, lower back, lumbar spine or pelvis",
+        "theCode": "NB9Y",
+        "score": 0.03346747776423332
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/166022696",
+        "title": "Other and unspecified abdominal pain",
+        "theCode": "MD81.4",
+        "score": 0.032656741363568734
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1738794800",
+        "title": "Intra-abdominal or pelvic swelling, mass or lump",
+        "theCode": "MD82",
+        "score": 0.02891369739195307
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1601827704",
+        "title": "Peritoneal adhesions",
+        "theCode": "DC51.1",
+        "score": 0.0277853252504131
+      }
+    ]
+  },
+  {
+    "query": "aerophagia",
+    "cacheFile": "data/icd11-cache/2026-01/aerophagia.json",
+    "responseHash": "sha256:f9aaafebb2818392d513bd15ff1f4963ce371188f93252e7e55c6bf93b10d4eb",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1031437858",
+        "title": "Functional belching disorders",
+        "theCode": "DD90.5",
+        "score": 1
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/994179294/other",
+        "title": "Other functional digestive disorders of infants, neonates or toddlers",
+        "theCode": "DD93.Y",
+        "score": 0.11666429664985453
+      }
+    ]
+  },
+  {
+    "query": "headache",
+    "cacheFile": "data/icd11-cache/2026-01/headache.json",
+    "responseHash": "sha256:770a18c4565d7d68914f153ab28c51ce2848612a6f6303830e173d2ed131c3b8",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1405405864",
+        "title": "Headache, not elsewhere classified",
+        "theCode": "MB4D",
+        "score": 1
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/28995849/unspecified",
+        "title": "Headache disorders, unspecified",
+        "theCode": "8A8Z",
+        "score": 0.8730356413538323
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/28995849/other",
+        "title": "Other specified headache disorders",
+        "theCode": "8A8Y",
+        "score": 0.7319024143090999
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/607078588",
+        "title": "Trigeminal autonomic cephalalgias",
+        "theCode": "8A82",
+        "score": 0.5931907929628362
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1410019257/unspecified",
+        "title": "Tension-type headache, unspecified",
+        "theCode": "8A81.Z",
+        "score": 0.5624249830882182
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1350703173",
+        "title": "Other primary headache disorder",
+        "theCode": "8A83",
+        "score": 0.5541850417390939
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1600884926",
+        "title": "Traumatic amputation at neck level",
+        "theCode": "NA63",
+        "score": 0.5016673369189175
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/296971178/other",
+        "title": "Other specified secondary headache",
+        "theCode": "8A84.Y",
+        "score": 0.49115851161260204
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1068555332",
+        "title": "Acute headache, not elsewhere classified",
+        "theCode": "MG31.1",
+        "score": 0.42507685041656107
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1410019257/other",
+        "title": "Other specified tension-type headache",
+        "theCode": "8A81.Y",
+        "score": 0.42129175604348573
+      }
+    ]
+  },
+  {
+    "query": "daytime sleepiness",
+    "cacheFile": "data/icd11-cache/2026-01/daytime-sleepiness.json",
+    "responseHash": "sha256:fa44476178d389a1059d76f5b1eafc5367dc695d7a26af46a9b4715b53e55bb9",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1684227885",
+        "title": "Pollakiuria",
+        "theCode": "MF50.1",
+        "score": -0.2654046939055134
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1876178954",
+        "title": "Incorrect timing of drug or medicament, as mode of injury",
+        "theCode": "PL13.52",
+        "score": -0.37257514035574885
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/831377479",
+        "title": "Hereditary sensory and autonomic neuropathy type III",
+        "theCode": "8C21.1",
+        "score": -0.41008275133356586
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1124422593",
+        "title": "Mental or behavioural disorders associated with pregnancy, childbirth or the puerperium, without psychotic symptoms",
+        "theCode": "6E20",
+        "score": -0.41688996917593285
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1580775818",
+        "title": "Difficulty or need for assistance with community participation",
+        "theCode": "QF2A",
+        "score": -0.4765374938014753
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1276763930",
+        "title": "Sandfly fever",
+        "theCode": "1D45",
+        "score": -0.7453709700756123
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1762543840",
+        "title": "Impairment of light sensitivity",
+        "theCode": "9D45",
+        "score": -0.7457108839936075
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1587737629",
+        "title": "Trench fever",
+        "theCode": "1C11.1",
+        "score": -0.8650169285194289
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1786943307",
+        "title": "Dentofacial parafunctional disorders",
+        "theCode": "DA0E.7",
+        "score": -0.896831773184073
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/751399056",
+        "title": "Leptospirosis",
+        "theCode": "1B91",
+        "score": -0.91703943318066
+      }
+    ]
+  },
+  {
+    "query": "chest discomfort",
+    "cacheFile": "data/icd11-cache/2026-01/chest-discomfort.json",
+    "responseHash": "sha256:a97785030581f244e551055fe298d3c0b6aff58c71a4c7b20504251015343c0f",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/756584914",
+        "title": "Symptom or complaint of the chest",
+        "theCode": "ME86.3",
+        "score": 1
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/197934298/unspecified",
+        "title": "Diseases of the respiratory system, unspecified",
+        "theCode": "CB7Z",
+        "score": 0.3943355813281767
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/11236328",
+        "title": "Pleural effusion",
+        "theCode": "CB27",
+        "score": 0.2372778358336273
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1103848959",
+        "title": "Pyothorax",
+        "theCode": "CA44",
+        "score": 0.2371630420343809
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1765737830/unspecified",
+        "title": "Chest pain, unspecified",
+        "theCode": "MD30.Z",
+        "score": 0.22739337102725163
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1448882621/other & http://id.who.int/icd/release/11/2026-01/mms/1124176890",
+        "title": "Thoracic haematoma",
+        "theCode": "NA80.Y&XJ1C6",
+        "score": 0.18678616066711398
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1531077719",
+        "title": "Subcutaneous swelling, mass or lump of uncertain or unspecified nature",
+        "theCode": "ME61",
+        "score": 0.17739085167073862
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/841348715",
+        "title": "Pulmonary oedema",
+        "theCode": "CB01",
+        "score": 0.15056729054789048
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/895680150",
+        "title": "Visual discomfort",
+        "theCode": "9D50",
+        "score": 0.12394542351085544
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/633727108",
+        "title": "Flail chest",
+        "theCode": "NA82.5",
+        "score": 0.040282540994162494
+      }
+    ]
+  },
+  {
+    "query": "anxiety",
+    "cacheFile": "data/icd11-cache/2026-01/anxiety.json",
+    "responseHash": "sha256:02cd23360da9a590296616bbe0b9fdf7282b27ef9b1371f75e72bb7cfde84df4",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2027043655",
+        "title": "Anxiety",
+        "theCode": "MB24.3",
+        "score": 1
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1712535455",
+        "title": "Generalised anxiety disorder",
+        "theCode": "6B00",
+        "score": 0.7129632421528983
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2131412196",
+        "title": "Secondary anxiety syndrome",
+        "theCode": "6E63",
+        "score": 0.5822861794293633
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/675329566/unspecified",
+        "title": "Hypochondriasis, unspecified",
+        "theCode": "6B23.Z",
+        "score": 0.540768195602009
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2062286624",
+        "title": "Social anxiety disorder",
+        "theCode": "6B04",
+        "score": 0.5113169906547156
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/830200631",
+        "title": "Separation anxiety disorder",
+        "theCode": "6B05",
+        "score": 0.4893496132786545
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1900730309",
+        "title": "Nightmare disorder",
+        "theCode": "7B01.2",
+        "score": 0.3106516503532016
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1176625878",
+        "title": "Cocaine-induced anxiety disorder",
+        "theCode": "6C45.71",
+        "score": 0.19482879135519748
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/56162827",
+        "title": "Panic disorder",
+        "theCode": "6B01",
+        "score": 0.17600742023983046
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/963759045",
+        "title": "Opioid-induced anxiety disorder",
+        "theCode": "6C43.71",
+        "score": 0.1682237128442362
+      }
+    ]
+  },
+  {
+    "query": "panic symptoms",
+    "cacheFile": "data/icd11-cache/2026-01/panic-symptoms.json",
+    "responseHash": "sha256:7fa8be73ea7bf55d774f77f5e83364f56d0cac09c9e756279813d38abe3c0747",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/56162827",
+        "title": "Panic disorder",
+        "theCode": "6B01",
+        "score": 0.5126779158248925
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1707067746",
+        "title": "Panic attack",
+        "theCode": "MB23.H",
+        "score": 0.18891867396151524
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1882771459/unspecified",
+        "title": "Paralytic symptoms, unspecified",
+        "theCode": "MB5Z",
+        "score": -0.13142045725393098
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/880462195",
+        "title": "Secondary mood syndrome, with manic symptoms",
+        "theCode": "6E62.1",
+        "score": -0.2063219193126719
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1390117811/other",
+        "title": "Other specified general symptoms",
+        "theCode": "MG4Y",
+        "score": -0.2744990983041393
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1882771459/other",
+        "title": "Other specified paralytic symptoms",
+        "theCode": "MB5Y",
+        "score": -0.33927058146291356
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/790764418",
+        "title": "Factitious disorder imposed on self",
+        "theCode": "6D50",
+        "score": -0.4560758034968463
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/767044268/unspecified",
+        "title": "Bodily distress disorder, unspecified",
+        "theCode": "6C20.Z",
+        "score": -0.4950027261102495
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/962492793",
+        "title": "Otalgia",
+        "theCode": "AB70.2",
+        "score": -0.5697309125671312
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1383708356",
+        "title": "Panic attacks in mood episodes",
+        "theCode": "6A80.1",
+        "score": -0.5738372129825142
+      }
+    ]
+  },
+  {
+    "query": "cough",
+    "cacheFile": "data/icd11-cache/2026-01/cough.json",
+    "responseHash": "sha256:38078c86795754dcb271c04ac50e17f2d6178bbec195023e04c75b6749f85830",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2027526159",
+        "title": "Cough",
+        "theCode": "MD12",
+        "score": 1
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2064398473/unspecified",
+        "title": "Whooping cough, unspecified",
+        "theCode": "1C12.Z",
+        "score": 0.5305984722754745
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/537830030",
+        "title": "Simple chronic bronchitis",
+        "theCode": "CA20.10",
+        "score": 0.5138769941139228
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2064398473/other",
+        "title": "Other specified whooping cough",
+        "theCode": "1C12.Y",
+        "score": 0.38941017105734343
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/899998313",
+        "title": "Haemoptysis",
+        "theCode": "MD22",
+        "score": 0.3753860516542558
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1939815950/unspecified",
+        "title": "Mycoses, unspecified",
+        "theCode": "1F2Z",
+        "score": 0.028224303903990333
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1350703173",
+        "title": "Other primary headache disorder",
+        "theCode": "8A83",
+        "score": -0.21107943655769507
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/704491122",
+        "title": "Whooping cough due to Bordetella parapertussis",
+        "theCode": "1C12.1",
+        "score": -0.265537937010885
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/553164358",
+        "title": "Malt worker lung",
+        "theCode": "CA70.4",
+        "score": -0.27101677077625486
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1287021540 / http://id.who.int/icd/release/11/2026-01/mms/1323682030/other",
+        "title": "Pneumonia due to whooping cough due to Bordetella pertussis",
+        "theCode": "1C12.0/CA40.0Y",
+        "score": -0.3199663942465613
+      }
+    ]
+  },
+  {
+    "query": "choking sensation",
+    "cacheFile": "data/icd11-cache/2026-01/choking-sensation.json",
+    "responseHash": "sha256:2cd156705d40007cd86b9d7f1f0fa90b4927bc0bccf5991ba5d5bb4399b81999",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/208980208/other",
+        "title": "Other specified abnormalities of breathing",
+        "theCode": "MD11.Y",
+        "score": 1
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/277953276",
+        "title": "Unintentional threat to breathing by inhalation or ingestion of other objects or materials",
+        "theCode": "PB07",
+        "score": 0.8116989874105134
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/427553982/unspecified",
+        "title": "Foreign body in unspecified part of respiratory tract",
+        "theCode": "ND72.Z",
+        "score": 0.5357438850164603
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/724580931",
+        "title": "Unintentional threat to breathing by inhalation or ingestion of food",
+        "theCode": "PB06",
+        "score": 0.17696250633725455
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1049159712",
+        "title": "Anaesthesia of skin",
+        "theCode": "MB40.3",
+        "score": 0.040654412125680855
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/494503817/unspecified",
+        "title": "Sensation disturbance, unspecified",
+        "theCode": "MB40.Z",
+        "score": 0.02785308897195211
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1316747223",
+        "title": "Unintentional threat to breathing by inhalation or ingestion of gastric contents",
+        "theCode": "PB04",
+        "score": 0.025480411916707295
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/494503817/other",
+        "title": "Other specified sensation disturbance",
+        "theCode": "MB40.Y",
+        "score": -0.05463967306201682
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1057897271",
+        "title": "Sensation seeking",
+        "theCode": "MB28.F",
+        "score": -0.08168784051216027
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1677539077",
+        "title": "Eye sensation abnormal",
+        "theCode": "MC11",
+        "score": -0.13507318894106493
+      }
+    ]
+  },
+  {
+    "query": "burn of hand",
+    "cacheFile": "data/icd11-cache/2026-01/burn-of-hand.json",
+    "responseHash": "sha256:d4968f0cc7967d376ff0c6a0ad0014646886e75cef063483fe40f6493aab1088",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/428347394/unspecified",
+        "title": "Burn of wrist or hand, depth of burn unspecified",
+        "theCode": "ND95.Z",
+        "score": 1
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/163532889/unspecified",
+        "title": "Burns, unspecified",
+        "theCode": "NE2Z",
+        "score": 0.6884489152268185
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/987760868",
+        "title": "Burn of unspecified body region",
+        "theCode": "NE11",
+        "score": 0.6884489152268185
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1446309782",
+        "title": "Osteochondrosis or osteochondritis dissecans",
+        "theCode": "FB82.1",
+        "score": 0.582249793645963
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/764709846/unspecified",
+        "title": "Burns of external body surface, unspecified site",
+        "theCode": "ND9Z",
+        "score": 0.492506302476389
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/129180281",
+        "title": "Burnout",
+        "theCode": "QD85",
+        "score": 0.46215597592142915
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/516674409",
+        "title": "Burn of respiratory tract",
+        "theCode": "NE01",
+        "score": 0.44955884218687775
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2071994109",
+        "title": "Burn of eye or ocular adnexa",
+        "theCode": "NE00",
+        "score": 0.42571668728101425
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1671611947",
+        "title": "Burn of other internal organs",
+        "theCode": "NE02",
+        "score": 0.40557428918783744
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/799238711/unspecified & http://id.who.int/icd/release/11/2026-01/mms/269345714",
+        "title": "Burn of temple region",
+        "theCode": "ND91.Z&XA9T94",
+        "score": 0.4043763365872683
+      }
+    ]
+  },
+  {
+    "query": "sleep disturbance",
+    "cacheFile": "data/icd11-cache/2026-01/sleep-disturbance.json",
+    "responseHash": "sha256:0c40bb74d43fcdb96b838fe27a3ee9852cc011deda19586abcfdd7e0dc45203e",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1207299072",
+        "title": "Sleep disturbance, not elsewhere classified",
+        "theCode": "MG41",
+        "score": 1
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/274880002/unspecified",
+        "title": "Sleep-wake disorders, unspecified",
+        "theCode": "7B2Z",
+        "score": 0.6565138705594656
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1201727099/unspecified",
+        "title": "Narcolepsy, unspecified",
+        "theCode": "7A20.Z",
+        "score": 0.44799624742145583
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1743751621",
+        "title": "Sleepwalking disorder",
+        "theCode": "7B00.1",
+        "score": 0.41864822548069386
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1980306606",
+        "title": "Insufficient sleep syndrome",
+        "theCode": "7A26",
+        "score": 0.3901315371336313
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/877557231/unspecified",
+        "title": "Sleep-related breathing disorders, unspecified",
+        "theCode": "7A4Z",
+        "score": 0.3833958709352483
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/335616593",
+        "title": "Sleep terrors",
+        "theCode": "7B00.2",
+        "score": 0.33454607779923073
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1552856729",
+        "title": "Sleeptalking",
+        "theCode": "MB60",
+        "score": 0.3270538943476801
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1359329403/unspecified",
+        "title": "Circadian rhythm sleep-wake disorders, unspecified",
+        "theCode": "7A6Z",
+        "score": 0.2254378846312541
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/49589409/unspecified",
+        "title": "Sleep-related movement disorders, unspecified",
+        "theCode": "7A8Z",
+        "score": 0.21650201883415435
+      }
+    ]
+  },
+  {
+    "query": "shortness of breath",
+    "cacheFile": "data/icd11-cache/2026-01/shortness-of-breath.json",
+    "responseHash": "sha256:5667d6d75c41aa32353e4554956363305587af474ac85033ad384cd53c430f17",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/960305085",
+        "title": "Dyspnoea",
+        "theCode": "MD11.5",
+        "score": 1
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/208980208/unspecified",
+        "title": "Abnormalities of breathing, unspecified",
+        "theCode": "MD11.Z",
+        "score": 0.23724795376141494
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1166232738/unspecified",
+        "title": "Genetic lipodystrophy, unspecified",
+        "theCode": "LD27.6Z",
+        "score": 0.20187236088279428
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/208980208/other",
+        "title": "Other specified abnormalities of breathing",
+        "theCode": "MD11.Y",
+        "score": 0.1447506508738633
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1048499416",
+        "title": "Hyperventilation",
+        "theCode": "MD11.7",
+        "score": 0.07815326344731223
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1530206530/unspecified",
+        "title": "Mouth breathing, unspecified",
+        "theCode": "MD11.8Z",
+        "score": 0.05832796192678999
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/842838910/other",
+        "title": "Other specified disorders of synovium or tendon",
+        "theCode": "FB4Y",
+        "score": 0.014665349418976013
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/780637678",
+        "title": "Short bowel syndrome",
+        "theCode": "DA96.04",
+        "score": -0.06327901358984876
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1569331933",
+        "title": "Breath holding",
+        "theCode": "MD11.3",
+        "score": -0.13058900064417572
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1912868366",
+        "title": "Short stature, not elsewhere classified",
+        "theCode": "5B11",
+        "score": -0.13063803267659663
+      }
+    ]
+  },
+  {
+    "query": "difficulty exhaling",
+    "cacheFile": "data/icd11-cache/2026-01/difficulty-exhaling.json",
+    "responseHash": "sha256:d342e4ab67c64ba058b5c619a392688f591fa9a1a99a01e42481faae42c18f44",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/340003177/unspecified",
+        "title": "Difficulty or need for assistance with unspecified activity",
+        "theCode": "QF2Z",
+        "score": 0.07400438576682668
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/853711607",
+        "title": "Personality difficulty",
+        "theCode": "QE50.7",
+        "score": 0.07173852920731655
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/878967589/other",
+        "title": "Other specified symptoms or signs involving the visual system",
+        "theCode": "MC1Y",
+        "score": 0.012563828342477388
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/584871112/unspecified",
+        "title": "Difficulties with micturition, unspecified",
+        "theCode": "MF50.6Z",
+        "score": -0.016066130574696007
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/960305085",
+        "title": "Dyspnoea",
+        "theCode": "MD11.5",
+        "score": -0.024631780673518223
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1349734380",
+        "title": "Difficulty or need for assistance with communication",
+        "theCode": "QF22",
+        "score": -0.02667547640797381
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1079783118",
+        "title": "Difficulty or need for assistance with relationships",
+        "theCode": "QF25",
+        "score": -0.028344390606050963
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/947280473",
+        "title": "Deafness not otherwise specified",
+        "theCode": "AB52",
+        "score": -0.04033623377588017
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1019892537",
+        "title": "Difficulty or need for assistance with mobility",
+        "theCode": "QF23",
+        "score": -0.05619324551786211
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/197825563/unspecified",
+        "title": "Feeding difficulties, unspecified",
+        "theCode": "MG43.3Z",
+        "score": -0.06756217203945653
+      }
+    ]
+  },
+  {
+    "query": "throat irritation",
+    "cacheFile": "data/icd11-cache/2026-01/throat-irritation.json",
+    "responseHash": "sha256:cea95ac6078f48d2567822d3160fb1055f78e903c889b2cb79864b91f44c17f1",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2140272684",
+        "title": "Irritability",
+        "theCode": "MB24.C",
+        "score": 0.6380369834536096
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1851132850",
+        "title": "Excessive crying of infant",
+        "theCode": "MG44.0",
+        "score": 0.42040164150936754
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1468065226/other",
+        "title": "Other specified disorders of bladder",
+        "theCode": "GC01.Y",
+        "score": 0.365165065592384
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/885653625/other",
+        "title": "Other specified disorders of penis",
+        "theCode": "GB06.Y",
+        "score": 0.359201222250557
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1397803237/other",
+        "title": "Other specified disorders of autonomic nervous system",
+        "theCode": "8D8Y",
+        "score": 0.359201222250557
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1971756453/other",
+        "title": "Other specified upper respiratory tract disorders",
+        "theCode": "CA0Y",
+        "score": 0.35529139378209135
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1158238623/unspecified",
+        "title": "Irritable bowel syndrome, type unspecified",
+        "theCode": "DD91.0Z",
+        "score": 0.3238662549402129
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1123860157",
+        "title": "Transient synovitis",
+        "theCode": "FA27.3",
+        "score": 0.3230185262354299
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/878417869",
+        "title": "Irritant balanoposthitis",
+        "theCode": "GB06.01",
+        "score": 0.3211006200672627
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/4407978/other",
+        "title": "Other diseases of urinary system",
+        "theCode": "GC0Y",
+        "score": 0.3172910137228892
+      }
+    ]
+  },
+  {
+    "query": "insomnia",
+    "cacheFile": "data/icd11-cache/2026-01/insomnia.json",
+    "responseHash": "sha256:cf634d34e945ad0791d7e76d9f6116285cf0f4d5d75743d8d31a43b6ad17beb0",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1038292737/unspecified",
+        "title": "Insomnia disorders, unspecified",
+        "theCode": "7A0Z",
+        "score": 0.6873349209915774
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1832877760",
+        "title": "Short-term insomnia",
+        "theCode": "7A01",
+        "score": 0.5575026100318099
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/323148092",
+        "title": "Chronic insomnia",
+        "theCode": "7A00",
+        "score": 0.5427035446480831
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/669154658",
+        "title": "Fatal familial insomnia",
+        "theCode": "8E02.2",
+        "score": -0.5630569920789321
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1206955889",
+        "title": "Dementia due to prion disease",
+        "theCode": "6D85.5",
+        "score": -2.7661884608172667
+      }
+    ]
+  },
+  {
+    "query": "fatigue",
+    "cacheFile": "data/icd11-cache/2026-01/fatigue.json",
+    "responseHash": "sha256:5abf7e73d929b92515bc505bece7099b021bcce4817396cf414c80d375539163",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1109546957",
+        "title": "Fatigue",
+        "theCode": "MG22",
+        "score": 1
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/254923627",
+        "title": "Muscle strain or sprain",
+        "theCode": "FB32.5",
+        "score": 0.7974500977649873
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/569175314",
+        "title": "Postviral fatigue syndrome",
+        "theCode": "8E49",
+        "score": 0.6406330215094159
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/176555113/other",
+        "title": "Other specified voice disturbances",
+        "theCode": "MA82.Y",
+        "score": 0.5647153993410468
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1458683894/unspecified",
+        "title": "Heart failure, unspecified",
+        "theCode": "BD1Z",
+        "score": 0.5111601361343049
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/469673529/other",
+        "title": "Maternal care for other specified conditions predominantly related to pregnancy",
+        "theCode": "JA65.Y",
+        "score": 0.5067082493724815
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/505909942",
+        "title": "Acute stress reaction",
+        "theCode": "QE84",
+        "score": 0.413266425246792
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1439320197",
+        "title": "Stress fracture, not elsewhere classified",
+        "theCode": "FB80.A",
+        "score": 0.27310122138607695
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/791667961",
+        "title": "Heat fatigue, transient",
+        "theCode": "NF01.3",
+        "score": -0.07850419905951853
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/835503193",
+        "title": "Ageing associated decline in intrinsic capacity",
+        "theCode": "MG2A",
+        "score": -0.10787151466802623
+      }
+    ]
+  },
+  {
+    "query": "skin redness",
+    "cacheFile": "data/icd11-cache/2026-01/skin-redness.json",
+    "responseHash": "sha256:923a418918b22884e2d18a47b7aa4a3432e0c58fcc78c7401e6645818093def9",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2044170142",
+        "title": "Skin disorder of uncertain or unspecified nature",
+        "theCode": "ME67",
+        "score": 0.29557877571322533
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1040820675/other",
+        "title": "Other specified skin changes",
+        "theCode": "ME66.Y",
+        "score": 0.1535529456334213
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1639304259/other",
+        "title": "Other specified diseases of the skin",
+        "theCode": "EM0Y",
+        "score": 0.08460007402279832
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/402520533/unspecified",
+        "title": "Skin lesion of unspecified nature",
+        "theCode": "ME60.Z",
+        "score": 0.07359260985436576
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/944540491",
+        "title": "Changes in skin texture",
+        "theCode": "ME66.1",
+        "score": 0.05636138896796756
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/653663824/unspecified",
+        "title": "Structural developmental anomalies of the skin, unspecified",
+        "theCode": "LC7Z",
+        "score": 0.04651324432619338
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1212937040",
+        "title": "Superficial injury of unspecified body region",
+        "theCode": "ND56.0",
+        "score": -0.010766923004736948
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/286686329",
+        "title": "Limited function or disability of body organ or system",
+        "theCode": "QF10",
+        "score": -0.017472442551747753
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/647260534/unspecified",
+        "title": "Histiocytic-granulomatous disorders of the skin, unspecified",
+        "theCode": "EE8Z",
+        "score": -0.030036000081443425
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1049159712",
+        "title": "Anaesthesia of skin",
+        "theCode": "MB40.3",
+        "score": -0.05175158287303715
+      }
+    ]
+  },
+  {
+    "query": "belching",
+    "cacheFile": "data/icd11-cache/2026-01/belching.json",
+    "responseHash": "sha256:6f346ca7d3fddd593da4e8fde40e9e3af9cafa94c74bb30ac581e53bfa00b9a5",
+    "candidates": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1093292760",
+        "title": "Belching",
+        "theCode": "MD91",
+        "score": 1
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1031437858",
+        "title": "Functional belching disorders",
+        "theCode": "DD90.5",
+        "score": 0.8366410138595011
+      }
+    ]
+  }
+]

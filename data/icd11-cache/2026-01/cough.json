@@ -1,0 +1,632 @@
+{
+  "query": "cough",
+  "requestUrl": "https://id.who.int/icd/release/11/2026-01/mms/search?q=cough&useFlexisearch=true&flatResults=true&highlightingEnabled=false&medicalCodingMode=true",
+  "retrievedAt": "2026-07-27T00:00:00.000Z",
+  "apiVersion": "v2",
+  "release": "2026-01",
+  "linearization": "mms",
+  "response": {
+    "destinationEntities": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2027526159",
+        "title": "Cough",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2027526159",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "coughing",
+            "score": 1,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2027526159",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Chronic cough",
+            "score": 0.8142325067486116,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1651982587",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "finding of cough",
+            "score": 0.7057009267337444,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2027526159",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bronchial cough",
+            "score": 0.535824966360351,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/501994388",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "complaining of cough",
+            "score": 0.49652231178024275,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2027526159",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Refractory chronic cough",
+            "score": 0.41189898832762367,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/12970491",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Nervous cough",
+            "score": 0.19250687572696887,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/756318818",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Unexplained chronic cough",
+            "score": 0.17097421909932659,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1435115444",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "observation of cough",
+            "score": 0.026498621660651908,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2027526159",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Refractory and unexplained chronic cough",
+            "score": -0.23135929932166127,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1895973320",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "reflactory and unexplained cough",
+            "score": -0.2967122487824773,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1895973320",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD12",
+        "score": 1,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2064398473/unspecified",
+        "title": "Whooping cough, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2064398473/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Whooping cough",
+            "score": 0.5305984722754745,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2064398473",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "whooping cough, unspecified organism",
+            "score": 0.2948340596985537,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2064398473",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "WC - [whooping cough]",
+            "score": -0.060421916618738504,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2064398473",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "01",
+        "theCode": "1C12.Z",
+        "score": 0.5305984722754745,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/537830030",
+        "title": "Simple chronic bronchitis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/537830030",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "smokers cough",
+            "score": 0.5138769941139228,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1432939949",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "12",
+        "theCode": "CA20.10",
+        "score": 0.5138769941139228,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2064398473/other",
+        "title": "Other specified whooping cough",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2064398473/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "whooping cough due to b. bronchiseptica",
+            "score": -0.3094779213341959,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/248071133",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Whooping cough due to other Bordetella species",
+            "score": -0.4568258344094999,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1110566194",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Whooping cough due to Bordetella bronchiseptica",
+            "score": -0.5450687489506614,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/248071133",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "01",
+        "theCode": "1C12.Y",
+        "score": 0.38941017105734343,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/899998313",
+        "title": "Haemoptysis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/899998313",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "coughing up blood",
+            "score": 0.3753860516542558,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/899998313",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Cough with haemorrhage",
+            "score": 0.3146760962529133,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/899998313",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD22",
+        "score": 0.3753860516542558,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1939815950/unspecified",
+        "title": "Mycoses, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1939815950/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "tea-factory cough",
+            "score": 0.028224303903990333,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1939815950",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "tea taster's cough",
+            "score": -0.1732804738086203,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1939815950",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "01",
+        "theCode": "1F2Z",
+        "score": 0.028224303903990333,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1350703173",
+        "title": "Other primary headache disorder",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1350703173",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Primary cough headache",
+            "score": -0.21107943655769507,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/844112903",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "08",
+        "theCode": "8A83",
+        "score": -0.21107943655769507,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/704491122",
+        "title": "Whooping cough due to Bordetella parapertussis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/704491122",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "whooping cough due to b. parapertussis",
+            "score": -0.265537937010885,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/704491122",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "01",
+        "theCode": "1C12.1",
+        "score": -0.265537937010885,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/553164358",
+        "title": "Malt worker lung",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/553164358",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "malt house workers' cough",
+            "score": -0.27101677077625486,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/553164358",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "12",
+        "theCode": "CA70.4",
+        "score": -0.27101677077625486,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1287021540 / http://id.who.int/icd/release/11/2026-01/mms/1323682030/other",
+        "title": "Pneumonia due to whooping cough due to Bordetella pertussis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1287021540",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "pneumonia in whooping cough",
+            "score": -0.3199663942465613,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/821284594",
+            "propertyValueType": 2
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "pneumonia with whooping cough",
+            "score": -0.3199663942465613,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/821284594",
+            "propertyValueType": 2
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "pneumonia due to whooping cough",
+            "score": -0.3199663942465613,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/821284594",
+            "propertyValueType": 2
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "01",
+        "theCode": "1C12.0/CA40.0Y",
+        "score": -0.3199663942465613,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1466639844",
+        "title": "Cough variant asthma",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1466639844",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "12",
+        "theCode": "CA23.22",
+        "score": -0.3614203174962841,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1802902795",
+        "title": "Special screening examination for other bacterial diseases",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1802902795",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Screening for whooping cough",
+            "score": -0.4762468744179709,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/202713566",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "24",
+        "theCode": "QA08.2",
+        "score": -0.4762468744179709,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1332805370/other",
+        "title": "Other specified purpura",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1332805370/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Purpura due to paroxysmal coughing or vomiting",
+            "score": -0.6883762102378173,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/197047151",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "14",
+        "theCode": "EF3Y",
+        "score": -0.6883762102378173,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1287021540",
+        "title": "Whooping cough due to Bordetella pertussis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1287021540",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "01",
+        "theCode": "1C12.0",
+        "score": -1.0981981512113597,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/704491122 / http://id.who.int/icd/release/11/2026-01/mms/1323682030/unspecified",
+        "title": "Pneumonia due to whooping cough due to Bordetella parapertussis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/704491122",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "01",
+        "theCode": "1C12.1/CA40.0Z",
+        "score": -1.3516936311493866,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1235618695",
+        "title": "Influenza, virus not identified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1235618695",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "bronchial cough, with grippe or influenza",
+            "score": -1.890515881808201,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/355975407",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "01",
+        "theCode": "1E32",
+        "score": -1.890515881808201,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      }
+    ],
+    "error": false,
+    "errorMessage": null,
+    "resultChopped": false,
+    "wordSuggestionsChopped": false,
+    "guessType": 2,
+    "uniqueSearchId": "4571dbac-07d8-4f89-8a29-3b8829304f22",
+    "words": null
+  }
+}

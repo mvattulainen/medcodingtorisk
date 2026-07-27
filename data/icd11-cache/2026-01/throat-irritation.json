@@ -1,0 +1,1930 @@
+{
+  "query": "throat irritation",
+  "requestUrl": "https://id.who.int/icd/release/11/2026-01/mms/search?q=throat+irritation&useFlexisearch=true&flatResults=true&highlightingEnabled=false&medicalCodingMode=true",
+  "retrievedAt": "2026-07-27T00:00:00.000Z",
+  "apiVersion": "v2",
+  "release": "2026-01",
+  "linearization": "mms",
+  "response": {
+    "destinationEntities": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2140272684",
+        "title": "Irritability",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2140272684",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MB24.C",
+        "score": 0.6380369834536096,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1851132850",
+        "title": "Excessive crying of infant",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1851132850",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Irritable infant",
+            "score": 0.42040164150936754,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1851132850",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MG44.0",
+        "score": 0.42040164150936754,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1468065226/other",
+        "title": "Other specified disorders of bladder",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1468065226/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Irritable bladder",
+            "score": 0.365165065592384,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/347773294",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Bladder irritation",
+            "score": 0.365165065592384,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/347773294",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "16",
+        "theCode": "GC01.Y",
+        "score": 0.365165065592384,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/885653625/other",
+        "title": "Other specified disorders of penis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/885653625/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "penile irritation",
+            "score": 0.359201222250557,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1319831267",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Irritation of penis",
+            "score": 0.2945192383767393,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1319831267",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "16",
+        "theCode": "GB06.Y",
+        "score": 0.359201222250557,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1397803237/other",
+        "title": "Other specified disorders of autonomic nervous system",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1397803237/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "sympathetic irritability",
+            "score": 0.359201222250557,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1114441076",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Irritation of peripheral autonomic nervous system",
+            "score": -0.48400352000263497,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1114441076",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "08",
+        "theCode": "8D8Y",
+        "score": 0.359201222250557,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1971756453/other",
+        "title": "Other specified upper respiratory tract disorders",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1971756453/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Pharyngeal irritation",
+            "score": 0.35529139378209135,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/266439646",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "disease of throat NOS",
+            "score": 0.2675730404156288,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/877884560",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "throat disease",
+            "score": 0.2675730404156288,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/877884560",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "throat ulcer",
+            "score": 0.1977305400160611,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/936707025",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "throat paralysis",
+            "score": 0.15459374722595534,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1022119217",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "throat muscle paralysis",
+            "score": 0.019947989001835968,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1022119217",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "throat muscular paralysis",
+            "score": 0.019947989001835968,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1022119217",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "oedema of throat",
+            "score": -0.24503818876977165,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1096381787",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "throat scar",
+            "score": -0.2997917049397407,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/820320860",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "spastic throat",
+            "score": -0.33456911725549154,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/964055507",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "throat spasm",
+            "score": -0.3984744482798622,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/964055507",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "throat cicatrix",
+            "score": -0.5652500367864468,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/820320860",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "12",
+        "theCode": "CA0Y",
+        "score": 0.35529139378209135,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1158238623/unspecified",
+        "title": "Irritable bowel syndrome, type unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1158238623/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "irritable colon",
+            "score": 0.3238662549402129,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1158238623",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Irritable bowel syndrome",
+            "score": 0.3122120020075143,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1158238623",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "IBS - [irritable bowel syndrome]",
+            "score": -0.022963527954318597,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1158238623",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "13",
+        "theCode": "DD91.0Z",
+        "score": 0.3238662549402129,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1123860157",
+        "title": "Transient synovitis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1123860157",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Irritable hip",
+            "score": 0.3230185262354299,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2124459400",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "15",
+        "theCode": "FA27.3",
+        "score": 0.3230185262354299,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/878417869",
+        "title": "Irritant balanoposthitis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/878417869",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Irritant balanitis",
+            "score": 0.3211006200672627,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2065463902",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "16",
+        "theCode": "GB06.01",
+        "score": 0.3211006200672627,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/4407978/other",
+        "title": "Other diseases of urinary system",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/4407978/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Urethral irritability",
+            "score": 0.3172910137228892,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1217779548",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "irritable urethra",
+            "score": 0.3172910137228892,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1217779548",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "16",
+        "theCode": "GC0Y",
+        "score": 0.3172910137228892,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1791890273/unspecified",
+        "title": "Acute pharyngitis, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1791890273/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "inflammation of the throat",
+            "score": 0.21106276958458867,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1791890273",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "throat inflammation",
+            "score": 0.21106276958458867,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1791890273",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "acute throat inflammation",
+            "score": 0.0839652899584897,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1791890273",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "throat infection",
+            "score": 0.008966547401663898,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1791890273",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "acute sore throat NOS",
+            "score": -0.0382903785878465,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1791890273",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "acute sore throat",
+            "score": -0.0382903785878465,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1791890273",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "12",
+        "theCode": "CA02.Z",
+        "score": 0.21106276958458867,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1704767204",
+        "title": "Laceration without foreign body of neck",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1704767204",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "laceration of throat",
+            "score": 0.16197298939367477,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1704767204",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "slashed throat",
+            "score": -0.07221427147670564,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1704767204",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NA21.0",
+        "score": 0.16197298939367477,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/265758211 & http://id.who.int/icd/release/11/2026-01/mms/1124176890",
+        "title": "Haematoma of throat",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/265758211",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NA20.2&XJ1C6",
+        "score": 0.1403785136026931,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1367254559/unspecified",
+        "title": "Brachial plexus disorders, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1367254559/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "brachial plexus irritation",
+            "score": 0.13407297685696187,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1367254559",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "08",
+        "theCode": "8B91.Z",
+        "score": 0.13407297685696187,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1034943794/other",
+        "title": "Other specified symptom or complaint of the throat",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1034943794/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Dry throat",
+            "score": 0.10361098907717325,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1693692158",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Throat discomfort",
+            "score": 0.08517778585159592,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1160039280",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Throat tightness",
+            "score": 0.05792126390226132,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/888385151",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD36.Y",
+        "score": 0.10361098907717325,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/633724732",
+        "title": "Pain in throat",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/633724732",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "sore throat NOS",
+            "score": 0.08880710103825246,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/633724732",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "throat pain",
+            "score": -0.0936750881656554,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/633724732",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD36.0",
+        "score": 0.08880710103825246,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/195009390/other & http://id.who.int/icd/release/11/2026-01/mms/768242906",
+        "title": "Irritant contact dermatitis of external ear",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/195009390/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Irritant otitis externa",
+            "score": 0.08710787176142984,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1296312490",
+            "propertyValueType": 2
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Irritant contact eczema of external ear",
+            "score": -0.7149814085860869,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1296312490",
+            "propertyValueType": 2
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "14",
+        "theCode": "EK02.Y&XA6ZY6",
+        "score": 0.08710787176142984,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/809409349/other",
+        "title": "Other specified acquired abnormalities of vagina",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/809409349/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Irritation of vagina",
+            "score": 0.08245569128580235,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1522822382",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "vaginal irritation",
+            "score": 0.08245569128580235,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1522822382",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "16",
+        "theCode": "GA14.Y",
+        "score": 0.08245569128580235,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/530888618/unspecified",
+        "title": "Irritable bowel syndrome or functional bowel disorders, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/530888618/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Irritable bowel syndrome or certain specified functional bowel disorders",
+            "score": -0.12569195477468278,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/530888618",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "13",
+        "theCode": "DD91.Z",
+        "score": 0.07673591940900011,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1041045482",
+        "title": "Abrasion of throat",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1041045482",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NA20.0",
+        "score": 0.07626144963593984,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1433247301",
+        "title": "Cervicitis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1433247301",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Cervical irritation",
+            "score": 0.06854872140725368,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1733024563",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "16",
+        "theCode": "GA04",
+        "score": 0.06854872140725368,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2027043655",
+        "title": "Anxiety",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2027043655",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "nervous irritation",
+            "score": 0.0670934316844245,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2027043655",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MB24.3",
+        "score": 0.0670934316844245,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/265758211 & http://id.who.int/icd/release/11/2026-01/mms/289258741",
+        "title": "Splinter in throat",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/265758211",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NA20.2&XJ3U1",
+        "score": 0.05011974940815186,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1560768871/other",
+        "title": "Other specified concussion",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1560768871/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Irritation of meninges",
+            "score": 0.04538011674032679,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1175430455",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NA07.0Y",
+        "score": 0.04538011674032679,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/195009390/unspecified",
+        "title": "Irritant contact dermatitis, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/195009390/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "irritant dermatitis",
+            "score": 0.04318986018928737,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/195009390",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "primary irritant dermatitis",
+            "score": -0.10577938956637638,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/195009390",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Irritant contact dermatitis",
+            "score": -0.1310732540345736,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/195009390",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Irritant contact eczema",
+            "score": -0.2245469571570425,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/195009390",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "irritant contact dermatitis, unspecified cause",
+            "score": -0.2785266492976928,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/195009390",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "ICD - [irritant contact dermatitis]",
+            "score": -0.42445174098827665,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/195009390",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "14",
+        "theCode": "EK02.Z",
+        "score": 0.04318986018928737,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1479200261/unspecified",
+        "title": "Foreign body in pharynx, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1479200261/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Foreign body in throat",
+            "score": 0.018901717434949446,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1479200261",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND72.2Z",
+        "score": 0.018901717434949446,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1101977204",
+        "title": "Chronic pharyngitis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1101977204",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Smoker's throat",
+            "score": 0.018246411123674894,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1453733507",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Chronic sore throat",
+            "score": -0.042541079165376985,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1101977204",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "persistent sore throat",
+            "score": -0.09529678675036986,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1101977204",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "chronic throat pain",
+            "score": -0.22502326836928482,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1101977204",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "throat catarrh",
+            "score": -0.5163732312926342,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1101977204",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "12",
+        "theCode": "CA09.2",
+        "score": 0.018246411123674894,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1002275014",
+        "title": "Irritable bowel syndrome, mixed type",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1002275014",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "IBS-M - [Irritable bowel syndrome, mixed type]",
+            "score": -0.5809306843853832,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1002275014",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "13",
+        "theCode": "DD91.02",
+        "score": -0.00941733824711354,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/530888618/other",
+        "title": "Other specified irritable bowel syndrome or functional bowel disorders",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/530888618/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "13",
+        "theCode": "DD91.Y",
+        "score": -0.02309223731779474,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1642172022",
+        "title": "Streptococcal pharyngitis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1642172022",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "strep throat",
+            "score": -0.028070186019814418,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1642172022",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Streptococcal sore throat",
+            "score": -0.14125327435723203,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1642172022",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "septic sore throat",
+            "score": -0.14567474823524618,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1642172022",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "acute streptococcal sore throat",
+            "score": -0.268350753983331,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/793848899",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "streptococcal ulcerated sore throat",
+            "score": -0.3054857508875616,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1642172022",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "streptococcal septic sore throat",
+            "score": -0.3757351236307306,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1642172022",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "acute streptococcal ulcerated sore throat",
+            "score": -0.4325832305136604,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/793848899",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "septic sore throat due to streptococcal infection",
+            "score": -0.7287315927754572,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1642172022",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "01",
+        "theCode": "1B51",
+        "score": -0.028070186019814418,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1034943794/unspecified",
+        "title": "Symptom or complaint of the throat, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1034943794/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Symptom or complaint of the throat",
+            "score": -0.05453935325601988,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1034943794",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "21",
+        "theCode": "MD36.Z",
+        "score": -0.05453935325601988,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/176555113/other",
+        "title": "Other specified voice disturbances",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/176555113/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Speaker's throat",
+            "score": -0.07221427147670564,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1497378254",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MA82.Y",
+        "score": -0.07221427147670564,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1791890273/other",
+        "title": "Other specified acute pharyngitis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1791890273/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "ulcerated sore throat",
+            "score": -0.075425375492077,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2028159831",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "throat gangrene",
+            "score": -0.27048832836705905,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/43485318",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "12",
+        "theCode": "CA02.Y",
+        "score": -0.075425375492077,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/5542181",
+        "title": "Positive throat culture",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/5542181",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD40.52",
+        "score": -0.08494548656033155,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/328590455",
+        "title": "Benign neoplasm of pharynx, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/328590455",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "benign neoplasm of the throat NOS",
+            "score": -0.09402977492494612,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/328590455",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "02",
+        "theCode": "2E90.8",
+        "score": -0.09402977492494612,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/875916171/unspecified",
+        "title": "Lumbosacral plexus disorders, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/875916171/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "lumbosacral plexus irritation",
+            "score": -0.09458897809592248,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/875916171",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "08",
+        "theCode": "8B92.Z",
+        "score": -0.09458897809592248,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1616929118",
+        "title": "Functional dyspepsia",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1616929118",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "gastrointestinal irritation",
+            "score": -0.09549435997478678,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1616929118",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "13",
+        "theCode": "DD90.3",
+        "score": -0.09549435997478678,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/530341152/unspecified",
+        "title": "Irritative hyperplasia of oral mucosa, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/530341152/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Irritative hyperplasia of oral mucosa",
+            "score": -0.11306290675952758,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/530341152",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "13",
+        "theCode": "DA01.4Z",
+        "score": -0.11306290675952758,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1286327510",
+        "title": "Irritable bowel syndrome, unsubtyped",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1286327510",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "IBS-U - [Irritable bowel syndrome, unsubtyped]",
+            "score": -0.8545000046688098,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1286327510",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "13",
+        "theCode": "DD91.03",
+        "score": -0.12196528601558179,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1091154582",
+        "title": "Haemorrhage from throat",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1091154582",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "throat haemorrhage",
+            "score": -0.12259994994319656,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1091154582",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD21",
+        "score": -0.12259994994319656,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/882244568/unspecified",
+        "title": "Respiratory tuberculosis, without mention of bacteriological or histological confirmation",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/882244568/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Tuberculosis of throat",
+            "score": -0.17096705051430489,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1844967742",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "tuberculous throat",
+            "score": -0.17096705051430489,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1844967742",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "01",
+        "theCode": "1B10.Z",
+        "score": -0.17096705051430489,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/265758211",
+        "title": "Other or unspecified superficial injuries of throat",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/265758211",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "superficial injury of throat",
+            "score": -0.17343287097933252,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/265758211",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Superficial foreign body in throat",
+            "score": -0.18023988455542672,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/201422469",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NA20.2",
+        "score": -0.17343287097933252,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/632678885",
+        "title": "Retropharyngeal or parapharyngeal abscess",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/632678885",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "throat abscess",
+            "score": -0.17944739740159651,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1090397297",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "12",
+        "theCode": "CA0K.0",
+        "score": -0.17944739740159651,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/24927785",
+        "title": "Malignant neoplasm metastasis in upper respiratory tract organs",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/24927785",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "throat metastasis",
+            "score": -0.20412938616075915,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/932858411",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "02",
+        "theCode": "2D73",
+        "score": -0.20412938616075915,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1235618695",
+        "title": "Influenza, virus not identified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1235618695",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "influenzal sore throat",
+            "score": -0.20518021086903507,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1633189852",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "01",
+        "theCode": "1E32",
+        "score": -0.20518021086903507,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/265758211 & http://id.who.int/icd/release/11/2026-01/mms/1306914119",
+        "title": "Nonthermal blister of throat",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/265758211",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NA20.2&XJ8JK",
+        "score": -0.21417438750059553,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/784573627",
+        "title": "Gingival or edentulous alveolar ridge lesions associated with trauma",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/784573627",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Irritative hyperplasia of edentulous ridge",
+            "score": -0.22089695908132465,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/955991311",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "13",
+        "theCode": "DA0D.2",
+        "score": -0.22089695908132465,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/61181798",
+        "title": "Enteroviral vesicular pharyngitis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/61181798",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "coxsackie sore throat",
+            "score": -0.2270576874255094,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/61181798",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "01",
+        "theCode": "1F05.1",
+        "score": -0.2270576874255094,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/195009390/other & http://id.who.int/icd/release/11/2026-01/mms/430791912",
+        "title": "Irritant contact dermatitis of hands",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/195009390/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Irritant hand dermatitis",
+            "score": -0.2337173215039626,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/799329433",
+            "propertyValueType": 2
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Acute irritant hand dermatitis",
+            "score": -0.3608148011300616,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1421868984",
+            "propertyValueType": 2
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Chronic irritant hand dermatitis",
+            "score": -0.36506550170759205,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1369588826",
+            "propertyValueType": 2
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Irritant contact hand eczema",
+            "score": -0.5014541388502924,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/799329433",
+            "propertyValueType": 2
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "14",
+        "theCode": "EK02.Y&XA5R12",
+        "score": -0.2337173215039626,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1026264346",
+        "title": "Irritable bowel syndrome, diarrhoea predominant",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1026264346",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "irritable bowel with diarrhoea",
+            "score": -0.2468349737817728,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1026264346",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "irritable colon with diarrhoea",
+            "score": -0.3427230005550882,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1026264346",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "irritable bowel syndrome with diarrhoea",
+            "score": -0.35437725348778676,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1026264346",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "IBS-D - [Irritable bowel syndrome, diarrhoea predominant]",
+            "score": -1.1786677323931334,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1026264346",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "13",
+        "theCode": "DD91.01",
+        "score": -0.2468349737817728,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      }
+    ],
+    "error": false,
+    "errorMessage": null,
+    "resultChopped": true,
+    "wordSuggestionsChopped": false,
+    "guessType": 2,
+    "uniqueSearchId": "0d07162c-01ae-4fcf-9d32-e7743350cbee",
+    "words": null
+  }
+}

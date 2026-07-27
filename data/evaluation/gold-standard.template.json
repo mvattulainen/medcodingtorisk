@@ -1,0 +1,29 @@
+[
+  {
+    "complaintId": "CPAP-001",
+    "mentionId": "CPAP-001-M2",
+    "goldEntityType": "clinical_sign_or_symptom",
+    "goldAssertion": "present",
+    "acceptableCodes": ["E0845"],
+    "unacceptableCodes": [],
+    "reviewerComment": "Template only — qualified reviewer completion required."
+  },
+  {
+    "complaintId": "CPAP-002",
+    "mentionId": "CPAP-002-M1",
+    "goldEntityType": "injury",
+    "goldAssertion": "present",
+    "acceptableCodes": [],
+    "unacceptableCodes": [],
+    "reviewerComment": "Review pressure-injury specificity and SNOMED fallback."
+  },
+  {
+    "complaintId": "CPAP-015",
+    "mentionId": "CPAP-015-M2",
+    "goldEntityType": "device_problem",
+    "goldAssertion": "present",
+    "acceptableCodes": ["A160102"],
+    "unacceptableCodes": [],
+    "reviewerComment": "Confirm whether the evidence supports no audible alarm versus low audible alarm."
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "query": "epistaxis",
+  "requestUrl": "https://id.who.int/icd/release/11/2026-01/mms/search?q=epistaxis&useFlexisearch=true&flatResults=true&highlightingEnabled=false&medicalCodingMode=true",
+  "retrievedAt": "2026-07-27T00:00:00.000Z",
+  "apiVersion": "v2",
+  "release": "2026-01",
+  "linearization": "mms",
+  "response": {
+    "destinationEntities": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/608337668",
+        "title": "Epistaxis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/608337668",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "multiple epistaxis",
+            "score": 0.8484112182869941,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/608337668",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD20",
+        "score": 1,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/903867054",
+        "title": "Neonatal epistaxis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/903867054",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "19",
+        "theCode": "KA83.00",
+        "score": 0.6742631087623776,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      }
+    ],
+    "error": false,
+    "errorMessage": null,
+    "resultChopped": false,
+    "wordSuggestionsChopped": false,
+    "guessType": 2,
+    "uniqueSearchId": "1561cdec-3449-42be-a1c3-94abc93b8188",
+    "words": null
+  }
+}

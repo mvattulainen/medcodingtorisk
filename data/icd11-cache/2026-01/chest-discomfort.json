@@ -1,0 +1,1868 @@
+{
+  "query": "chest discomfort",
+  "requestUrl": "https://id.who.int/icd/release/11/2026-01/mms/search?q=chest+discomfort&useFlexisearch=true&flatResults=true&highlightingEnabled=false&medicalCodingMode=true",
+  "retrievedAt": "2026-07-27T00:00:00.000Z",
+  "apiVersion": "v2",
+  "release": "2026-01",
+  "linearization": "mms",
+  "response": {
+    "destinationEntities": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/756584914",
+        "title": "Symptom or complaint of the chest",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/756584914",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "chest discomfort",
+            "score": 1,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/756584914",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME86.3",
+        "score": 1,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/197934298/unspecified",
+        "title": "Diseases of the respiratory system, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/197934298/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "chest disease NOS",
+            "score": 0.3943355813281767,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/197934298",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "12",
+        "theCode": "CB7Z",
+        "score": 0.3943355813281767,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/11236328",
+        "title": "Pleural effusion",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/11236328",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "chest fluid NOS",
+            "score": 0.2372778358336273,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/11236328",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "water on chest",
+            "score": 0.006176709806155009,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/11236328",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "12",
+        "theCode": "CB27",
+        "score": 0.2372778358336273,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1103848959",
+        "title": "Pyothorax",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1103848959",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "chest fistula NOS",
+            "score": 0.2371630420343809,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/607238524",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Chest wall fistula",
+            "score": -0.06944529557789197,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/540478625",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Chest abscess",
+            "score": -0.3350891448557498,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1511777595",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Chest abscess with fistula",
+            "score": -0.6462823433164523,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/881637719",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "chest empyema",
+            "score": -0.7970246610757039,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1342042688",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "12",
+        "theCode": "CA44",
+        "score": 0.2371630420343809,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1765737830/unspecified",
+        "title": "Chest pain, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1765737830/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "chest pressure",
+            "score": 0.22739337102725163,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1765737830",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "chest tightness",
+            "score": 0.052236704543120516,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1765737830",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "chest pain NOS",
+            "score": -0.19513034681043462,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1765737830",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "pain in chest",
+            "score": -0.19513034681043462,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1765737830",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Pain in throat or chest",
+            "score": -0.7857627919896227,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1765737830",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "21",
+        "theCode": "MD30.Z",
+        "score": 0.22739337102725163,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1448882621/other & http://id.who.int/icd/release/11/2026-01/mms/1124176890",
+        "title": "Thoracic haematoma",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1448882621/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "haematoma of chest",
+            "score": 0.18678616066711398,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1864234561",
+            "propertyValueType": 2
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NA80.Y&XJ1C6",
+        "score": 0.18678616066711398,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1531077719",
+        "title": "Subcutaneous swelling, mass or lump of uncertain or unspecified nature",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1531077719",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "chest mass",
+            "score": 0.17739085167073862,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/839982538",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "localised mass of chest",
+            "score": -0.14473807161304586,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/839982538",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "localised swelling of chest",
+            "score": -0.14696744620133434,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/839982538",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME61",
+        "score": 0.17739085167073862,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/841348715",
+        "title": "Pulmonary oedema",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/841348715",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "congestive chest",
+            "score": 0.15056729054789048,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/841348715",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "chest congestion",
+            "score": 0.15056729054789048,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/841348715",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "12",
+        "theCode": "CB01",
+        "score": 0.15056729054789048,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/895680150",
+        "title": "Visual discomfort",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/895680150",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "09",
+        "theCode": "9D50",
+        "score": 0.12394542351085544,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/633727108",
+        "title": "Flail chest",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/633727108",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Sequelae of flail chest",
+            "score": -1.0584459718838681,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/741617962",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "late effect of flail chest",
+            "score": -1.0584459718838681,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/741617962",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Fracture of rib with flail chest",
+            "score": -1.3457400492634652,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1455182666",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Fracture of sternum with flail chest",
+            "score": -1.4692749401522884,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/150453161",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Fracture of multiple ribs with flail chest",
+            "score": -1.600025280148092,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1778027054",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NA82.5",
+        "score": 0.040282540994162494,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/469219785/other",
+        "title": "Other specified symptoms or signs involving the digestive system or abdomen",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/469219785/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "abdominal discomfort",
+            "score": 0.021023951930230586,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/657155598",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME1Y",
+        "score": 0.021023951930230586,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/805284915/unspecified",
+        "title": "Injuries to the thorax, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/805284915/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "chest injury NOS",
+            "score": -0.00032603307710941286,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/805284915",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "NB3Z",
+        "score": -0.00032603307710941286,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1582386590/unspecified",
+        "title": "Lower respiratory tract disease, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1582386590/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "chest infection NOS",
+            "score": -0.027645058476986385,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1582386590",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "12",
+        "theCode": "CA2Z",
+        "score": -0.027645058476986385,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1109766641/unspecified",
+        "title": "Structural developmental anomalies of chest wall, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1109766641/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Malformations of chest wall",
+            "score": -0.05011554354873329,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1109766641",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Structural developmental anomalies of chest wall",
+            "score": -0.6953846238944377,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1109766641",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "20",
+        "theCode": "LB73.1Z",
+        "score": -0.05011554354873329,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1758207185/other",
+        "title": "Other specified symptoms or signs involving the respiratory system",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1758207185/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Abnormal chest sounds",
+            "score": -0.10095474544666345,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/894446170",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Chest, tympany",
+            "score": -0.13352682380484168,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1369607937",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "percussion of chest abnormal",
+            "score": -0.33645721411922164,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1369607937",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "friction sounds in chest",
+            "score": -0.36462584340054954,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1369607937",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD3Y",
+        "score": -0.10095474544666345,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/717631649",
+        "title": "Acquired deformity of chest or rib",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/717631649",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Barrel chest",
+            "score": -0.12341972253693925,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1980605875",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Cobbler chest",
+            "score": -0.13352682380484168,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/59925296",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "shoemaker chest",
+            "score": -0.16011170110050146,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/59925296",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "funnel chest acquired",
+            "score": -0.2797637370918247,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/59925296",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Concavity chest wall",
+            "score": -0.40039303406709764,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/526200862",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "chest deformity",
+            "score": -0.41399966853133774,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/446741279",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Depression of chest wall",
+            "score": -0.6078337716438587,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/821572130",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Acquired deformity of chest",
+            "score": -0.6829638651272537,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/446741279",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "chest wall deformity",
+            "score": -0.7206080061436105,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1827482393",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Acquired deformity of chest wall",
+            "score": -0.9895722027395265,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1827482393",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "15",
+        "theCode": "FC00.2",
+        "score": -0.12341972253693925,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1034943794/other",
+        "title": "Other specified symptom or complaint of the throat",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1034943794/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Throat discomfort",
+            "score": -0.13898868567427133,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1160039280",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD36.Y",
+        "score": -0.13898868567427133,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1763981614",
+        "title": "Structural developmental anomalies of sternum",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1763981614",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Congenital funnel chest",
+            "score": -0.21533626463703454,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/9248522",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Congenital pigeon chest",
+            "score": -0.2205843748180608,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1707528864",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "congenital pigeon breast or chest",
+            "score": -0.6988791243608091,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1707528864",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "20",
+        "theCode": "LB73.13",
+        "score": -0.21533626463703454,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1365807043",
+        "title": "Other chest pain",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1365807043",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "anterior chest wall syndrome",
+            "score": -0.24655578073465065,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1200840663",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "atypical chest pain",
+            "score": -0.5774050410069487,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1365807043",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Anterior chest wall pain",
+            "score": -0.8145604632064835,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1200840663",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD30.1",
+        "score": -0.24655578073465065,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1810710745",
+        "title": "Pain localised to upper abdomen",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1810710745",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "epigastric discomfort",
+            "score": -0.28510940967733767,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1810710745",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD81.10",
+        "score": -0.28510940967733767,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/882244568/unspecified",
+        "title": "Respiratory tuberculosis, without mention of bacteriological or histological confirmation",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/882244568/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "chest tuberculosis",
+            "score": -0.32125135538819843,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/882244568",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "01",
+        "theCode": "1B10.Z",
+        "score": -0.32125135538819843,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/632463913/unspecified",
+        "title": "Injury of unspecified intrathoracic organs",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/632463913/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "internal injury of chest",
+            "score": -0.35238151860550565,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/161039371",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "NB32.Z",
+        "score": -0.35238151860550565,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1079605037",
+        "title": "Multiple injuries of thorax",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1079605037",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": true,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "multi chest trauma",
+            "score": -0.3530996678980722,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1079605037",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NB35",
+        "score": -0.3530996678980722,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2005792829",
+        "title": "Persistent Postural-Perceptual Dizziness",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2005792829",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Space and motion discomfort",
+            "score": -0.40971442551716725,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2005792829",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "10",
+        "theCode": "AB32.0",
+        "score": -0.40971442551716725,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/805284915/other",
+        "title": "Other specified injuries to the thorax",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/805284915/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "blunt chest trauma",
+            "score": -0.4250595231797056,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2118318424",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Blunt force trauma of chest",
+            "score": -0.838491256856652,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2118318424",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NB3Y",
+        "score": -0.4250595231797056,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/718946808/unspecified",
+        "title": "Angina pectoris, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/718946808/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Ischaemic chest pain",
+            "score": -0.514382119758845,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/718946808",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "chest angina",
+            "score": -0.791509371029989,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/718946808",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "11",
+        "theCode": "BA40.Z",
+        "score": -0.514382119758845,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1472687600",
+        "title": "Dextrocardia",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1472687600",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "heart in right chest",
+            "score": -0.5433591436650687,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1472687600",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "20",
+        "theCode": "LA80.1",
+        "score": -0.5433591436650687,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1274367546",
+        "title": "Mondor disease",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1274367546",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Mondor disease of the chest wall",
+            "score": -0.5606628362168558,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/177238180",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "11",
+        "theCode": "BD70.3",
+        "score": -0.5606628362168558,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/717617622",
+        "title": "Haemorrhage from other sites in respiratory passages",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/717617622",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Chest cavity haemorrhage",
+            "score": -0.5811682579589147,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/850598099",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD23",
+        "score": -0.5811682579589147,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/793717818",
+        "title": "Crushed chest",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/793717818",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "crushing injury of chest",
+            "score": -1.1554772479787516,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/793717818",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NB33.0",
+        "score": -0.6067949744065588,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1263801263",
+        "title": "Contusion of thorax",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1263801263",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "contusion of chest",
+            "score": -0.6147508028466384,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1263801263",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "contusion of chest wall",
+            "score": -0.9213591404589112,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1263801263",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NA80.6",
+        "score": -0.6147508028466384,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2083519825",
+        "title": "Radiological examination",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2083519825",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Routine chest X-ray",
+            "score": -0.7435522077730043,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/627465787",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "24",
+        "theCode": "QA00.B",
+        "score": -0.7435522077730043,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/141462889/unspecified & http://id.who.int/icd/release/11/2026-01/mms/1656376572",
+        "title": "Burn of chest wall",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/141462889/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "ND92.Z&XA55T2",
+        "score": -0.7567100329980009,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1083052714",
+        "title": "Chest pain on breathing",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1083052714",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD30.0",
+        "score": -0.7787878198080165,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/62399345",
+        "title": "Burn of chest wall, epidermal burn",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/62399345",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Erythema of chest wall",
+            "score": -0.8120756019379946,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/62399345",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "ND92.01",
+        "score": -0.8120756019379946,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/679352876",
+        "title": "Chronic primary visceral pain",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/679352876",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Chronic primary chest pain syndrome",
+            "score": -0.8280196703989683,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/128474405",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "functional chest pain (deprecated)",
+            "score": -0.8377317565780691,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/128474405",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "chronic noncardiac chest pain",
+            "score": -1.1633725727895878,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/128474405",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MG30.00",
+        "score": -0.8280196703989683,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/857209897/unspecified",
+        "title": "Open wound of thorax, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/857209897/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "penetration wound of chest",
+            "score": -0.8456392284297508,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/857209897",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "open wound of chest",
+            "score": -1.3655341688913116,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/857209897",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "open wound of chest wall",
+            "score": -1.6721425065035842,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/857209897",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "stab wound of chest",
+            "score": -2.0762924708227857,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/857209897",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "NA81.Z",
+        "score": -0.8456392284297508,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1109766641/other",
+        "title": "Other specified structural developmental anomalies of chest wall",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1109766641/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "20",
+        "theCode": "LB73.1Y",
+        "score": -0.8582790236258019,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1556080152/unspecified",
+        "title": "Musculoskeletal chest pain, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1556080152/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Musculoskeletal chest pain",
+            "score": -0.9095291057758577,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1556080152",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "21",
+        "theCode": "ME81.Z",
+        "score": -0.9095291057758577,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/55071409",
+        "title": "Sickle cell disease with crisis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/55071409",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "HbSS with crisis with acute chest syndrome",
+            "score": -0.9368746827141856,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1108294030",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Sickle cell disease with crisis with acute chest syndrome",
+            "score": -1.1089649938841923,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1108294030",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "03",
+        "theCode": "3A51.2",
+        "score": -0.9368746827141856,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2144774073/unspecified",
+        "title": "Bacterial cellulitis or lymphangitis due to unspecified bacterium",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2144774073/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Cellulitis of chest wall",
+            "score": -1.0198796542354749,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2029088182",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "01",
+        "theCode": "1B70.Z",
+        "score": -1.0198796542354749,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1556080152/other",
+        "title": "Other specified musculoskeletal chest pain",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1556080152/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME81.Y",
+        "score": -1.0724235055072215,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/253490233",
+        "title": "Unstable angina",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/253490233",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "unstable chest angina",
+            "score": -1.2614739746690096,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/253490233",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "anginal chest pain at rest",
+            "score": -1.5194404484131767,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/253490233",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "11",
+        "theCode": "BA40.0",
+        "score": -1.2614739746690096,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/983550510",
+        "title": "Respiratory tuberculosis, confirmed",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/983550510",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "tuberculosis of chest, with bacteriological or histological confirmation",
+            "score": -1.388392885239068,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/983550510",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "01",
+        "theCode": "1B10.0",
+        "score": -1.388392885239068,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2012597232",
+        "title": "Observation for suspected tuberculosis, ruled out",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2012597232",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "chest x-ray for suspected tuberculosis",
+            "score": -1.5252307535556762,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2012597232",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "24",
+        "theCode": "QA02.0",
+        "score": -1.5252307535556762,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/718200579",
+        "title": "Burn of trunk except perineum or genitalia, full thickness burn",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/718200579",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Burn of chest wall, full thickness burn",
+            "score": -1.5699033339314932,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1412322580",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "ND92.3",
+        "score": -1.5699033339314932,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/737505585",
+        "title": "Other injuries involving multiple body regions, not elsewhere classified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/737505585",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": true,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Blunt force trauma to head and chest",
+            "score": -1.6583522360608052,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2024046653",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "ND36",
+        "score": -1.6583522360608052,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/97145147/other",
+        "title": "Malignant neoplasm metastasis in other specified sites",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/97145147/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Malignant neoplasm metastasis in chest wall",
+            "score": -1.7795028918591924,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1066060405",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "02",
+        "theCode": "2E0Y",
+        "score": -1.7795028918591924,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1334121111",
+        "title": "Burn of trunk except perineum or genitalia, superficial partial thickness burn",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1334121111",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Burn of chest wall, superficial partial thickness burn",
+            "score": -1.8005259423720872,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1700868852",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "ND92.1",
+        "score": -1.8005259423720872,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/617014953/other",
+        "title": "Other specified birth injury to skeleton",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/617014953/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Newborn flail chest due to birth injury",
+            "score": -1.8162755282535383,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/665300344",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "19",
+        "theCode": "KA45.Y",
+        "score": -1.8162755282535383,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      }
+    ],
+    "error": false,
+    "errorMessage": null,
+    "resultChopped": true,
+    "wordSuggestionsChopped": false,
+    "guessType": 2,
+    "uniqueSearchId": "32c0045a-3d98-473b-abc0-f7236603b7fd",
+    "words": null
+  }
+}

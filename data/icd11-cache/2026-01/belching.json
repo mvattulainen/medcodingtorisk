@@ -1,0 +1,72 @@
+{
+  "query": "belching",
+  "requestUrl": "https://id.who.int/icd/release/11/2026-01/mms/search?q=belching&useFlexisearch=true&flatResults=true&highlightingEnabled=false&medicalCodingMode=true",
+  "retrievedAt": "2026-07-27T00:00:00.000Z",
+  "apiVersion": "v2",
+  "release": "2026-01",
+  "linearization": "mms",
+  "response": {
+    "destinationEntities": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1093292760",
+        "title": "Belching",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1093292760",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD91",
+        "score": 1,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1031437858",
+        "title": "Functional belching disorders",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1031437858",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Excessive belching, unspecified",
+            "score": 0.8366410138595011,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1031437858",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "13",
+        "theCode": "DD90.5",
+        "score": 0.8366410138595011,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      }
+    ],
+    "error": false,
+    "errorMessage": null,
+    "resultChopped": false,
+    "wordSuggestionsChopped": false,
+    "guessType": 2,
+    "uniqueSearchId": "431e76e4-59ca-4c24-b6df-3b5a8ce54d27",
+    "words": null
+  }
+}

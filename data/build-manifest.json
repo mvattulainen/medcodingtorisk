@@ -1,0 +1,11 @@
+{
+  "generatedAt": "2026-07-27T00:00:00.000Z",
+  "deterministicBuild": true,
+  "pipelineVersion": "1.1.0",
+  "complaintCount": 20,
+  "pageCount": 22,
+  "terminologyManifestHash": "sha256:dc657c76eac9dd9d8ff3c57a5351f69bb84221b2529acc5402930f17925281f5",
+  "riskRegisterHash": "sha256:91c080f7321d18ef9cc33b2d2e49fee88b433a51b614735f8be020c062e5b808",
+  "imdrfSourceChecksum": "sha256:e3476b9d588a705569c5c4d4e22faf573b6ad834537645a89a469743456cfe9d",
+  "whoRelease": "2026-01"
+}

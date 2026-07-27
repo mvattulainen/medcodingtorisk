@@ -1,0 +1,2167 @@
+{
+  "query": "skin rash",
+  "requestUrl": "https://id.who.int/icd/release/11/2026-01/mms/search?q=skin+rash&useFlexisearch=true&flatResults=true&highlightingEnabled=false&medicalCodingMode=true",
+  "retrievedAt": "2026-07-27T00:00:00.000Z",
+  "apiVersion": "v2",
+  "release": "2026-01",
+  "linearization": "mms",
+  "response": {
+    "destinationEntities": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1672472938/unspecified",
+        "title": "Rash, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1672472938/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "skin rash NOS",
+            "score": 1,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1672472938",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Rash",
+            "score": 0.7771245457002691,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1672472938",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "21",
+        "theCode": "ME66.6Z",
+        "score": 1,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1672472938/other",
+        "title": "Other specified rash",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1672472938/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME66.6Y",
+        "score": 0.6745712356727795,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/408835699",
+        "title": "Acute skin eruption of uncertain or unspecified nature",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/408835699",
+        "isLeaf": false,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Acute rash",
+            "score": 0.6465575027017746,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/408835699",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Acute pustular skin eruption",
+            "score": -0.4439226743534958,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/408835699",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Acute skin eruption without established diagnosis",
+            "score": -0.7617431144764448,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/408835699",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME62",
+        "score": 0.6465575027017746,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/343905295",
+        "title": "Chronic skin disorder of uncertain or unspecified nature",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/343905295",
+        "isLeaf": false,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Chronic rash",
+            "score": 0.642190764614498,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/343905295",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Chronic skin disorder without established diagnosis",
+            "score": -0.6117262053057433,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/343905295",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME63",
+        "score": 0.642190764614498,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1256955195",
+        "title": "Viral exanthem due to unknown or unspecified agent",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1256955195",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "viral rash NOS",
+            "score": 0.6324619452949556,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1256955195",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "nonspecific viral rash",
+            "score": 0.3371262648527106,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1256955195",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "14",
+        "theCode": "EA00",
+        "score": 0.6324619452949556,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/923546127/unspecified",
+        "title": "Drug eruption of unspecified type",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/923546127/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "rash due to drug NOS",
+            "score": 0.6242589586845685,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/923546127",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "drug rash",
+            "score": 0.6242589586845685,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/923546127",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "drug-induced rash",
+            "score": 0.4600305599124214,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/923546127",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "drug eruption or rash of unspecified type",
+            "score": 0.2561089366082515,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/923546127",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "14",
+        "theCode": "EH6Z",
+        "score": 0.6242589586845685,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1256786790",
+        "title": "Rash generalised",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1256786790",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME66.61",
+        "score": 0.596052686184452,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1667183601",
+        "title": "Rash localised",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1667183601",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME66.60",
+        "score": 0.5743220712577872,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/186956137",
+        "title": "Other serum reactions",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/186956137",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Serum rash",
+            "score": 0.5354457763175293,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/979934456",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NE80.3",
+        "score": 0.5354457763175293,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2044170142",
+        "title": "Skin disorder of uncertain or unspecified nature",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2044170142",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Pustular rash",
+            "score": 0.48753472450201446,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/967695250",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "skin disorder NOS",
+            "score": 0.13061783710123148,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2044170142",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "change of skin NOS",
+            "score": 0.026691696041124847,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2044170142",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "deposition in skin NOS",
+            "score": -0.015707730001998252,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1255961609",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Marbled skin",
+            "score": -0.16592994148564774,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1145828651",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Skin deposit, not elsewhere classified",
+            "score": -0.3029039114107767,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1255961609",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Skin disorder without established diagnosis",
+            "score": -0.47679242421997226,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2044170142",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME67",
+        "score": 0.48753472450201446,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/490390892",
+        "title": "Primary irritant napkin dermatitis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/490390892",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Diaper rash",
+            "score": 0.42179319405441573,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/490390892",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Nappy rash",
+            "score": 0.33109489349117516,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/490390892",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "14",
+        "theCode": "EH40.10",
+        "score": 0.42179319405441573,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/797787024",
+        "title": "Diffuse inflammatory erythemas",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/797787024",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Exanthematous rash",
+            "score": 0.4050561719846531,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1366836835",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "14",
+        "theCode": "EB10",
+        "score": 0.4050561719846531,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/993242399",
+        "title": "Urticaria of unspecified type",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/993242399",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Nettle rash",
+            "score": 0.3828071642454194,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/993242399",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "14",
+        "theCode": "EB05",
+        "score": 0.3828071642454194,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/326384712",
+        "title": "Irritant contact dermatitis due to incontinence",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/326384712",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Adult napkin rash",
+            "score": 0.262365744846208,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1341852086",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "14",
+        "theCode": "EK02.22",
+        "score": 0.262365744846208,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1460387786",
+        "title": "Geographic tongue",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1460387786",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "wandering rash of tongue",
+            "score": 0.08213212420215164,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1460387786",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "13",
+        "theCode": "DA03.1",
+        "score": 0.08213212420215164,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1040820675/other",
+        "title": "Other specified skin changes",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1040820675/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "skin inflammation",
+            "score": 0.06785586546518423,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2080388317",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Inflammation of skin, not elsewhere classified",
+            "score": -0.2193403159435942,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2080388317",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Fear of skin disease",
+            "score": -0.6556328729295627,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1688073670",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME66.Y",
+        "score": 0.06785586546518423,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/397206576",
+        "title": "Wandering rash of the mouth",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/397206576",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "13",
+        "theCode": "DA01.02",
+        "score": 0.05959616575949157,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/204420062/other",
+        "title": "Other specified forms of miliaria",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/204420062/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Heat rash",
+            "score": 0.04061376396799677,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1245016385",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "14",
+        "theCode": "EE02.Y",
+        "score": 0.04061376396799677,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1639304259/other",
+        "title": "Other specified diseases of the skin",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1639304259/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Normal skin",
+            "score": 0.03738522382332056,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1290397864",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Absence of skin condition",
+            "score": -0.09166849519448071,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/171514890",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Skin condition resolved",
+            "score": -0.2066484321050768,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/685334403",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Skin problem resulting from colostomy",
+            "score": -0.5626313810043903,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1728827525",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Surgical wound of skin",
+            "score": -0.5772793255399626,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2058052515",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "No significant skin abnormality found",
+            "score": -0.5862586607400034,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/620273151",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Skin problems resulting from tracheostomy",
+            "score": -0.5940914366695405,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2086856687",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Skin problem resulting from cystostomy",
+            "score": -0.5961054251439156,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/290071854",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Skin problem resulting from ileostomy",
+            "score": -0.5971505081917966,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/849469018",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Skin problem resulting from gastrostomy",
+            "score": -0.610828458739303,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/663999084",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Skin problem resulting from nephrostomy",
+            "score": -0.6314261032540616,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/296738238",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Skin problem resulting from urethrostomy",
+            "score": -0.6365926594978683,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2077096089",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Impairment of normal functioning resulting from skin disease",
+            "score": -0.6816936101070079,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/446523949",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Skin problem resulting from urostomy",
+            "score": -0.6819418097794888,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1143771535",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Skin problem resulting from urinary diversion procedure",
+            "score": -0.9414027093669322,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1916394675",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "14",
+        "theCode": "EM0Y",
+        "score": 0.03738522382332056,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/402520533/unspecified",
+        "title": "Skin lesion of unspecified nature",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/402520533/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "skin lesion NOS",
+            "score": 0.0325209667122318,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/402520533",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Ulcer of skin of unspecified nature",
+            "score": -0.18496933787784495,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/402520533",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Skin lesion of uncertain or unspecified nature",
+            "score": -0.4294373620507592,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/402520533",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Pigmented skin lesion of unspecified nature",
+            "score": -0.43681551660788176,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/402520533",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Skin lesion without established diagnosis",
+            "score": -0.574889294608972,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/402520533",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "21",
+        "theCode": "ME60.Z",
+        "score": 0.0325209667122318,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/944540491",
+        "title": "Changes in skin texture",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/944540491",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Skin sclerosis",
+            "score": 0.024906398320560255,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/444787370",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Skin scaling",
+            "score": -0.020824610146566985,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1085812235",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Thickening of skin",
+            "score": -0.03275089865787355,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/444787370",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "induration of skin",
+            "score": -0.09463272120834858,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/444787370",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Skin crusting",
+            "score": -0.09748064866164095,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/565518224",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Skin textural disturbance",
+            "score": -0.35225019333920027,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/944540491",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME66.1",
+        "score": 0.024906398320560255,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/653663824/unspecified",
+        "title": "Structural developmental anomalies of the skin, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/653663824/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "anomaly of skin NOS",
+            "score": 0.02055445069013684,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/653663824",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "congenital skin defect",
+            "score": -0.08686559998271529,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/653663824",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Congenital malformations of skin",
+            "score": -0.08964284390076824,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/653663824",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "congenital anomaly of skin",
+            "score": -0.1082155875520879,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/653663824",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "deformity of skin NOS",
+            "score": -0.3829942628785857,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/653663824",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "20",
+        "theCode": "LC7Z",
+        "score": 0.02055445069013684,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1212937040",
+        "title": "Superficial injury of unspecified body region",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1212937040",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "skin haematoma NOS",
+            "score": -0.004757960688214959,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/825966241",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Traumatic ulceration of skin",
+            "score": -0.13378040017092643,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1089239977",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bite injury of skin",
+            "score": -0.3353697718076963,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2004835031",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Bruise of skin or soft tissue",
+            "score": -0.44365505732723187,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1707892594",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Skin injury due to bite by mammal",
+            "score": -0.6515244301393838,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2070111524",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bruise or contusion of skin",
+            "score": -0.7964820538788416,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1707892594",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Crush injury of skin",
+            "score": -0.849805769037825,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1941177628",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Overgranulating wound of skin",
+            "score": -0.8601737494486664,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/783152715",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Hypergranulating wound of skin",
+            "score": -0.8601737494486664,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/783152715",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Contusion of skin or soft tissue",
+            "score": -0.8888104778643283,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1707892594",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "ND56.0",
+        "score": -0.004757960688214959,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/286686329",
+        "title": "Limited function or disability of body organ or system",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/286686329",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "skin disability",
+            "score": -0.007721165531854859,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/987486843",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Limited function or disability of skin",
+            "score": -0.3738207253911279,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/987486843",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "24",
+        "theCode": "QF10",
+        "score": -0.007721165531854859,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/647260534/unspecified",
+        "title": "Histiocytic-granulomatous disorders of the skin, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/647260534/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "skin granuloma NOS",
+            "score": -0.013273068596836374,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/647260534",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "histiocytosis of the skin",
+            "score": -0.06742000075624247,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/647260534",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "granulomatous disorders of the skin",
+            "score": -0.1421572977042926,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/647260534",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "granulomatous skin diseases",
+            "score": -0.14686635607125667,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/647260534",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "histiocytic disorders of the skin",
+            "score": -0.16039552431901158,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/647260534",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "14",
+        "theCode": "EE8Z",
+        "score": -0.013273068596836374,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1049159712",
+        "title": "Anaesthesia of skin",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1049159712",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Paraesthesia of skin",
+            "score": -0.0950939391404549,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1049159712",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Numbness of skin",
+            "score": -0.10053972018389709,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1049159712",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Hypoaesthesia of skin",
+            "score": -0.9515329077049414,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1049159712",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MB40.3",
+        "score": -0.02286930042635938,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1831523271",
+        "title": "Keratosis of skin of uncertain or unspecified nature",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1831523271",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Keratosis of skin",
+            "score": -0.03357856699716343,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1831523271",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME60.3",
+        "score": -0.03357856699716343,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1477238965",
+        "title": "Stinging of skin",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1477238965",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME65.3",
+        "score": -0.0403794283215051,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/284380638/unspecified",
+        "title": "Candidosis of skin or mucous membranes, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/284380638/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "skin candida",
+            "score": -0.056082150469168354,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/284380638",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "candidiasis of skin",
+            "score": -0.6445025819996725,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/284380638",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "skin candidiasis",
+            "score": -0.6445025819996725,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/284380638",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "01",
+        "theCode": "1F23.1Z",
+        "score": -0.056082150469168354,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/757048800",
+        "title": "Systemic lupus erythematosus with skin involvement",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/757048800",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Systemic lupus erythematosus skin rash",
+            "score": -0.06160867653163115,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1089070361",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "04",
+        "theCode": "4A40.00",
+        "score": -0.06160867653163115,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/86210128",
+        "title": "Itching of skin",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/86210128",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME65.1",
+        "score": -0.062295330437369546,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2099491584",
+        "title": "Skin fragility",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2099491584",
+        "isLeaf": false,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "14",
+        "theCode": "EE40.3",
+        "score": -0.06742000075624247,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1210185292",
+        "title": "Neoplasms of unknown behaviour of skin",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1210185292",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "skin tumour NOS",
+            "score": -0.08799779839547035,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1210185292",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "02",
+        "theCode": "2F92",
+        "score": -0.08799779839547035,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/144124957",
+        "title": "Abnormal skin pigmentation",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/144124957",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Discolouration of skin",
+            "score": -0.0898728537269211,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/144124957",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Skin colour abnormality",
+            "score": -0.18434871747279344,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/144124957",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "14",
+        "theCode": "ED64",
+        "score": -0.0898728537269211,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/142647635",
+        "title": "Fibroepithelial polyp of skin",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/142647635",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Skin tag",
+            "score": -0.09283771773286494,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/142647635",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Skin tags of eyelid",
+            "score": -0.6699747773261018,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/525227606",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "14",
+        "theCode": "EK71.0",
+        "score": -0.09283771773286494,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/707540125",
+        "title": "Skin peeling",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/707540125",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "14",
+        "theCode": "ED53",
+        "score": -0.09463272120834858,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/726494117",
+        "title": "Excoriation disorder",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/726494117",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "skin picking disorder",
+            "score": -0.10934372486275062,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/726494117",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6B25.1",
+        "score": -0.10934372486275062,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2018255084",
+        "title": "Cutaneous mucinosis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2018255084",
+        "isLeaf": false,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Mucinosis of skin",
+            "score": -0.10935575480373605,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2018255084",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "14",
+        "theCode": "EB90.1",
+        "score": -0.10935575480373605,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1412960686/other",
+        "title": "Other specified pyogenic bacterial infection of skin or subcutaneous tissue",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1412960686/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Staphylococcal skin disorder",
+            "score": -0.10941386689403843,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1209038539",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Streptococcal infection of skin",
+            "score": -0.3760979345951948,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1224052315",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "streptococcal skin infected",
+            "score": -0.3760979345951948,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1224052315",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "staphylococcal infection of skin",
+            "score": -0.3797889730251047,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1209038539",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Miscellaneous pyogenic bacterial infections of the skin",
+            "score": -0.8909174465798894,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/480002572",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "01",
+        "theCode": "1B7Y",
+        "score": -0.10941386689403843,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1639304259/unspecified",
+        "title": "Skin disease of unspecified nature",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1639304259/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "14",
+        "theCode": "EM0Z",
+        "score": -0.11322024592401722,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/136421763",
+        "title": "Tingling of skin",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/136421763",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME65.4",
+        "score": -0.1313249067220095,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1412960686/unspecified",
+        "title": "Pyogenic bacterial infection of skin or subcutaneous tissue, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1412960686/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "skin infection NOS",
+            "score": -0.13975726902983485,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1412960686",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "infected skin",
+            "score": -0.13975726902983485,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1412960686",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "suppurative skin lesion",
+            "score": -0.22033264125019886,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1264126483",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "bacterial infection of skin",
+            "score": -0.3178590998967387,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1412960686",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Pyogenic infection of skin",
+            "score": -0.4236896036131842,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1264126483",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "infection of skin of finger",
+            "score": -0.44353513401344946,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/751603744",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "pyogenic bacterial infection of skin",
+            "score": -0.6017914344800881,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1412960686",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "pyogenic infection of skin and subcutis",
+            "score": -0.9517305576564126,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1264126483",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "01",
+        "theCode": "1B7Z",
+        "score": -0.13975726902983485,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/817642712",
+        "title": "Ischaemic ulceration of skin",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/817642712",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Arterial ulcer of skin",
+            "score": -0.1690152220545647,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/817642712",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "14",
+        "theCode": "EF60",
+        "score": -0.14683142219566694,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/831995767/other",
+        "title": "Other specified fibromatous disorders of skin or soft tissue",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/831995767/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Stiff skin syndrome",
+            "score": -0.14893156438987712,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/642409035",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Infantile stiff skin syndromes",
+            "score": -0.3597241117803846,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1858371538",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Tight skin contracture syndrome, lethal",
+            "score": -0.6954185209834657,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/713433700",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "14",
+        "theCode": "EE6Y",
+        "score": -0.14893156438987712,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2142880493/other",
+        "title": "Personal history of other specified health problems",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2142880493/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "history of disease or disorder of skin",
+            "score": -0.16943717676026826,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/600007053",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Personal history of skin disease",
+            "score": -0.24268061637479404,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/600007053",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "24",
+        "theCode": "QC4Y",
+        "score": -0.16943717676026826,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/142781870",
+        "title": "Skin or other sensitisation tests",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/142781870",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "general skin examination",
+            "score": -0.1720373880619319,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/142781870",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Skin tests for bacterial disease",
+            "score": -0.2804550870175443,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1205175632",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "diagnostic skin or sensitisation tests",
+            "score": -0.45937108304901336,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/142781870",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Skin tests for hypersensitivity",
+            "score": -0.7022341751625157,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2033428248",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "24",
+        "theCode": "QA00.A",
+        "score": -0.1720373880619319,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1203447657/unspecified",
+        "title": "Basal cell carcinoma of skin, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1203447657/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "BCC - [basal cell carcinoma] of skin",
+            "score": -0.18533102177158917,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1203447657",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Rodent ulcer of skin",
+            "score": -0.27431633690976437,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1203447657",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Basal cell carcinoma of skin",
+            "score": -0.6118332151044175,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1203447657",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "02",
+        "theCode": "2C32.Z",
+        "score": -0.18533102177158917,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1448983042/unspecified",
+        "title": "Cutaneous squamous cell carcinoma",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1448983042/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "SCC - [squamous cell carcinoma] of skin",
+            "score": -0.18968015376983788,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1448983042",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Squamous cell carcinoma of skin",
+            "score": -0.5847356458780986,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1448983042",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Squamous cell epithelioma of skin",
+            "score": -0.9995040957039836,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1448983042",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "02",
+        "theCode": "2C31.Z",
+        "score": -0.18968015376983788,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2104676964/other",
+        "title": "Other specified effects of reduced temperature",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2104676964/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Chapping of skin",
+            "score": -0.18968015376983788,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1968376212",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NF03.Y",
+        "score": -0.18968015376983788,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1814010997",
+        "title": "Skin graft failure",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1814010997",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Split skin graft failure",
+            "score": -0.5167677507760939,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/125497870",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Full thickness skin graft failure",
+            "score": -0.7093444745600284,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/422046362",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "14",
+        "theCode": "EL53",
+        "score": -0.1973829532281633,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      }
+    ],
+    "error": false,
+    "errorMessage": null,
+    "resultChopped": true,
+    "wordSuggestionsChopped": false,
+    "guessType": 2,
+    "uniqueSearchId": "2689be29-b7cd-4d14-8c1c-688f0e18c7d1",
+    "words": null
+  }
+}

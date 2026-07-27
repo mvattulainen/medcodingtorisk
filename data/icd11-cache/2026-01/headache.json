@@ -1,0 +1,2342 @@
+{
+  "query": "headache",
+  "requestUrl": "https://id.who.int/icd/release/11/2026-01/mms/search?q=headache&useFlexisearch=true&flatResults=true&highlightingEnabled=false&medicalCodingMode=true",
+  "retrievedAt": "2026-07-27T00:00:00.000Z",
+  "apiVersion": "v2",
+  "release": "2026-01",
+  "linearization": "mms",
+  "response": {
+    "destinationEntities": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1405405864",
+        "title": "Headache, not elsewhere classified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1405405864",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "headache, unspecified",
+            "score": 1,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1405405864",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "pain in head NOS",
+            "score": 0.06617148539182129,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1405405864",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MB4D",
+        "score": 1,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/28995849/unspecified",
+        "title": "Headache disorders, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/28995849/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "08",
+        "theCode": "8A8Z",
+        "score": 0.8730356413538323,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/28995849/other",
+        "title": "Other specified headache disorders",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/28995849/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "08",
+        "theCode": "8A8Y",
+        "score": 0.7319024143090999,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/607078588",
+        "title": "Trigeminal autonomic cephalalgias",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/607078588",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Cluster headache",
+            "score": 0.5931907929628362,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/760621151",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Chronic cluster headache",
+            "score": 0.40749576315953007,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/890612903",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Horton headache",
+            "score": 0.38617676838480025,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/760621151",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Episodic cluster headache",
+            "score": 0.3754892406371392,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/561506851",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "08",
+        "theCode": "8A82",
+        "score": 0.5931907929628362,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1410019257/unspecified",
+        "title": "Tension-type headache, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1410019257/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Tension-type headache",
+            "score": 0.5624249830882182,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1410019257",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "TTH - [tension type headaches]",
+            "score": -0.028364862913281615,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1410019257",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "08",
+        "theCode": "8A81.Z",
+        "score": 0.5624249830882182,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1350703173",
+        "title": "Other primary headache disorder",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1350703173",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Orgasmic headache",
+            "score": 0.5541850417390939,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1974660083",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Nummular headache",
+            "score": 0.5273376523525178,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/177244195",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Primary exercise headache",
+            "score": 0.46953263929618766,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/598251514",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "External compression headache",
+            "score": 0.3835913380209008,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1022412057",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Hypnic headache",
+            "score": 0.34680093560012776,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/468065426",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Primary thunderclap headache",
+            "score": 0.22762176451518965,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/398974702",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Primary headache associated with sexual activity",
+            "score": 0.10278634361343066,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/705929471",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Preorgasmic headache",
+            "score": -0.17477729565594258,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2000434692",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Primary cough headache",
+            "score": -0.21021694744750266,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/844112903",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "New daily-persistent headache",
+            "score": -0.2603228028707511,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/316302596",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Cold-stimulus headache",
+            "score": -0.4563951298955289,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1386492540",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Primary stabbing headache",
+            "score": -0.6473406341613556,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/44405490",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "NDPH - [New daily-persistent headache]",
+            "score": -0.874146034485951,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/316302596",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache due to ingestion or inhalation of a cold stimulus",
+            "score": -1.1979011266530988,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1104305266",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache due to external application of a cold stimulus",
+            "score": -1.262447796017425,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1585836040",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "08",
+        "theCode": "8A83",
+        "score": 0.5541850417390939,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1600884926",
+        "title": "Traumatic amputation at neck level",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1600884926",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "severed head",
+            "score": 0.5016673369189175,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/170769591",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "traumatic amputation of head NOS",
+            "score": 0.12482973258711544,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1600884926",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "traumatic amputation of whole head",
+            "score": -0.27057991030132267,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1600884926",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "complete head avulsion",
+            "score": -0.7373948484135747,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1600884926",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NA63",
+        "score": 0.5016673369189175,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/296971178/other",
+        "title": "Other specified secondary headache",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/296971178/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Headache associated with a substance",
+            "score": 0.49115851161260204,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1340277752",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Cervicogenic headache",
+            "score": 0.34680093560012776,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1922968120",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache associated with craniotomy",
+            "score": 0.33088738094274733,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/753691477",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache associated with substance withdrawal",
+            "score": 0.2995914510400319,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1551041239",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "High-altitude headache",
+            "score": 0.23621200760917532,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/86868593",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache associated with disorder of homeostasis",
+            "score": 0.2186651574819472,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/3160479",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache induced by other substance use",
+            "score": 0.20556336697520275,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/425830592",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache associated with withdrawal of other substance",
+            "score": 0.15845822399529935,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2067235468",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Acute headache associated with craniotomy",
+            "score": 0.15120182891983963,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/626482256",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache associated with caffeine withdrawal",
+            "score": 0.14274878137610147,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1619553818",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache associated with estrogen withdrawal",
+            "score": 0.13112786919846597,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/59764378",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Carbon monoxide-induced headache",
+            "score": 0.09194311275371923,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/968861657",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache associated with other disorders of homeostasis",
+            "score": 0.07753193043721467,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/320337851",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Persistent headache associated with craniotomy",
+            "score": 0.07060835098730936,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1448973349",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Dialysis headache",
+            "score": -0.03208972123358328,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/620991176",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Medication-overuse headache",
+            "score": -0.13689426257311202,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1723984719",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache due to acute glaucoma",
+            "score": -0.15810845667621093,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/436769026",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache as an adverse event associated with chronic medication",
+            "score": -0.1847961616657045,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1500428601",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Opioid-overuse headache",
+            "score": -0.2719528902437396,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1828843567",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache associated with intracranial neoplasm",
+            "score": -0.31796681638117225,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1597001113",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Delayed alcohol-induced headache",
+            "score": -0.35851459948477293,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/813948491",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache associated with arterial hypertension",
+            "score": -0.3970526450215637,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/888873269",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Medication headache associated with other medication overuse",
+            "score": -0.44179286668566986,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/901026733",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache due to nonvascular intracranial disorder",
+            "score": -0.44413380824449084,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1015087902",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Post dural puncture headache",
+            "score": -0.4523324536985965,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/442261402",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Ergotamine-overuse headache",
+            "score": -0.4591805454388574,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2122477495",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Triptan-overuse headache",
+            "score": -0.4705801095875833,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1275917607",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Combination analgesic-overuse headache",
+            "score": -0.593206676636488,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1629499987",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Simple analgesic-overuse headache",
+            "score": -0.6062000970268844,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1076705115",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache or facial pain associated with disorder of the face or neck",
+            "score": -0.723336906578438,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/37642508",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "MOH - [Medication-overuse headache]",
+            "score": -0.7507174941883119,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1723984719",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache due to other causes of increased cerebrospinal fluid pressure",
+            "score": -0.8076097697085532,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2012528785",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache due to other causes of low cerebrospinal fluid pressure",
+            "score": -0.8200167270390607,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1198770529",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache or facial pain associated with other disorders of face or neck",
+            "score": -0.8644701336231707,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/18066644",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache due to cranial or cervical vascular intracranial disorder",
+            "score": -0.9018898187104966,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1176979013",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache due to idiopathic intracranial hypertension",
+            "score": -0.9432963610548352,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1572769902",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Monosodium glutamate-induced headache",
+            "score": -1.0269271609203305,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/50636644",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache or facial pain associated with temporomandibular disorder",
+            "score": -1.0424335119496946,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1194694720",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Medication-overuse headache associated with multiple drug classes not individually overused",
+            "score": -1.5216449077019993,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/966087121",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Acute headache associated with whiplash injury",
+            "score": -1.622980794885624,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/318339625",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "08",
+        "theCode": "8A84.Y",
+        "score": 0.49115851161260204,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1068555332",
+        "title": "Acute headache, not elsewhere classified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1068555332",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MG31.1",
+        "score": 0.42507685041656107,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1410019257/other",
+        "title": "Other specified tension-type headache",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1410019257/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "08",
+        "theCode": "8A81.Y",
+        "score": 0.42129175604348573,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1739890344/unspecified",
+        "title": "Disorders of muscles, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1739890344/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Disorders of muscle, head",
+            "score": 0.3930138201867066,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1186320181",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "disorder of muscle, unspecified, head",
+            "score": 0.3930138201867066,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1186320181",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "15",
+        "theCode": "FB3Z",
+        "score": 0.3930138201867066,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1531077719",
+        "title": "Subcutaneous swelling, mass or lump of uncertain or unspecified nature",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1531077719",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "head mass",
+            "score": 0.3889273258069807,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/603422881",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "mass of head",
+            "score": 0.3889273258069807,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/603422881",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "head swelling",
+            "score": 0.3869957748730287,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/603422881",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "swelling of head",
+            "score": 0.3869957748730287,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/603422881",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "localised mass of head",
+            "score": 0.10983182257015552,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/603422881",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "localised swelling of head",
+            "score": 0.10790027163620348,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/603422881",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "localised swelling, mass and lump, head",
+            "score": -1.5321137131032216,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/603422881",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME61",
+        "score": 0.3889273258069807,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/220170017",
+        "title": "Light-headedness",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/220170017",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "light headed",
+            "score": 0.3854369396611315,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/220170017",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MB48.3",
+        "score": 0.3854369396611315,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/107534985",
+        "title": "Chronic tension-type headache",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/107534985",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Chronic tension-type headache associated with pericranial tenderness",
+            "score": -1.314781082191463,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1421474125",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Chronic tension-type headache not associated with pericranial tenderness",
+            "score": -1.493917439411902,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1486371633",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "08",
+        "theCode": "8A81.2",
+        "score": 0.3767299532849122,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/736780466",
+        "title": "Puncture wound without foreign body of head",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/736780466",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "punctured head",
+            "score": 0.35653525334375824,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/736780466",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NA01.4",
+        "score": 0.35653525334375824,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/296971178/unspecified",
+        "title": "Secondary headache, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/296971178/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Secondary headache",
+            "score": 0.3042652871470684,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/296971178",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Post traumatic headache",
+            "score": 0.012146347326006442,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/902419921",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Headache associated with injury to the head or neck",
+            "score": -0.045187651681925706,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/902419921",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "08",
+        "theCode": "8A84.Z",
+        "score": 0.3042652871470684,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1872438533",
+        "title": "Disorder of ligament",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1872438533",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Disorder of ligament, head",
+            "score": 0.30248315873135817,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1314941080",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "15",
+        "theCode": "FA34.1",
+        "score": 0.30248315873135817,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/546224466",
+        "title": "Acephaly",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/546224466",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Congenital absence of head",
+            "score": 0.28849218684684186,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/546224466",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "20",
+        "theCode": "LA00.2",
+        "score": 0.28849218684684186,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1652888053",
+        "title": "Plagiocephaly",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1652888053",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "asymmetric head",
+            "score": 0.28779901394638413,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1652888053",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "20",
+        "theCode": "LB70.00",
+        "score": 0.28779901394638413,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/458033798/other",
+        "title": "Other specified craniosynostosis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/458033798/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "high-head syndrome",
+            "score": 0.2804414279309093,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/563412852",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "scaphoid head",
+            "score": 0.24330193906456485,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/130997345",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "tower head",
+            "score": 0.15397830198725015,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/563412852",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "long narrow head",
+            "score": 0.06833600402958127,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/130997345",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "steeple head",
+            "score": 0.05713613382645153,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/563412852",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "20",
+        "theCode": "LB70.0Y",
+        "score": 0.2804414279309093,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/325289630",
+        "title": "Head drop",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/325289630",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MB45.3",
+        "score": 0.2582885386129586,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/79623775/unspecified",
+        "title": "Unintentional land transport injury event unknown whether traffic or nontraffic injuring a user of unspecified transport",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/79623775/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "head on collision NOS",
+            "score": 0.2535818358177972,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/79623775",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "23",
+        "theCode": "PA2Z",
+        "score": 0.2535818358177972,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1915526777/other",
+        "title": "Other specified certain joint disorders, not elsewhere classified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1915526777/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Fistula of joint, head",
+            "score": 0.23978944159697888,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/731440059",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Flail joint, head",
+            "score": 0.06921033943132106,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1181331705",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "15",
+        "theCode": "FA37.Y",
+        "score": 0.23978944159697888,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/452386362/unspecified",
+        "title": "Injuries to the head, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/452386362/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": true,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "head injuries NOS",
+            "score": 0.23495175951271896,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/452386362",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "head trauma NOS",
+            "score": 0.23495175951271896,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/452386362",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "head injury NOS",
+            "score": 0.23495175951271896,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/452386362",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "injury of head",
+            "score": 0.23495175951271896,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/452386362",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "injury of head region",
+            "score": 0.002421778017736413,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/452386362",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "traumatic head injury",
+            "score": -0.023690218551216315,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/452386362",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "HI - [head injury]",
+            "score": -0.1885724030380165,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/452386362",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Sequelae of injuries of head",
+            "score": -0.7169968705461665,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1188287197",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Sequelae traumatic amputation of head",
+            "score": -0.82711889747177,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/588995944",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Fell and struck head",
+            "score": -1.148129974390519,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1164296516",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "fell, struck head",
+            "score": -1.148129974390519,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1164296516",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "NA0Z",
+        "score": 0.23495175951271896,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/517426688",
+        "title": "Contracture of muscle",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/517426688",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Contracture of muscle, head",
+            "score": 0.21501587090940405,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1422213973",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "15",
+        "theCode": "FB32.4",
+        "score": 0.21501587090940405,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/412021217",
+        "title": "Abnormal head movements",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/412021217",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MB46.1",
+        "score": 0.21222450173688684,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/477476497",
+        "title": "Contracture of joint",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/477476497",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Contracture of joint, head",
+            "score": 0.2044478229394418,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/167060410",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "15",
+        "theCode": "FA34.3",
+        "score": 0.2044478229394418,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/103936902",
+        "title": "Hypertrophy of bone",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/103936902",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Hypertrophy of bone, head",
+            "score": 0.20273771972071966,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1633418470",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "15",
+        "theCode": "FB86.11",
+        "score": 0.20273771972071966,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1707520902/other",
+        "title": "Other specified effusion of joint",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1707520902/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Effusion of joint, head",
+            "score": 0.16501014222412086,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/472429416",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "15",
+        "theCode": "FA36.Y",
+        "score": 0.16501014222412086,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1948266223",
+        "title": "Stiffness of joint",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1948266223",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Stiffness of joint, head",
+            "score": 0.14977078444476935,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1079230176",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME85",
+        "score": 0.14977078444476935,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/744102274",
+        "title": "Laceration without foreign body of head",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/744102274",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "laceration of skin of head",
+            "score": 0.12087713928481157,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/744102274",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "skin tear without foreign body of head",
+            "score": -1.2595648251502796,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/744102274",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NA01.2",
+        "score": 0.12087713928481157,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/296971178/other / http://id.who.int/icd/release/11/2026-01/mms/1929970386",
+        "title": "Headache due to giant cell arteritis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/296971178/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Headache attributed to GCA - [giant cell arteritis]",
+            "score": 0.11755921603756507,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1213960935",
+            "propertyValueType": 2
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "08",
+        "theCode": "8A84.Y/4A44.2",
+        "score": 0.11755921603756507,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/415195404",
+        "title": "Myalgia",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/415195404",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "muscle ache",
+            "score": 0.09930778238022676,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/415195404",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Myalgia, head",
+            "score": -0.39030225811322034,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1548450391",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "15",
+        "theCode": "FB56.2",
+        "score": 0.09930778238022676,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1843729715/other",
+        "title": "Other specified injuries of head",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1843729715/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "blunt impact to head",
+            "score": -0.00888819018454629,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/65473550",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "blunt head injury",
+            "score": -0.1330412972836323,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/65473550",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "blunt trauma of head",
+            "score": -0.1330412972836323,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/65473550",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "massive head trauma NOS",
+            "score": -0.16294165903497473,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/65473550",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "complications of blunt head trauma",
+            "score": -0.3635355643163712,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/798164904",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "blunt impact injuries of head",
+            "score": -0.4842716288981513,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/65473550",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Blunt force trauma to head",
+            "score": -0.49124240691509663,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/65473550",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "blunt force head injury",
+            "score": -0.49124240691509663,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/65473550",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "blunt force injuries of the head",
+            "score": -0.49124240691509663,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/65473550",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "blunt force injury of the head",
+            "score": -0.49124240691509663,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/65473550",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Complications of blunt force injury of head",
+            "score": -0.7217366739478354,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/798164904",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Complications of blunt force head injuries",
+            "score": -0.7217366739478354,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/798164904",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "complications of blunt force head trauma",
+            "score": -0.7217366739478354,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/798164904",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NA0A.Y",
+        "score": 0.09381853246798653,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/250905801/other",
+        "title": "Other specified calcification or ossification of muscle",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/250905801/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Other calcification of muscle, head",
+            "score": 0.07294777934321617,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1792323536",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Other ossification of muscle, head",
+            "score": 0.040206999784084145,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/558286410",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscle, head",
+            "score": -0.12455694561610921,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1605077130",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Paralytic calcification or ossification of muscle, head",
+            "score": -0.4177276814957372,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/66485793",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Myositis ossificans traumatica, head",
+            "score": -1.1196172246304599,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/987994889",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Calcification or ossification of muscles associated with burns, head",
+            "score": -1.1533955897309998,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/178810975",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "15",
+        "theCode": "FB31.Y",
+        "score": 0.07294777934321617,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/429165931",
+        "title": "Diastasis of muscle",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/429165931",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Diastasis of muscle, head",
+            "score": 0.06955469589396727,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1878592890",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "15",
+        "theCode": "FB32.0",
+        "score": 0.06955469589396727,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/257205019",
+        "title": "Frequent episodic tension-type headache",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/257205019",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Frequent episodic tension-type headache associated with pericranial tenderness",
+            "score": -1.6445053521970487,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/58024295",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "08",
+        "theCode": "8A81.1",
+        "score": 0.04700568327932666,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1617768783",
+        "title": "Multiple injuries of head",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1617768783",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": true,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Injury of multiple sites of head",
+            "score": -0.188923065376054,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1617768783",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NA0A.3",
+        "score": 0.014636664065933653,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/316533152",
+        "title": "Chronic headache associated with a substance or its withdrawal",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/316533152",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MG30.67",
+        "score": 0.0035693342791144307,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/103374449/unspecified & http://id.who.int/icd/release/11/2026-01/mms/1124176890",
+        "title": "Haematoma of head, not elsewhere classified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/103374449/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "NA00.Z&XJ1C6",
+        "score": 0.0018299115795020787,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1269698463",
+        "title": "Skeletal fluorosis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1269698463",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Skeletal fluorosis, head",
+            "score": -0.01050812907759884,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/241760664",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "15",
+        "theCode": "FB80.1",
+        "score": -0.01050812907759884,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/492677713",
+        "title": "Aluminium bone disease",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/492677713",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Aluminium bone disease, head",
+            "score": -0.030095320880040893,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1114284798",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "15",
+        "theCode": "FB83.20",
+        "score": -0.030095320880040893,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/864320047",
+        "title": "Abrasion of other or unspecified sites of head",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/864320047",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NA00.6",
+        "score": -0.038271698293966705,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2095005951",
+        "title": "Spontaneous rupture of muscle",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2095005951",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Spontaneous rupture of muscle, head",
+            "score": -0.039767872470320445,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1506649849",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "nontraumatic rupture of muscle, head",
+            "score": -0.088664656274485,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1506649849",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "15",
+        "theCode": "FB32.1",
+        "score": -0.039767872470320445,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/141692930/other",
+        "title": "Other specified ischaemic infarction of muscle",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/141692930/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Ischaemic infarction of muscle, head",
+            "score": -0.04329999776777167,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1833131285",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "15",
+        "theCode": "FB32.2Y",
+        "score": -0.04329999776777167,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2033111999",
+        "title": "Maternal care for high head at term",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2033111999",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "high head at term",
+            "score": -0.044291224278280784,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2033111999",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Failure of head to enter pelvic brim",
+            "score": -1.2661226773002625,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2033111999",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "failure of fetal head to enter pelvic brim",
+            "score": -1.5905271301090218,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2033111999",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "18",
+        "theCode": "JA82.4",
+        "score": -0.044291224278280784,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/103374449/unspecified",
+        "title": "Superficial injury of unspecified part of head",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/103374449/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Superficial injury of head",
+            "score": -0.046587015210702735,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/103374449",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "superficial head injury",
+            "score": -0.046587015210702735,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/103374449",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "NA00.Z",
+        "score": -0.046587015210702735,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/77765628",
+        "title": "Clinical findings on diagnostic imaging of digestive tract",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/77765628",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "pancreatic head mass",
+            "score": -0.04808577806642354,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1070519755",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "ME22",
+        "score": -0.04808577806642354,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1843729715",
+        "title": "Certain specified injuries of head",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1843729715",
+        "isLeaf": false,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NA0A",
+        "score": -0.05123302105510646,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/103374449/other & http://id.who.int/icd/release/11/2026-01/mms/862454798 & http://id.who.int/icd/release/11/2026-01/mms/1124176890",
+        "title": "Haematoma of forehead",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/103374449/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NA00.Y&XA6TR8&XJ1C6",
+        "score": -0.05420696974969385,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      }
+    ],
+    "error": false,
+    "errorMessage": null,
+    "resultChopped": true,
+    "wordSuggestionsChopped": false,
+    "guessType": 2,
+    "uniqueSearchId": "4d411644-e554-436f-aac4-0ff4eff2fb5b",
+    "words": null
+  }
+}

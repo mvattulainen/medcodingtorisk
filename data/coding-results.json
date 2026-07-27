@@ -1,0 +1,2948 @@
+[
+  {
+    "complaintId": "CPAP-001",
+    "evidence": [
+      {
+        "id": "CPAP-001-M1",
+        "sourceText": "air began leaking from the upper edge of the full-face mask",
+        "sentence": "The user reported that air began leaking from the upper edge of the full-face mask during the night and blowing toward both eyes.",
+        "start": 23,
+        "end": 82,
+        "normalizedText": "mask gas or air leak",
+        "entityType": "device_problem",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "user",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device behavior is routed to IMDRF Annex A.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "A050402",
+          "preferredTitle": "Gas/Air Leak",
+          "annex": "A",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.96,
+          "confidenceBand": "strong",
+          "rationale": "The narrative explicitly describes unintended air leakage from the mask.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "mask gas or air leak",
+          "sourceRecordHash": "sha256:0930112c8e0587d94b302ed5847567b7edd3f274a14c823245e12c110e3c862a"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-001-M2",
+        "sourceText": "eyes were red, dry, and burning",
+        "sentence": "On waking, the eyes were red, dry, and burning.",
+        "start": 145,
+        "end": 176,
+        "normalizedText": "eye irritation and dry-eye symptoms",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "user",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "E0845",
+          "preferredTitle": "Eye Irritation",
+          "annex": "E",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.94,
+          "confidenceBand": "strong",
+          "rationale": "Eye irritation directly represents the combined redness and burning; ICD-11 search results were not defensible.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "eye irritation and dry-eye symptoms",
+          "sourceRecordHash": "sha256:4a5d50a7432459f37eb8b4401cd514a03f8a513d73d08a1a67fc527fef1e5bd3"
+        },
+        "candidates": [
+          {
+            "terminology": "IMDRF AET",
+            "code": "E0815",
+            "preferredTitle": "Dry Eye(s)",
+            "annex": "E",
+            "releaseOrEdition": "2026",
+            "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+            "confidence": 0.78,
+            "confidenceBand": "plausible",
+            "rationale": "Dry eye is explicitly described but covers only part of the evidence span.",
+            "status": "candidate",
+            "humanVerified": false,
+            "queryUsed": "eye irritation and dry-eye symptoms",
+            "sourceRecordHash": "sha256:2e3fec0940f9714a5a43399f784f008ba95150d0c75337cf722c09156240d9d8"
+          }
+        ]
+      },
+      {
+        "id": "CPAP-001-M3",
+        "sourceText": "did not report loss of vision",
+        "sentence": "The user did not report loss of vision or seek emergency care.",
+        "start": 187,
+        "end": 216,
+        "normalizedText": "loss of vision",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "negated",
+        "temporality": "current",
+        "experiencer": "user",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": null,
+        "candidates": [],
+        "unresolvedReason": "Negated statements are displayed but cannot receive an accepted clinical code."
+      },
+      {
+        "id": "CPAP-001-M4",
+        "sourceText": "mask cushion was about six months old",
+        "sentence": "The mask cushion was about six months old, and tightening the headgear reduced but did not eliminate the leak.",
+        "start": 245,
+        "end": 282,
+        "normalizedText": "aged mask cushion",
+        "entityType": "device_component",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "user",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device part is routed to IMDRF Annex G.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "G04086",
+          "preferredTitle": "Mask",
+          "annex": "G",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.88,
+          "confidenceBand": "good",
+          "rationale": "The official Mask component is the closest selectable component term.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "aged mask cushion",
+          "sourceRecordHash": "sha256:094e449ec7d8a6e35f9d33ea4294978cdc48293061e098d9a62b06ee9400272d"
+        },
+        "candidates": []
+      }
+    ],
+    "provenance": {
+      "generatedAt": "2026-07-27T00:00:00.000Z",
+      "pipelineVersion": "1.1.0",
+      "promptVersion": "deterministic-seed-v1.1",
+      "modelName": "deterministic rules + human-authored demo seed",
+      "terminologyManifestHash": "sha256:dc657c76eac9dd9d8ff3c57a5351f69bb84221b2529acc5402930f17925281f5",
+      "riskRegisterHash": "sha256:91c080f7321d18ef9cc33b2d2e49fee88b433a51b614735f8be020c062e5b808",
+      "reviewer": null,
+      "reviewTimestamp": null
+    }
+  },
+  {
+    "complaintId": "CPAP-002",
+    "evidence": [
+      {
+        "id": "CPAP-002-M1",
+        "sourceText": "painful red area on the bridge of the nose",
+        "sentence": "After using a newly fitted nasal mask for three nights, the patient developed a painful red area on the bridge of the nose.",
+        "start": 80,
+        "end": 122,
+        "normalizedText": "painful nasal-bridge skin lesion",
+        "entityType": "injury",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": true
+        },
+        "acceptedCode": {
+          "terminology": "WHO ICD-11 MMS",
+          "code": "ME60.Z",
+          "preferredTitle": "Skin lesion of unspecified nature",
+          "releaseOrEdition": "2026-01",
+          "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/402520533/unspecified",
+          "confidence": 0.84,
+          "confidenceBand": "good",
+          "rationale": "The code preserves a nonspecific skin lesion without asserting a pressure ulcer diagnosis.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "skin lesion",
+          "sourceRecordHash": "sha256:ebab527642dbda7d0f4e7089ff28d24cce5fe2b7df422f506c7efd586fc5ea45"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-002-M2",
+        "sourceText": "small area of broken skin",
+        "sentence": "The next morning there was a small area of broken skin but no bleeding or drainage.",
+        "start": 153,
+        "end": 178,
+        "normalizedText": "open wound of external skin of nose",
+        "entityType": "injury",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": true
+        },
+        "acceptedCode": {
+          "terminology": "WHO ICD-11 MMS",
+          "code": "NA01.Z&XA04T9",
+          "preferredTitle": "Open wound of external skin of the nose",
+          "releaseOrEdition": "2026-01",
+          "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/codeinfo/NA01.Z%26XA04T9",
+          "confidence": 0.82,
+          "confidenceBand": "good",
+          "rationale": "Broken skin at the nasal bridge supports an open-wound candidate while preserving unspecified depth.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "open wound of nose",
+          "sourceRecordHash": "sha256:de21e1407f3928561b29e6462144b294bdd45621f1a37679eaf4e5f4a310ab3b"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-002-M3",
+        "sourceText": "newly fitted nasal mask",
+        "sentence": "After using a newly fitted nasal mask for three nights, the patient developed a painful red area on the bridge of the nose.",
+        "start": 14,
+        "end": 37,
+        "normalizedText": "mask fit",
+        "entityType": "device_component",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device part is routed to IMDRF Annex G.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "G04086",
+          "preferredTitle": "Mask",
+          "annex": "G",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.92,
+          "confidenceBand": "strong",
+          "rationale": "The mask is the explicitly stated patient-contact component.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "mask fit",
+          "sourceRecordHash": "sha256:094e449ec7d8a6e35f9d33ea4294978cdc48293061e098d9a62b06ee9400272d"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-002-M4",
+        "sourceText": "No infection was diagnosed",
+        "sentence": "No infection was diagnosed, and no antibiotics were given.",
+        "start": 306,
+        "end": 332,
+        "normalizedText": "infection",
+        "entityType": "clinical_condition",
+        "assertion": "negated",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": null,
+        "candidates": [],
+        "unresolvedReason": "The complaint explicitly negates infection."
+      }
+    ],
+    "provenance": {
+      "generatedAt": "2026-07-27T00:00:00.000Z",
+      "pipelineVersion": "1.1.0",
+      "promptVersion": "deterministic-seed-v1.1",
+      "modelName": "deterministic rules + human-authored demo seed",
+      "terminologyManifestHash": "sha256:dc657c76eac9dd9d8ff3c57a5351f69bb84221b2529acc5402930f17925281f5",
+      "riskRegisterHash": "sha256:91c080f7321d18ef9cc33b2d2e49fee88b433a51b614735f8be020c062e5b808",
+      "reviewer": null,
+      "reviewTimestamp": null
+    }
+  },
+  {
+    "complaintId": "CPAP-003",
+    "evidence": [
+      {
+        "id": "CPAP-003-M1",
+        "sourceText": "itchy red rash in the exact outline of the silicone mask cushion",
+        "sentence": "The user developed an itchy red rash in the exact outline of the silicone mask cushion after approximately one week of use.",
+        "start": 22,
+        "end": 86,
+        "normalizedText": "rash at mask contact area",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "WHO ICD-11 MMS",
+          "code": "ME66.6Z",
+          "preferredTitle": "Rash, unspecified",
+          "releaseOrEdition": "2026-01",
+          "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/1672472938/unspecified",
+          "confidence": 0.9,
+          "confidenceBand": "strong",
+          "rationale": "Rash is explicit; the unspecified rash code avoids asserting a cause.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "skin rash",
+          "sourceRecordHash": "sha256:0fabf793effc7f0a828eb939abc79c7453007e6ef5b9e8682bf34fb911eb57ae"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-003-M2",
+        "sourceText": "possible contact reaction",
+        "sentence": "A pharmacist suggested a possible contact reaction, but no physician diagnosis or allergy testing was performed.",
+        "start": 254,
+        "end": 279,
+        "normalizedText": "possible contact dermatitis",
+        "entityType": "clinical_condition",
+        "assertion": "suspected",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": true
+        },
+        "acceptedCode": null,
+        "candidates": [
+          {
+            "terminology": "IMDRF AET",
+            "code": "E172003",
+            "preferredTitle": "Contact Dermatitis",
+            "annex": "E",
+            "releaseOrEdition": "2026",
+            "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+            "confidence": 0.7,
+            "confidenceBand": "plausible",
+            "rationale": "The term is clinically plausible but remains suspected without physician diagnosis or testing.",
+            "status": "candidate",
+            "humanVerified": false,
+            "queryUsed": "possible contact dermatitis",
+            "sourceRecordHash": "sha256:19ca9cdc4e5cc8ff83809747a58fc2b02b4f6fc794d9f2e570d09eaa13b4d894"
+          }
+        ],
+        "unresolvedReason": "Human selection required: contact dermatitis is suggested, not diagnosed."
+      },
+      {
+        "id": "CPAP-003-M3",
+        "sourceText": "silicone mask cushion",
+        "sentence": "The user developed an itchy red rash in the exact outline of the silicone mask cushion after approximately one week of use.",
+        "start": 65,
+        "end": 86,
+        "normalizedText": "mask",
+        "entityType": "device_component",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device part is routed to IMDRF Annex G.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "G04086",
+          "preferredTitle": "Mask",
+          "annex": "G",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.92,
+          "confidenceBand": "strong",
+          "rationale": "The mask is the explicitly stated contact component.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "mask",
+          "sourceRecordHash": "sha256:094e449ec7d8a6e35f9d33ea4294978cdc48293061e098d9a62b06ee9400272d"
+        },
+        "candidates": []
+      }
+    ],
+    "provenance": {
+      "generatedAt": "2026-07-27T00:00:00.000Z",
+      "pipelineVersion": "1.1.0",
+      "promptVersion": "deterministic-seed-v1.1",
+      "modelName": "deterministic rules + human-authored demo seed",
+      "terminologyManifestHash": "sha256:dc657c76eac9dd9d8ff3c57a5351f69bb84221b2529acc5402930f17925281f5",
+      "riskRegisterHash": "sha256:91c080f7321d18ef9cc33b2d2e49fee88b433a51b614735f8be020c062e5b808",
+      "reviewer": null,
+      "reviewTimestamp": null
+    }
+  },
+  {
+    "complaintId": "CPAP-004",
+    "evidence": [
+      {
+        "id": "CPAP-004-M1",
+        "sourceText": "severe dry mouth",
+        "sentence": "The patient reported waking with severe dry mouth and a sore throat after starting CPAP.",
+        "start": 33,
+        "end": 49,
+        "normalizedText": "dry mouth",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "WHO ICD-11 MMS",
+          "code": "DA02.1",
+          "preferredTitle": "Xerostomia",
+          "releaseOrEdition": "2026-01",
+          "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/1810717437",
+          "confidence": 0.95,
+          "confidenceBand": "strong",
+          "rationale": "Xerostomia is the direct ICD-11 title for explicitly reported dry mouth.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "dry mouth",
+          "sourceRecordHash": "sha256:d43ce64286ab54063895f5c97f450aa7b2e699e5d9b7e3e13f4e9009be1505a8"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-004-M2",
+        "sourceText": "sore throat",
+        "sentence": "The patient reported waking with severe dry mouth and a sore throat after starting CPAP.",
+        "start": 56,
+        "end": 67,
+        "normalizedText": "pain in throat",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "WHO ICD-11 MMS",
+          "code": "MD36.0",
+          "preferredTitle": "Pain in throat",
+          "releaseOrEdition": "2026-01",
+          "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/633724732",
+          "confidence": 0.93,
+          "confidenceBand": "strong",
+          "rationale": "Pain in throat directly represents the stated symptom without inferring pharyngitis.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "sore throat",
+          "sourceRecordHash": "sha256:0666977cbf6e2df614da9a10f57d6032edd2a74164e3e559edd3bf3fcc378c04"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-004-M3",
+        "sourceText": "humidifier was set to level two",
+        "sentence": "The humidifier was set to level two, and the water chamber still contained water in the morning.",
+        "start": 93,
+        "end": 124,
+        "normalizedText": "humidifier setting",
+        "entityType": "device_setting",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device part is routed to IMDRF Annex G.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "G04071",
+          "preferredTitle": "Humidifier",
+          "annex": "G",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.9,
+          "confidenceBand": "strong",
+          "rationale": "The humidifier is explicitly identified; no device malfunction is asserted.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "humidifier setting",
+          "sourceRecordHash": "sha256:58aa64b15e459e7117974ceef6a1c3a38f38f9fcaab8dc8a572c4b9856548b3a"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-004-M4",
+        "sourceText": "no fever, cough, or difficulty swallowing",
+        "sentence": "There was no fever, cough, or difficulty swallowing.",
+        "start": 273,
+        "end": 314,
+        "normalizedText": "fever cough dysphagia",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "negated",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": null,
+        "candidates": [],
+        "unresolvedReason": "The listed symptoms are negated and cannot generate accepted codes or medical tags."
+      }
+    ],
+    "provenance": {
+      "generatedAt": "2026-07-27T00:00:00.000Z",
+      "pipelineVersion": "1.1.0",
+      "promptVersion": "deterministic-seed-v1.1",
+      "modelName": "deterministic rules + human-authored demo seed",
+      "terminologyManifestHash": "sha256:dc657c76eac9dd9d8ff3c57a5351f69bb84221b2529acc5402930f17925281f5",
+      "riskRegisterHash": "sha256:91c080f7321d18ef9cc33b2d2e49fee88b433a51b614735f8be020c062e5b808",
+      "reviewer": null,
+      "reviewTimestamp": null
+    }
+  },
+  {
+    "complaintId": "CPAP-005",
+    "evidence": [
+      {
+        "id": "CPAP-005-M1",
+        "sourceText": "marked nasal dryness",
+        "sentence": "The user reported marked nasal dryness after several nights of CPAP and noticed a small amount of blood when blowing the nose in the morning.",
+        "start": 18,
+        "end": 38,
+        "normalizedText": "nasal dryness",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "E0761",
+          "preferredTitle": "Nasal Dryness",
+          "annex": "E",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.92,
+          "confidenceBand": "strong",
+          "rationale": "IMDRF provides an exact nasal-dryness term; ICD search did not return a defensible result.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "nasal dryness",
+          "sourceRecordHash": "sha256:6ff4e2f3cd21f136a8d6da7a45721a5f11da8be709c033e2c74385f757ce988c"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-005-M2",
+        "sourceText": "small amount of blood when blowing the nose",
+        "sentence": "The user reported marked nasal dryness after several nights of CPAP and noticed a small amount of blood when blowing the nose in the morning.",
+        "start": 82,
+        "end": 125,
+        "normalizedText": "epistaxis",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "WHO ICD-11 MMS",
+          "code": "MD20",
+          "preferredTitle": "Epistaxis",
+          "releaseOrEdition": "2026-01",
+          "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/608337668",
+          "confidence": 0.95,
+          "confidenceBand": "strong",
+          "rationale": "Epistaxis directly represents the stated minor nosebleed.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "epistaxis",
+          "sourceRecordHash": "sha256:fa609c065a40f5338cb443eb4da94a0a3c9933277626472bd3a9119b7e167389"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-005-M3",
+        "sourceText": "humidifier chamber was empty by morning",
+        "sentence": "The humidifier chamber was empty by morning even though it had been filled to the indicated line.",
+        "start": 221,
+        "end": 260,
+        "normalizedText": "unexpected humidifier water depletion",
+        "entityType": "device_problem",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device behavior is routed to IMDRF Annex A.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": null,
+        "candidates": [
+          {
+            "terminology": "IMDRF AET",
+            "code": "A050401",
+            "preferredTitle": "Fluid/Blood Leak",
+            "annex": "A",
+            "releaseOrEdition": "2026",
+            "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+            "confidence": 0.68,
+            "confidenceBand": "plausible",
+            "rationale": "A fluid leak is possible, but the complaint does not establish where the water went.",
+            "status": "candidate",
+            "humanVerified": false,
+            "queryUsed": "unexpected humidifier water depletion",
+            "sourceRecordHash": "sha256:da78b86d02ef993bc4f2d9bd87b6a8ceacb9a7f259291fe7c9ec2cda9308cd30"
+          }
+        ],
+        "unresolvedReason": "No defensible device-problem code selected because evaporation and leakage remain unresolved."
+      },
+      {
+        "id": "CPAP-005-M4",
+        "sourceText": "No dizziness, fainting, or heavy bleeding",
+        "sentence": "No dizziness, fainting, or heavy bleeding was reported.",
+        "start": 315,
+        "end": 356,
+        "normalizedText": "dizziness syncope heavy bleeding",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "negated",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": null,
+        "candidates": [],
+        "unresolvedReason": "The listed effects are explicitly negated."
+      }
+    ],
+    "provenance": {
+      "generatedAt": "2026-07-27T00:00:00.000Z",
+      "pipelineVersion": "1.1.0",
+      "promptVersion": "deterministic-seed-v1.1",
+      "modelName": "deterministic rules + human-authored demo seed",
+      "terminologyManifestHash": "sha256:dc657c76eac9dd9d8ff3c57a5351f69bb84221b2529acc5402930f17925281f5",
+      "riskRegisterHash": "sha256:91c080f7321d18ef9cc33b2d2e49fee88b433a51b614735f8be020c062e5b808",
+      "reviewer": null,
+      "reviewTimestamp": null
+    }
+  },
+  {
+    "complaintId": "CPAP-006",
+    "evidence": [
+      {
+        "id": "CPAP-006-M1",
+        "sourceText": "abdominal bloating",
+        "sentence": "The patient reported swallowing air during CPAP use and waking with abdominal bloating and frequent belching.",
+        "start": 68,
+        "end": 86,
+        "normalizedText": "abdominal distension",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "WHO ICD-11 MMS",
+          "code": "ME01",
+          "preferredTitle": "Abdominal distension",
+          "releaseOrEdition": "2026-01",
+          "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/898362405",
+          "confidence": 0.94,
+          "confidenceBand": "strong",
+          "rationale": "Abdominal distension directly represents bloating without asserting a disorder.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "abdominal bloating",
+          "sourceRecordHash": "sha256:0f2e3537e537070e4f8ff9038c74cde6dde4f408bcad39025e6138a1adf69a84"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-006-M2",
+        "sourceText": "frequent belching",
+        "sentence": "The patient reported swallowing air during CPAP use and waking with abdominal bloating and frequent belching.",
+        "start": 91,
+        "end": 108,
+        "normalizedText": "belching",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": true
+        },
+        "acceptedCode": {
+          "terminology": "WHO ICD-11 MMS",
+          "code": "MD91",
+          "preferredTitle": "Belching",
+          "releaseOrEdition": "2026-01",
+          "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/1093292760",
+          "confidence": 0.93,
+          "confidenceBand": "strong",
+          "rationale": "The ICD-11 symptom code directly matches the stated belching.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "belching",
+          "sourceRecordHash": "sha256:6f346ca7d3fddd593da4e8fde40e9e3af9cafa94c74bb30ac581e53bfa00b9a5"
+        },
+        "candidates": [
+          {
+            "terminology": "WHO ICD-11 MMS",
+            "code": "DD90.5",
+            "preferredTitle": "Functional belching disorders",
+            "releaseOrEdition": "2026-01",
+            "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/1031437858",
+            "confidence": 0.68,
+            "confidenceBand": "plausible",
+            "rationale": "A functional belching disorder would introduce a diagnosis not established by the complaint.",
+            "status": "candidate",
+            "humanVerified": false,
+            "queryUsed": "aerophagia",
+            "sourceRecordHash": "sha256:f9aaafebb2818392d513bd15ff1f4963ce371188f93252e7e55c6bf93b10d4eb"
+          }
+        ]
+      },
+      {
+        "id": "CPAP-006-M3",
+        "sourceText": "prescribed pressure was increased",
+        "sentence": "The symptoms began after the prescribed pressure was increased at the clinic.",
+        "start": 139,
+        "end": 172,
+        "normalizedText": "increased pressure setting",
+        "entityType": "device_setting",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device behavior is routed to IMDRF Annex A.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "A141102",
+          "preferredTitle": "Increase in Pressure",
+          "annex": "A",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.87,
+          "confidenceBand": "good",
+          "rationale": "An increase in pressure is explicit, although the complaint does not establish an incorrect setting.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "increased pressure setting",
+          "sourceRecordHash": "sha256:0099a786d0b0a9a6d375a38152ee1f54ab7e3191fdb03c5bc9fee0a0789ea109"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-006-M4",
+        "sourceText": "no vomiting, severe abdominal pain, or emergency treatment",
+        "sentence": "There was no vomiting, severe abdominal pain, or emergency treatment.",
+        "start": 198,
+        "end": 256,
+        "normalizedText": "vomiting severe abdominal pain emergency treatment",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "negated",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": null,
+        "candidates": [],
+        "unresolvedReason": "The listed severe effects and treatment are negated."
+      }
+    ],
+    "provenance": {
+      "generatedAt": "2026-07-27T00:00:00.000Z",
+      "pipelineVersion": "1.1.0",
+      "promptVersion": "deterministic-seed-v1.1",
+      "modelName": "deterministic rules + human-authored demo seed",
+      "terminologyManifestHash": "sha256:dc657c76eac9dd9d8ff3c57a5351f69bb84221b2529acc5402930f17925281f5",
+      "riskRegisterHash": "sha256:91c080f7321d18ef9cc33b2d2e49fee88b433a51b614735f8be020c062e5b808",
+      "reviewer": null,
+      "reviewTimestamp": null
+    }
+  },
+  {
+    "complaintId": "CPAP-007",
+    "evidence": [
+      {
+        "id": "CPAP-007-M1",
+        "sourceText": "display showed lower pressure than usual",
+        "sentence": "The user stated that the CPAP display showed lower pressure than usual for two nights.",
+        "start": 30,
+        "end": 70,
+        "normalizedText": "decrease in pressure",
+        "entityType": "device_setting",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device behavior is routed to IMDRF Annex A.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "A141101",
+          "preferredTitle": "Decrease in Pressure",
+          "annex": "A",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.88,
+          "confidenceBand": "good",
+          "rationale": "The display explicitly showed lower pressure; the cause remains uninvestigated.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "decrease in pressure",
+          "sourceRecordHash": "sha256:ac5412227b0e4d55095d03664cc019b48e6e6f30bce2b6fd227f0f9e39bc51ea"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-007-M2",
+        "sourceText": "morning headache",
+        "sentence": "During those nights the partner observed loud snoring, and the user woke with a morning headache and pronounced daytime sleepiness.",
+        "start": 167,
+        "end": 183,
+        "normalizedText": "headache",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "WHO ICD-11 MMS",
+          "code": "MB4D",
+          "preferredTitle": "Headache, not elsewhere classified",
+          "releaseOrEdition": "2026-01",
+          "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/1405405864",
+          "confidence": 0.94,
+          "confidenceBand": "strong",
+          "rationale": "The symptom code preserves the stated headache without diagnosing recurrent sleep apnoea.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "headache",
+          "sourceRecordHash": "sha256:770a18c4565d7d68914f153ab28c51ce2848612a6f6303830e173d2ed131c3b8"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-007-M3",
+        "sourceText": "pronounced daytime sleepiness",
+        "sentence": "During those nights the partner observed loud snoring, and the user woke with a morning headache and pronounced daytime sleepiness.",
+        "start": 188,
+        "end": 217,
+        "normalizedText": "daytime somnolence",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "E0209",
+          "preferredTitle": "Sleepiness/Drowsiness/Somnolence",
+          "annex": "E",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.93,
+          "confidenceBand": "strong",
+          "rationale": "IMDRF provides an exact somnolence term; the ICD search result was not defensible.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "daytime somnolence",
+          "sourceRecordHash": "sha256:38c824236c1edbf8c71aa5a12da19633c328b84b5819def3f915ce2be724932f"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-007-M4",
+        "sourceText": "device had not yet been inspected",
+        "sentence": "The device had not yet been inspected.",
+        "start": 357,
+        "end": 390,
+        "normalizedText": "no device inspection",
+        "entityType": "investigation_statement",
+        "assertion": "negated",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "Investigation Annexes B–D are prohibited because no inspection findings exist.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": null,
+        "candidates": [],
+        "unresolvedReason": "No investigation code or conclusion may be generated."
+      }
+    ],
+    "provenance": {
+      "generatedAt": "2026-07-27T00:00:00.000Z",
+      "pipelineVersion": "1.1.0",
+      "promptVersion": "deterministic-seed-v1.1",
+      "modelName": "deterministic rules + human-authored demo seed",
+      "terminologyManifestHash": "sha256:dc657c76eac9dd9d8ff3c57a5351f69bb84221b2529acc5402930f17925281f5",
+      "riskRegisterHash": "sha256:91c080f7321d18ef9cc33b2d2e49fee88b433a51b614735f8be020c062e5b808",
+      "reviewer": null,
+      "reviewTimestamp": null
+    }
+  },
+  {
+    "complaintId": "CPAP-008",
+    "evidence": [
+      {
+        "id": "CPAP-008-M1",
+        "sourceText": "airflow felt excessively forceful",
+        "sentence": "After a settings change, the patient reported that the airflow felt excessively forceful and caused pressure-like discomfort in the chest while awake.",
+        "start": 55,
+        "end": 88,
+        "normalizedText": "increase in pressure",
+        "entityType": "device_setting",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device behavior is routed to IMDRF Annex A.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "A141102",
+          "preferredTitle": "Increase in Pressure",
+          "annex": "A",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.91,
+          "confidenceBand": "strong",
+          "rationale": "Excessively forceful airflow and a higher display support increased pressure, not yet an incorrect-setting conclusion.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "increase in pressure",
+          "sourceRecordHash": "sha256:0099a786d0b0a9a6d375a38152ee1f54ab7e3191fdb03c5bc9fee0a0789ea109"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-008-M2",
+        "sourceText": "pressure-like discomfort in the chest",
+        "sentence": "After a settings change, the patient reported that the airflow felt excessively forceful and caused pressure-like discomfort in the chest while awake.",
+        "start": 100,
+        "end": 137,
+        "normalizedText": "chest discomfort",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "WHO ICD-11 MMS",
+          "code": "ME86.3",
+          "preferredTitle": "Symptom or complaint of the chest",
+          "releaseOrEdition": "2026-01",
+          "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/756584914",
+          "confidence": 0.9,
+          "confidenceBand": "strong",
+          "rationale": "A symptom or complaint of the chest avoids overinterpreting the symptom as cardiac pain.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "chest discomfort",
+          "sourceRecordHash": "sha256:a97785030581f244e551055fe298d3c0b6aff58c71a4c7b20504251015343c0f"
+        },
+        "candidates": [
+          {
+            "terminology": "WHO ICD-11 MMS",
+            "code": "MD30.Z",
+            "preferredTitle": "Chest pain, unspecified",
+            "releaseOrEdition": "2026-01",
+            "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/1765737830/unspecified",
+            "confidence": 0.66,
+            "confidenceBand": "plausible",
+            "rationale": "Chest pain is less faithful because the narrative says discomfort and explicitly denies crushing pain.",
+            "status": "candidate",
+            "humanVerified": false,
+            "queryUsed": "chest discomfort",
+            "sourceRecordHash": "sha256:a97785030581f244e551055fe298d3c0b6aff58c71a4c7b20504251015343c0f"
+          }
+        ]
+      },
+      {
+        "id": "CPAP-008-M3",
+        "sourceText": "denied crushing chest pain, fainting, or persistent shortness of breath",
+        "sentence": "The patient denied crushing chest pain, fainting, or persistent shortness of breath and did not seek emergency care.",
+        "start": 211,
+        "end": 282,
+        "normalizedText": "crushing chest pain syncope persistent dyspnoea",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "negated",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": null,
+        "candidates": [],
+        "unresolvedReason": "The potentially serious symptoms are explicitly negated."
+      },
+      {
+        "id": "CPAP-008-M4",
+        "sourceText": "prescription record had not yet been checked",
+        "sentence": "The displayed pressure was higher than the previous prescription, but the prescription record had not yet been checked.",
+        "start": 390,
+        "end": 434,
+        "normalizedText": "prescription comparison unavailable",
+        "entityType": "investigation_statement",
+        "assertion": "negated",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "No investigation code is allowed without a comparison result.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": null,
+        "candidates": [],
+        "unresolvedReason": "The record cannot establish an incorrect setting."
+      }
+    ],
+    "provenance": {
+      "generatedAt": "2026-07-27T00:00:00.000Z",
+      "pipelineVersion": "1.1.0",
+      "promptVersion": "deterministic-seed-v1.1",
+      "modelName": "deterministic rules + human-authored demo seed",
+      "terminologyManifestHash": "sha256:dc657c76eac9dd9d8ff3c57a5351f69bb84221b2529acc5402930f17925281f5",
+      "riskRegisterHash": "sha256:91c080f7321d18ef9cc33b2d2e49fee88b433a51b614735f8be020c062e5b808",
+      "reviewer": null,
+      "reviewTimestamp": null
+    }
+  },
+  {
+    "complaintId": "CPAP-009",
+    "evidence": [
+      {
+        "id": "CPAP-009-M1",
+        "sourceText": "felt trapped, became very anxious",
+        "sentence": "The first time the patient used the full-face mask at home, the patient felt trapped, became very anxious, and removed the mask within several minutes.",
+        "start": 72,
+        "end": 105,
+        "normalizedText": "anxiety during mask use",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "WHO ICD-11 MMS",
+          "code": "MB24.3",
+          "preferredTitle": "Anxiety",
+          "releaseOrEdition": "2026-01",
+          "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/2027043655",
+          "confidence": 0.92,
+          "confidenceBand": "strong",
+          "rationale": "Anxiety is explicit and does not imply an anxiety disorder.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "anxiety",
+          "sourceRecordHash": "sha256:02cd23360da9a590296616bbe0b9fdf7282b27ef9b1371f75e72bb7cfde84df4"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-009-M2",
+        "sourceText": "sensation of panic",
+        "sentence": "The patient described rapid breathing and a sensation of panic but did not lose consciousness or require medical care.",
+        "start": 196,
+        "end": 214,
+        "normalizedText": "panic symptoms",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": null,
+        "candidates": [
+          {
+            "terminology": "WHO ICD-11 MMS",
+            "code": "MB23.H",
+            "preferredTitle": "Panic attack",
+            "releaseOrEdition": "2026-01",
+            "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/1707067746",
+            "confidence": 0.72,
+            "confidenceBand": "plausible",
+            "rationale": "Panic attack is plausible but the narrative reports a sensation rather than a diagnosed attack.",
+            "status": "candidate",
+            "humanVerified": false,
+            "queryUsed": "panic symptoms",
+            "sourceRecordHash": "sha256:7fa8be73ea7bf55d774f77f5e83364f56d0cac09c9e756279813d38abe3c0747"
+          }
+        ],
+        "unresolvedReason": "No panic-disorder or panic-attack diagnosis is selected."
+      },
+      {
+        "id": "CPAP-009-M3",
+        "sourceText": "removed the mask within several minutes",
+        "sentence": "The first time the patient used the full-face mask at home, the patient felt trapped, became very anxious, and removed the mask within several minutes.",
+        "start": 111,
+        "end": 150,
+        "normalizedText": "therapy discontinued",
+        "entityType": "health_impact",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated therapy or health impact is routed to IMDRF Annex F.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "F31",
+          "preferredTitle": "Canceled/Aborted Treatment/Therapy",
+          "annex": "F",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.88,
+          "confidenceBand": "good",
+          "rationale": "The patient aborted the treatment session.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "therapy discontinued",
+          "sourceRecordHash": "sha256:fe65a8b9e21fefeaed65ed4ecc27fa6460fb4684515d5e53a738aacc1ac80e9c"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-009-M4",
+        "sourceText": "machine and mask were reported to function normally",
+        "sentence": "The CPAP machine and mask were reported to function normally.",
+        "start": 280,
+        "end": 331,
+        "normalizedText": "no device malfunction reported",
+        "entityType": "investigation_statement",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "Normal reported operation does not justify an Annex A problem code.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": null,
+        "candidates": [],
+        "unresolvedReason": "No medical device problem is coded."
+      }
+    ],
+    "provenance": {
+      "generatedAt": "2026-07-27T00:00:00.000Z",
+      "pipelineVersion": "1.1.0",
+      "promptVersion": "deterministic-seed-v1.1",
+      "modelName": "deterministic rules + human-authored demo seed",
+      "terminologyManifestHash": "sha256:dc657c76eac9dd9d8ff3c57a5351f69bb84221b2529acc5402930f17925281f5",
+      "riskRegisterHash": "sha256:91c080f7321d18ef9cc33b2d2e49fee88b433a51b614735f8be020c062e5b808",
+      "reviewer": null,
+      "reviewTimestamp": null
+    }
+  },
+  {
+    "complaintId": "CPAP-010",
+    "evidence": [
+      {
+        "id": "CPAP-010-M1",
+        "sourceText": "condensed water collected in the CPAP tubing and reached the mask",
+        "sentence": "During the night, condensed water collected in the CPAP tubing and reached the mask.",
+        "start": 18,
+        "end": 83,
+        "normalizedText": "moisture or humidity problem in breathing circuit",
+        "entityType": "device_problem",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device behavior is routed to IMDRF Annex A.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "A1905",
+          "preferredTitle": "Moisture or Humidity Problem",
+          "annex": "A",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.94,
+          "confidenceBand": "strong",
+          "rationale": "The complaint explicitly describes condensed moisture in the air path.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "moisture or humidity problem in breathing circuit",
+          "sourceRecordHash": "sha256:8e48b2bc7ad964dc07d4a3e59017eccffb743be520cdc0db0a2ac743c6c064ba"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-010-M2",
+        "sourceText": "awoke coughing",
+        "sentence": "The patient awoke coughing and briefly felt as if water had entered the mouth.",
+        "start": 97,
+        "end": 111,
+        "normalizedText": "cough",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "WHO ICD-11 MMS",
+          "code": "MD12",
+          "preferredTitle": "Cough",
+          "releaseOrEdition": "2026-01",
+          "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/2027526159",
+          "confidence": 0.96,
+          "confidenceBand": "strong",
+          "rationale": "The ICD-11 symptom code directly matches the stated cough.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "cough",
+          "sourceRecordHash": "sha256:38078c86795754dcb271c04ac50e17f2d6178bbec195023e04c75b6749f85830"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-010-M3",
+        "sourceText": "felt as if water had entered the mouth",
+        "sentence": "The patient awoke coughing and briefly felt as if water had entered the mouth.",
+        "start": 124,
+        "end": 162,
+        "normalizedText": "brief choking sensation",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "suspected",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": null,
+        "candidates": [
+          {
+            "terminology": "IMDRF AET",
+            "code": "E0710",
+            "preferredTitle": "Choking",
+            "annex": "E",
+            "releaseOrEdition": "2026",
+            "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+            "confidence": 0.69,
+            "confidenceBand": "plausible",
+            "rationale": "Choking is plausible, but the wording is subjective and brief; aspiration is not stated.",
+            "status": "candidate",
+            "humanVerified": false,
+            "queryUsed": "brief choking sensation",
+            "sourceRecordHash": "sha256:419754f05542221cac5a3540ac697ec96fa3dcb04771af567a96ddf2102f4ec9"
+          }
+        ],
+        "unresolvedReason": "No aspiration or inhalation injury is selected."
+      },
+      {
+        "id": "CPAP-010-M4",
+        "sourceText": "heated tube function had been turned off",
+        "sentence": "The bedroom was cool, and the heated tube function had been turned off.",
+        "start": 336,
+        "end": 376,
+        "normalizedText": "heated tubing disabled",
+        "entityType": "use_error_or_use_context",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device part is routed to IMDRF Annex G.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "G04069",
+          "preferredTitle": "Hose",
+          "annex": "G",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.82,
+          "confidenceBand": "good",
+          "rationale": "Hose is the closest official component term for the CPAP tubing.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "heated tubing disabled",
+          "sourceRecordHash": "sha256:e7ee913666b4b2ff27341712c2dbe3596ea17d26789e0412b14f243e5017ba09"
+        },
+        "candidates": []
+      }
+    ],
+    "provenance": {
+      "generatedAt": "2026-07-27T00:00:00.000Z",
+      "pipelineVersion": "1.1.0",
+      "promptVersion": "deterministic-seed-v1.1",
+      "modelName": "deterministic rules + human-authored demo seed",
+      "terminologyManifestHash": "sha256:dc657c76eac9dd9d8ff3c57a5351f69bb84221b2529acc5402930f17925281f5",
+      "riskRegisterHash": "sha256:91c080f7321d18ef9cc33b2d2e49fee88b433a51b614735f8be020c062e5b808",
+      "reviewer": null,
+      "reviewTimestamp": null
+    }
+  },
+  {
+    "complaintId": "CPAP-011",
+    "evidence": [
+      {
+        "id": "CPAP-011-M1",
+        "sourceText": "hot water leaked from the chamber and spilled onto the hand",
+        "sentence": "When the patient removed the humidifier chamber shortly after use, hot water leaked from the chamber and spilled onto the hand.",
+        "start": 67,
+        "end": 126,
+        "normalizedText": "hot water leak from humidifier",
+        "entityType": "device_problem",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device behavior is routed to IMDRF Annex A.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "A050401",
+          "preferredTitle": "Fluid/Blood Leak",
+          "annex": "A",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.92,
+          "confidenceBand": "strong",
+          "rationale": "A fluid leak is explicit; the initiating mechanism remains unconfirmed.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "hot water leak from humidifier",
+          "sourceRecordHash": "sha256:da78b86d02ef993bc4f2d9bd87b6a8ceacb9a7f259291fe7c9ec2cda9308cd30"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-011-M2",
+        "sourceText": "redness and burning pain lasting about one hour",
+        "sentence": "The patient reported redness and burning pain lasting about one hour.",
+        "start": 149,
+        "end": 196,
+        "normalizedText": "minor burn of hand",
+        "entityType": "injury",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "WHO ICD-11 MMS",
+          "code": "ND95.Z",
+          "preferredTitle": "Burn of wrist or hand, depth of burn unspecified",
+          "releaseOrEdition": "2026-01",
+          "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/428347394/unspecified",
+          "confidence": 0.91,
+          "confidenceBand": "strong",
+          "rationale": "The site and thermal injury are explicit while depth remains unspecified.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "burn of hand",
+          "sourceRecordHash": "sha256:d4968f0cc7967d376ff0c6a0ad0014646886e75cef063483fe40f6493aab1088"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-011-M3",
+        "sourceText": "humidifier chamber",
+        "sentence": "When the patient removed the humidifier chamber shortly after use, hot water leaked from the chamber and spilled onto the hand.",
+        "start": 29,
+        "end": 47,
+        "normalizedText": "humidifier",
+        "entityType": "device_component",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device part is routed to IMDRF Annex G.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "G04071",
+          "preferredTitle": "Humidifier",
+          "annex": "G",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.94,
+          "confidenceBand": "strong",
+          "rationale": "The humidifier chamber is the stated component.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "humidifier",
+          "sourceRecordHash": "sha256:58aa64b15e459e7117974ceef6a1c3a38f38f9fcaab8dc8a572c4b9856548b3a"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-011-M4",
+        "sourceText": "cause of the leak was not confirmed",
+        "sentence": "Inspection by the user showed that the chamber lid did not appear fully closed, but the cause of the leak was not confirmed.",
+        "start": 351,
+        "end": 386,
+        "normalizedText": "leak cause unconfirmed",
+        "entityType": "investigation_statement",
+        "assertion": "negated",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "Complaint-only inspection text cannot support Annex B–D conclusions.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": null,
+        "candidates": [],
+        "unresolvedReason": "No investigation conclusion is generated."
+      }
+    ],
+    "provenance": {
+      "generatedAt": "2026-07-27T00:00:00.000Z",
+      "pipelineVersion": "1.1.0",
+      "promptVersion": "deterministic-seed-v1.1",
+      "modelName": "deterministic rules + human-authored demo seed",
+      "terminologyManifestHash": "sha256:dc657c76eac9dd9d8ff3c57a5351f69bb84221b2529acc5402930f17925281f5",
+      "riskRegisterHash": "sha256:91c080f7321d18ef9cc33b2d2e49fee88b433a51b614735f8be020c062e5b808",
+      "reviewer": null,
+      "reviewTimestamp": null
+    }
+  },
+  {
+    "complaintId": "CPAP-012",
+    "evidence": [
+      {
+        "id": "CPAP-012-M1",
+        "sourceText": "air tubing had disconnected from the device outlet",
+        "sentence": "The patient woke during the night and found that the air tubing had disconnected from the device outlet.",
+        "start": 53,
+        "end": 103,
+        "normalizedText": "tubing disconnection",
+        "entityType": "device_problem",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device behavior is routed to IMDRF Annex A.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "A1203",
+          "preferredTitle": "Disconnection",
+          "annex": "A",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.97,
+          "confidenceBand": "strong",
+          "rationale": "The tubing connection separated during use.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "tubing disconnection",
+          "sourceRecordHash": "sha256:4e1a14398fa2a2fd264d904752580357d6aa95846d946a08c2ea6e93a6501599"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-012-M2",
+        "sourceText": "no airflow was reaching the mask",
+        "sentence": "The machine continued running, but no airflow was reaching the mask.",
+        "start": 140,
+        "end": 172,
+        "normalizedText": "complete therapy interruption",
+        "entityType": "health_impact",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated therapy or health impact is routed to IMDRF Annex F.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "F31",
+          "preferredTitle": "Canceled/Aborted Treatment/Therapy",
+          "annex": "F",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.9,
+          "confidenceBand": "strong",
+          "rationale": "Treatment was effectively aborted while the tubing was disconnected.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "complete therapy interruption",
+          "sourceRecordHash": "sha256:fe65a8b9e21fefeaed65ed4ecc27fa6460fb4684515d5e53a738aacc1ac80e9c"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-012-M3",
+        "sourceText": "poor sleep",
+        "sentence": "The patient reported poor sleep and increased daytime tiredness the next day.",
+        "start": 195,
+        "end": 205,
+        "normalizedText": "sleep disturbance",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "WHO ICD-11 MMS",
+          "code": "MG41",
+          "preferredTitle": "Sleep disturbance, not elsewhere classified",
+          "releaseOrEdition": "2026-01",
+          "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/1207299072",
+          "confidence": 0.88,
+          "confidenceBand": "good",
+          "rationale": "The symptom is explicit without asserting a sleep disorder.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "sleep disturbance",
+          "sourceRecordHash": "sha256:0c40bb74d43fcdb96b838fe27a3ee9852cc011deda19586abcfdd7e0dc45203e"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-012-M4",
+        "sourceText": "increased daytime tiredness",
+        "sentence": "The patient reported poor sleep and increased daytime tiredness the next day.",
+        "start": 210,
+        "end": 237,
+        "normalizedText": "fatigue",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "WHO ICD-11 MMS",
+          "code": "MG22",
+          "preferredTitle": "Fatigue",
+          "releaseOrEdition": "2026-01",
+          "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/1109546957",
+          "confidence": 0.85,
+          "confidenceBand": "good",
+          "rationale": "Fatigue is a conservative representation of next-day tiredness.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "fatigue",
+          "sourceRecordHash": "sha256:5abf7e73d929b92515bc505bece7099b021bcce4817396cf414c80d375539163"
+        },
+        "candidates": []
+      }
+    ],
+    "provenance": {
+      "generatedAt": "2026-07-27T00:00:00.000Z",
+      "pipelineVersion": "1.1.0",
+      "promptVersion": "deterministic-seed-v1.1",
+      "modelName": "deterministic rules + human-authored demo seed",
+      "terminologyManifestHash": "sha256:dc657c76eac9dd9d8ff3c57a5351f69bb84221b2529acc5402930f17925281f5",
+      "riskRegisterHash": "sha256:91c080f7321d18ef9cc33b2d2e49fee88b433a51b614735f8be020c062e5b808",
+      "reviewer": null,
+      "reviewTimestamp": null
+    }
+  },
+  {
+    "complaintId": "CPAP-013",
+    "evidence": [
+      {
+        "id": "CPAP-013-M1",
+        "sourceText": "household power interruption stopped the CPAP machine",
+        "sentence": "A brief household power interruption stopped the CPAP machine during sleep.",
+        "start": 8,
+        "end": 61,
+        "normalizedText": "external complete loss of power",
+        "entityType": "environmental_factor",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "The external power event is represented as context; it is not treated as an internal malfunction.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "A070801",
+          "preferredTitle": "Complete Loss of Power",
+          "annex": "A",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.86,
+          "confidenceBand": "good",
+          "rationale": "Complete loss of device power occurred, with external household origin preserved in context.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "external complete loss of power",
+          "sourceRecordHash": "sha256:84eab0a898a1681d294fe8de69de54b890c4c75fba30bc91c162624068bde109"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-013-M2",
+        "sourceText": "feeling short of breath",
+        "sentence": "The patient awoke feeling short of breath and removed the mask.",
+        "start": 94,
+        "end": 117,
+        "normalizedText": "dyspnoea",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "WHO ICD-11 MMS",
+          "code": "MD11.5",
+          "preferredTitle": "Dyspnoea",
+          "releaseOrEdition": "2026-01",
+          "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/960305085",
+          "confidence": 0.95,
+          "confidenceBand": "strong",
+          "rationale": "Dyspnoea directly represents the explicit symptom.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "shortness of breath",
+          "sourceRecordHash": "sha256:5667d6d75c41aa32353e4554956363305587af474ac85033ad384cd53c430f17"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-013-M3",
+        "sourceText": "device restarted normally when power returned",
+        "sentence": "The device restarted normally when power returned.",
+        "start": 240,
+        "end": 285,
+        "normalizedText": "normal restart after power restoration",
+        "entityType": "investigation_statement",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "Normal restart is retained as context and does not receive a problem code.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": null,
+        "candidates": [],
+        "unresolvedReason": "No restart malfunction is coded."
+      },
+      {
+        "id": "CPAP-013-M4",
+        "sourceText": "did not indicate an internal device fault",
+        "sentence": "The complaint did not indicate an internal device fault or a backup battery.",
+        "start": 301,
+        "end": 342,
+        "normalizedText": "internal device fault",
+        "entityType": "device_problem",
+        "assertion": "negated",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device behavior is routed to IMDRF Annex A.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": null,
+        "candidates": [],
+        "unresolvedReason": "An internal fault is explicitly not indicated."
+      }
+    ],
+    "provenance": {
+      "generatedAt": "2026-07-27T00:00:00.000Z",
+      "pipelineVersion": "1.1.0",
+      "promptVersion": "deterministic-seed-v1.1",
+      "modelName": "deterministic rules + human-authored demo seed",
+      "terminologyManifestHash": "sha256:dc657c76eac9dd9d8ff3c57a5351f69bb84221b2529acc5402930f17925281f5",
+      "riskRegisterHash": "sha256:91c080f7321d18ef9cc33b2d2e49fee88b433a51b614735f8be020c062e5b808",
+      "reviewer": null,
+      "reviewTimestamp": null
+    }
+  },
+  {
+    "complaintId": "CPAP-014",
+    "evidence": [
+      {
+        "id": "CPAP-014-M1",
+        "sourceText": "CPAP machine restarted twice",
+        "sentence": "The user reported that the CPAP machine restarted twice during one night without a household power outage.",
+        "start": 27,
+        "end": 55,
+        "normalizedText": "unexpected shutdown and restart",
+        "entityType": "device_problem",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device behavior is routed to IMDRF Annex A.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "A0719",
+          "preferredTitle": "Unexpected Shutdown",
+          "annex": "A",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.92,
+          "confidenceBand": "strong",
+          "rationale": "The device unexpectedly stopped and restarted during therapy.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "unexpected shutdown and restart",
+          "sourceRecordHash": "sha256:2330ab7577f2ca496b11789dc84f72fef919e8a9bf1843a4ea8700ff1ba3def2"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-014-M2",
+        "sourceText": "stopped airflow for less than one minute",
+        "sentence": "Each restart stopped airflow for less than one minute.",
+        "start": 120,
+        "end": 160,
+        "normalizedText": "brief therapy interruption",
+        "entityType": "health_impact",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated therapy or health impact is routed to IMDRF Annex F.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "F31",
+          "preferredTitle": "Canceled/Aborted Treatment/Therapy",
+          "annex": "F",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.86,
+          "confidenceBand": "good",
+          "rationale": "Treatment was briefly interrupted by each restart.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "brief therapy interruption",
+          "sourceRecordHash": "sha256:fe65a8b9e21fefeaed65ed4ecc27fa6460fb4684515d5e53a738aacc1ac80e9c"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-014-M3",
+        "sourceText": "no shortness of breath, injury, or need for medical care",
+        "sentence": "The user woke once but reported no shortness of breath, injury, or need for medical care.",
+        "start": 194,
+        "end": 250,
+        "normalizedText": "no health consequences",
+        "entityType": "no_harm_statement",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated therapy or health impact is routed to IMDRF Annex F.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "F26",
+          "preferredTitle": "No Health Consequences or Impact",
+          "annex": "F",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.96,
+          "confidenceBand": "strong",
+          "rationale": "The complaint explicitly reports no symptom, injury, or medical intervention.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "no health consequences",
+          "sourceRecordHash": "sha256:45e9e08f449342b7e78fa94585ac9046332e1cc71ff6a9e2a477595da0719b05"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-014-M4",
+        "sourceText": "software version was not recorded",
+        "sentence": "The device software version was not recorded in the complaint.",
+        "start": 340,
+        "end": 373,
+        "normalizedText": "software version missing",
+        "entityType": "investigation_statement",
+        "assertion": "negated",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "The missing software version prevents a more specific investigation or software conclusion.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": null,
+        "candidates": [],
+        "unresolvedReason": "Software involvement remains unresolved."
+      }
+    ],
+    "provenance": {
+      "generatedAt": "2026-07-27T00:00:00.000Z",
+      "pipelineVersion": "1.1.0",
+      "promptVersion": "deterministic-seed-v1.1",
+      "modelName": "deterministic rules + human-authored demo seed",
+      "terminologyManifestHash": "sha256:dc657c76eac9dd9d8ff3c57a5351f69bb84221b2529acc5402930f17925281f5",
+      "riskRegisterHash": "sha256:91c080f7321d18ef9cc33b2d2e49fee88b433a51b614735f8be020c062e5b808",
+      "reviewer": null,
+      "reviewTimestamp": null
+    }
+  },
+  {
+    "complaintId": "CPAP-015",
+    "evidence": [
+      {
+        "id": "CPAP-015-M1",
+        "sourceText": "mask became disconnected from the tubing",
+        "sentence": "The caregiver stated that the mask became disconnected from the tubing, but the expected disconnect alarm was not heard from the next room.",
+        "start": 30,
+        "end": 70,
+        "normalizedText": "tubing disconnection",
+        "entityType": "device_problem",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device behavior is routed to IMDRF Annex A.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "A1203",
+          "preferredTitle": "Disconnection",
+          "annex": "A",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.96,
+          "confidenceBand": "strong",
+          "rationale": "The mask and tubing connection separated.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "tubing disconnection",
+          "sourceRecordHash": "sha256:4e1a14398fa2a2fd264d904752580357d6aa95846d946a08c2ea6e93a6501599"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-015-M2",
+        "sourceText": "expected disconnect alarm was not heard",
+        "sentence": "The caregiver stated that the mask became disconnected from the tubing, but the expected disconnect alarm was not heard from the next room.",
+        "start": 80,
+        "end": 119,
+        "normalizedText": "no audible alarm",
+        "entityType": "device_problem",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device behavior is routed to IMDRF Annex A.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "A160102",
+          "preferredTitle": "No Audible Alarm",
+          "annex": "A",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.92,
+          "confidenceBand": "strong",
+          "rationale": "No audible alarm is the exact official term, while audibility at the device remains to be checked.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "no audible alarm",
+          "sourceRecordHash": "sha256:28343d462f06031164577f737e7488dcbd9c1f4998ae93f3f7ce50c2a8d11be8"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-015-M3",
+        "sourceText": "headache on waking",
+        "sentence": "The patient continued sleeping and later reported a headache on waking.",
+        "start": 192,
+        "end": 210,
+        "normalizedText": "headache",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "WHO ICD-11 MMS",
+          "code": "MB4D",
+          "preferredTitle": "Headache, not elsewhere classified",
+          "releaseOrEdition": "2026-01",
+          "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/1405405864",
+          "confidence": 0.93,
+          "confidenceBand": "strong",
+          "rationale": "The symptom code avoids inferring hypoxaemia.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "headache",
+          "sourceRecordHash": "sha256:770a18c4565d7d68914f153ab28c51ce2848612a6f6303830e173d2ed131c3b8"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-015-M4",
+        "sourceText": "No oxygen saturation measurement was available",
+        "sentence": "No oxygen saturation measurement was available, and no medical treatment was sought.",
+        "start": 212,
+        "end": 258,
+        "normalizedText": "oxygen saturation unavailable",
+        "entityType": "investigation_statement",
+        "assertion": "negated",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "No objective measurement or investigation conclusion is available.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": null,
+        "candidates": [],
+        "unresolvedReason": "Hypoxaemia must not be inferred."
+      }
+    ],
+    "provenance": {
+      "generatedAt": "2026-07-27T00:00:00.000Z",
+      "pipelineVersion": "1.1.0",
+      "promptVersion": "deterministic-seed-v1.1",
+      "modelName": "deterministic rules + human-authored demo seed",
+      "terminologyManifestHash": "sha256:dc657c76eac9dd9d8ff3c57a5351f69bb84221b2529acc5402930f17925281f5",
+      "riskRegisterHash": "sha256:91c080f7321d18ef9cc33b2d2e49fee88b433a51b614735f8be020c062e5b808",
+      "reviewer": null,
+      "reviewTimestamp": null
+    }
+  },
+  {
+    "complaintId": "CPAP-016",
+    "evidence": [
+      {
+        "id": "CPAP-016-M1",
+        "sourceText": "Following a software update",
+        "sentence": "Following a software update, the user stated that the machine felt different and displayed a pressure range that did not match the range remembered from the prior week.",
+        "start": 0,
+        "end": 27,
+        "normalizedText": "application program version or upgrade",
+        "entityType": "device_problem",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device behavior is routed to IMDRF Annex A.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "A110206",
+          "preferredTitle": "Application Program Version or Upgrade Problem",
+          "annex": "A",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.82,
+          "confidenceBand": "good",
+          "rationale": "An update occurred; the code identifies the software-upgrade context without asserting causality.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "application program version or upgrade",
+          "sourceRecordHash": "sha256:d5bf5d8e095209d92280b0553d05927fc59da8879ace5b34550122704ff77de4"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-016-M2",
+        "sourceText": "displayed a pressure range that did not match the range remembered",
+        "sentence": "Following a software update, the user stated that the machine felt different and displayed a pressure range that did not match the range remembered from the prior week.",
+        "start": 81,
+        "end": 147,
+        "normalizedText": "suspected pressure setting change",
+        "entityType": "device_setting",
+        "assertion": "suspected",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device behavior is routed to IMDRF Annex A.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": null,
+        "candidates": [
+          {
+            "terminology": "IMDRF AET",
+            "code": "A2302",
+            "preferredTitle": "Use of Incorrect Control/Treatment Settings",
+            "annex": "A",
+            "releaseOrEdition": "2026",
+            "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+            "confidence": 0.67,
+            "confidenceBand": "plausible",
+            "rationale": "Incorrect settings are plausible, but neither prescription nor prior settings are available.",
+            "status": "candidate",
+            "humanVerified": false,
+            "queryUsed": "suspected pressure setting change",
+            "sourceRecordHash": "sha256:d0f29c6df5802c68224e8c5f25ed33e293656ea22d71bd933cf697287a67cce0"
+          },
+          {
+            "terminology": "IMDRF AET",
+            "code": "A141102",
+            "preferredTitle": "Increase in Pressure",
+            "annex": "A",
+            "releaseOrEdition": "2026",
+            "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+            "confidence": 0.6,
+            "confidenceBand": "weak",
+            "rationale": "An increase is possible, but direction is not stated.",
+            "status": "candidate",
+            "humanVerified": false,
+            "queryUsed": "suspected pressure setting change",
+            "sourceRecordHash": "sha256:0099a786d0b0a9a6d375a38152ee1f54ab7e3191fdb03c5bc9fee0a0789ea109"
+          },
+          {
+            "terminology": "IMDRF AET",
+            "code": "A141101",
+            "preferredTitle": "Decrease in Pressure",
+            "annex": "A",
+            "releaseOrEdition": "2026",
+            "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+            "confidence": 0.58,
+            "confidenceBand": "weak",
+            "rationale": "A decrease is possible, but direction is not stated.",
+            "status": "candidate",
+            "humanVerified": false,
+            "queryUsed": "suspected pressure setting change",
+            "sourceRecordHash": "sha256:ac5412227b0e4d55095d03664cc019b48e6e6f30bce2b6fd227f0f9e39bc51ea"
+          }
+        ],
+        "unresolvedReason": "Human selection required: the pressure difference and its direction are unverified."
+      },
+      {
+        "id": "CPAP-016-M3",
+        "sourceText": "difficulty exhaling",
+        "sentence": "The user experienced difficulty exhaling and stopped therapy after approximately twenty minutes.",
+        "start": 190,
+        "end": 209,
+        "normalizedText": "difficulty exhaling",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": true
+        },
+        "acceptedCode": null,
+        "candidates": [
+          {
+            "terminology": "WHO ICD-11 MMS",
+            "code": "MD11.5",
+            "preferredTitle": "Dyspnoea",
+            "releaseOrEdition": "2026-01",
+            "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/960305085",
+            "confidence": 0.65,
+            "confidenceBand": "plausible",
+            "rationale": "Dyspnoea is plausible but broader than the specific expiratory difficulty.",
+            "status": "candidate",
+            "humanVerified": false,
+            "queryUsed": "difficulty exhaling",
+            "sourceRecordHash": "sha256:d342e4ab67c64ba058b5c619a392688f591fa9a1a99a01e42481faae42c18f44"
+          }
+        ],
+        "unresolvedReason": "No defensible ICD-11 code selected; a human-reviewed SNOMED search is queued."
+      },
+      {
+        "id": "CPAP-016-M4",
+        "sourceText": "stopped therapy after approximately twenty minutes",
+        "sentence": "The user experienced difficulty exhaling and stopped therapy after approximately twenty minutes.",
+        "start": 214,
+        "end": 264,
+        "normalizedText": "therapy discontinued",
+        "entityType": "health_impact",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated therapy or health impact is routed to IMDRF Annex F.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "F31",
+          "preferredTitle": "Canceled/Aborted Treatment/Therapy",
+          "annex": "F",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.9,
+          "confidenceBand": "strong",
+          "rationale": "The treatment session was aborted.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "therapy discontinued",
+          "sourceRecordHash": "sha256:fe65a8b9e21fefeaed65ed4ecc27fa6460fb4684515d5e53a738aacc1ac80e9c"
+        },
+        "candidates": []
+      }
+    ],
+    "provenance": {
+      "generatedAt": "2026-07-27T00:00:00.000Z",
+      "pipelineVersion": "1.1.0",
+      "promptVersion": "deterministic-seed-v1.1",
+      "modelName": "deterministic rules + human-authored demo seed",
+      "terminologyManifestHash": "sha256:dc657c76eac9dd9d8ff3c57a5351f69bb84221b2529acc5402930f17925281f5",
+      "riskRegisterHash": "sha256:91c080f7321d18ef9cc33b2d2e49fee88b433a51b614735f8be020c062e5b808",
+      "reviewer": null,
+      "reviewTimestamp": null
+    }
+  },
+  {
+    "complaintId": "CPAP-017",
+    "evidence": [
+      {
+        "id": "CPAP-017-M1",
+        "sourceText": "throat irritation",
+        "sentence": "The patient reported an unusual dusty smell from the CPAP and developed throat irritation and coughing during use.",
+        "start": 72,
+        "end": 89,
+        "normalizedText": "upper respiratory tract irritation",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "E0754",
+          "preferredTitle": "Upper Respiratory Tract Irritation",
+          "annex": "E",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.91,
+          "confidenceBand": "strong",
+          "rationale": "The exact IMDRF health-effect term is used because ICD search was not defensible.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "upper respiratory tract irritation",
+          "sourceRecordHash": "sha256:72f0365688f33e22fe6451ea4958d11d85dbf2ab36a97d6eb5e545ccf3e0176b"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-017-M2",
+        "sourceText": "coughing during use",
+        "sentence": "The patient reported an unusual dusty smell from the CPAP and developed throat irritation and coughing during use.",
+        "start": 94,
+        "end": 113,
+        "normalizedText": "cough",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "WHO ICD-11 MMS",
+          "code": "MD12",
+          "preferredTitle": "Cough",
+          "releaseOrEdition": "2026-01",
+          "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/2027526159",
+          "confidence": 0.95,
+          "confidenceBand": "strong",
+          "rationale": "Cough is explicit and temporally linked to use without assigning a diagnosis.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "cough",
+          "sourceRecordHash": "sha256:38078c86795754dcb271c04ac50e17f2d6178bbec195023e04c75b6749f85830"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-017-M3",
+        "sourceText": "air filter was dark and visibly clogged",
+        "sentence": "On inspection, the disposable air filter was dark and visibly clogged.",
+        "start": 145,
+        "end": 184,
+        "normalizedText": "obstruction of flow at filter",
+        "entityType": "device_problem",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device behavior is routed to IMDRF Annex A.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "A1409",
+          "preferredTitle": "Obstruction of Flow",
+          "annex": "A",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.9,
+          "confidenceBand": "strong",
+          "rationale": "A visibly clogged filter supports obstruction of flow without asserting the degree.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "obstruction of flow at filter",
+          "sourceRecordHash": "sha256:a6fb4bdb430b534dc6f531270084e58a5bb5609f33f0b9b7366976b0001dbe78"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-017-M4",
+        "sourceText": "used longer than the recommended filter-replacement interval",
+        "sentence": "The device had been used longer than the recommended filter-replacement interval.",
+        "start": 335,
+        "end": 395,
+        "normalizedText": "filter maintenance interval exceeded",
+        "entityType": "use_error_or_use_context",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device part is routed to IMDRF Annex G.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "G04054",
+          "preferredTitle": "Filter",
+          "annex": "G",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.94,
+          "confidenceBand": "strong",
+          "rationale": "Filter is the exact official component term.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "filter maintenance interval exceeded",
+          "sourceRecordHash": "sha256:ea1d7e96716c054f0058ddb809f80eb93da5251e6f479f39ceeb80253c59c17e"
+        },
+        "candidates": []
+      }
+    ],
+    "provenance": {
+      "generatedAt": "2026-07-27T00:00:00.000Z",
+      "pipelineVersion": "1.1.0",
+      "promptVersion": "deterministic-seed-v1.1",
+      "modelName": "deterministic rules + human-authored demo seed",
+      "terminologyManifestHash": "sha256:dc657c76eac9dd9d8ff3c57a5351f69bb84221b2529acc5402930f17925281f5",
+      "riskRegisterHash": "sha256:91c080f7321d18ef9cc33b2d2e49fee88b433a51b614735f8be020c062e5b808",
+      "reviewer": null,
+      "reviewTimestamp": null
+    }
+  },
+  {
+    "complaintId": "CPAP-018",
+    "evidence": [
+      {
+        "id": "CPAP-018-M1",
+        "sourceText": "dark material inside a humidifier chamber",
+        "sentence": "The user noticed dark material inside a humidifier chamber that had not been cleaned for several weeks.",
+        "start": 17,
+        "end": 58,
+        "normalizedText": "device contamination with material",
+        "entityType": "device_problem",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device behavior is routed to IMDRF Annex A.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "A180104",
+          "preferredTitle": "Device Contamination with Chemical or Other Material",
+          "annex": "A",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.88,
+          "confidenceBand": "good",
+          "rationale": "Visible material supports chemical or other material contamination without identifying an organism.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "device contamination with material",
+          "sourceRecordHash": "sha256:c844325fc9ee7c0a617cb5dfca17fdc05af0701b03935bf5816e1cd42f37ca61"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-018-M2",
+        "sourceText": "new cough occurring mainly during CPAP use",
+        "sentence": "The user also reported a new cough occurring mainly during CPAP use.",
+        "start": 129,
+        "end": 171,
+        "normalizedText": "cough",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "WHO ICD-11 MMS",
+          "code": "MD12",
+          "preferredTitle": "Cough",
+          "releaseOrEdition": "2026-01",
+          "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/2027526159",
+          "confidence": 0.96,
+          "confidenceBand": "strong",
+          "rationale": "Cough is explicit; temporal association is preserved without causality.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "cough",
+          "sourceRecordHash": "sha256:38078c86795754dcb271c04ac50e17f2d6178bbec195023e04c75b6749f85830"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-018-M3",
+        "sourceText": "material was not confirmed to be mold or another organism",
+        "sentence": "No laboratory testing was performed, and the material was not confirmed to be mold or another organism.",
+        "start": 218,
+        "end": 275,
+        "normalizedText": "microbial contamination unconfirmed",
+        "entityType": "investigation_statement",
+        "assertion": "negated",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "No Annex C biological finding can be assigned without testing.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": null,
+        "candidates": [
+          {
+            "terminology": "IMDRF AET",
+            "code": "A180105",
+            "preferredTitle": "Microbial Contamination of Device",
+            "annex": "A",
+            "releaseOrEdition": "2026",
+            "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+            "confidence": 0.51,
+            "confidenceBand": "weak",
+            "rationale": "Microbial contamination is possible but explicitly unconfirmed.",
+            "status": "candidate",
+            "humanVerified": false,
+            "queryUsed": "microbial contamination unconfirmed",
+            "sourceRecordHash": "sha256:76c42d0ad83d417e402e97a7635bfe394c2124e727c32c3d40aa9e15e459e575"
+          }
+        ],
+        "unresolvedReason": "No mold, fungal infection, or organism is coded."
+      },
+      {
+        "id": "CPAP-018-M4",
+        "sourceText": "no fever, pneumonia diagnosis, or hospitalization",
+        "sentence": "There was no fever, pneumonia diagnosis, or hospitalization.",
+        "start": 287,
+        "end": 336,
+        "normalizedText": "fever pneumonia hospitalization",
+        "entityType": "clinical_condition",
+        "assertion": "negated",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": null,
+        "candidates": [],
+        "unresolvedReason": "The listed conditions and impact are explicitly negated."
+      }
+    ],
+    "provenance": {
+      "generatedAt": "2026-07-27T00:00:00.000Z",
+      "pipelineVersion": "1.1.0",
+      "promptVersion": "deterministic-seed-v1.1",
+      "modelName": "deterministic rules + human-authored demo seed",
+      "terminologyManifestHash": "sha256:dc657c76eac9dd9d8ff3c57a5351f69bb84221b2529acc5402930f17925281f5",
+      "riskRegisterHash": "sha256:91c080f7321d18ef9cc33b2d2e49fee88b433a51b614735f8be020c062e5b808",
+      "reviewer": null,
+      "reviewTimestamp": null
+    }
+  },
+  {
+    "complaintId": "CPAP-019",
+    "evidence": [
+      {
+        "id": "CPAP-019-M1",
+        "sourceText": "new high-pitched noise from the CPAP motor",
+        "sentence": "The user reported a new high-pitched noise from the CPAP motor that became louder when inhaling.",
+        "start": 20,
+        "end": 62,
+        "normalizedText": "audible noise",
+        "entityType": "device_problem",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device behavior is routed to IMDRF Annex A.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "A0508",
+          "preferredTitle": "Noise, Audible",
+          "annex": "A",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.95,
+          "confidenceBand": "strong",
+          "rationale": "Noise, Audible directly represents the stated new device noise.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "audible noise",
+          "sourceRecordHash": "sha256:fa7fe715178739adbdfa723fbadc5348582c1a9c567ab258968bc35a507757e3"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-019-M2",
+        "sourceText": "repeatedly woke the user",
+        "sentence": "The noise repeatedly woke the user and resulted in difficulty returning to sleep.",
+        "start": 107,
+        "end": 131,
+        "normalizedText": "sleep disturbance",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "WHO ICD-11 MMS",
+          "code": "MG41",
+          "preferredTitle": "Sleep disturbance, not elsewhere classified",
+          "releaseOrEdition": "2026-01",
+          "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/1207299072",
+          "confidence": 0.92,
+          "confidenceBand": "strong",
+          "rationale": "The symptom code represents repeated waking without asserting an insomnia disorder.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "sleep disturbance",
+          "sourceRecordHash": "sha256:0c40bb74d43fcdb96b838fe27a3ee9852cc011deda19586abcfdd7e0dc45203e"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-019-M3",
+        "sourceText": "difficulty returning to sleep",
+        "sentence": "The noise repeatedly woke the user and resulted in difficulty returning to sleep.",
+        "start": 148,
+        "end": 177,
+        "normalizedText": "insomnia symptom",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": null,
+        "candidates": [
+          {
+            "terminology": "WHO ICD-11 MMS",
+            "code": "7A0Z",
+            "preferredTitle": "Insomnia disorders, unspecified",
+            "releaseOrEdition": "2026-01",
+            "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/1038292737/unspecified",
+            "confidence": 0.7,
+            "confidenceBand": "plausible",
+            "rationale": "An insomnia disorder requires more duration and impairment evidence than the complaint supplies.",
+            "status": "candidate",
+            "humanVerified": false,
+            "queryUsed": "insomnia",
+            "sourceRecordHash": "sha256:cf634d34e945ad0791d7e76d9f6116285cf0f4d5d75743d8d31a43b6ad17beb0"
+          }
+        ],
+        "unresolvedReason": "No insomnia disorder is accepted."
+      },
+      {
+        "id": "CPAP-019-M4",
+        "sourceText": "felt tired the next day",
+        "sentence": "The user felt tired the next day but reported no breathing difficulty or other physical symptoms.",
+        "start": 188,
+        "end": 211,
+        "normalizedText": "fatigue",
+        "entityType": "clinical_sign_or_symptom",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "WHO ICD-11 MMS",
+          "rationale": "WHO ICD-11 is searched first for the clinical statement; IMDRF Annex E is retained when it better represents the adverse-event health effect.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "WHO ICD-11 MMS",
+          "code": "MG22",
+          "preferredTitle": "Fatigue",
+          "releaseOrEdition": "2026-01",
+          "sourceUrl": "https://id.who.int/icd/release/11/2026-01/mms/1109546957",
+          "confidence": 0.86,
+          "confidenceBand": "good",
+          "rationale": "Fatigue conservatively represents next-day tiredness.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "fatigue",
+          "sourceRecordHash": "sha256:5abf7e73d929b92515bc505bece7099b021bcce4817396cf414c80d375539163"
+        },
+        "candidates": []
+      }
+    ],
+    "provenance": {
+      "generatedAt": "2026-07-27T00:00:00.000Z",
+      "pipelineVersion": "1.1.0",
+      "promptVersion": "deterministic-seed-v1.1",
+      "modelName": "deterministic rules + human-authored demo seed",
+      "terminologyManifestHash": "sha256:dc657c76eac9dd9d8ff3c57a5351f69bb84221b2529acc5402930f17925281f5",
+      "riskRegisterHash": "sha256:91c080f7321d18ef9cc33b2d2e49fee88b433a51b614735f8be020c062e5b808",
+      "reviewer": null,
+      "reviewTimestamp": null
+    }
+  },
+  {
+    "complaintId": "CPAP-020",
+    "evidence": [
+      {
+        "id": "CPAP-020-M1",
+        "sourceText": "headgear straps tore near the attachment point",
+        "sentence": "While the patient was putting on the mask, one of the headgear straps tore near the attachment point.",
+        "start": 54,
+        "end": 100,
+        "normalizedText": "material split cut or torn",
+        "entityType": "device_problem",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device behavior is routed to IMDRF Annex A.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "A0414",
+          "preferredTitle": "Material Split, Cut or Torn",
+          "annex": "A",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.96,
+          "confidenceBand": "strong",
+          "rationale": "Material Split, Cut or Torn directly represents the strap tear.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "material split cut or torn",
+          "sourceRecordHash": "sha256:5363067abacdd2561029d424f190d1b38e4cadb97ec55e0743a068e3348f3f0b"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-020-M2",
+        "sourceText": "mask could not be secured",
+        "sentence": "The mask could not be secured and CPAP therapy was not started that night.",
+        "start": 106,
+        "end": 131,
+        "normalizedText": "mask retention component unavailable",
+        "entityType": "device_component",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated device part is routed to IMDRF Annex G.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "G04086",
+          "preferredTitle": "Mask",
+          "annex": "G",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.82,
+          "confidenceBand": "good",
+          "rationale": "Mask is the closest official component; the terminology has no CPAP headgear term.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "mask retention component unavailable",
+          "sourceRecordHash": "sha256:094e449ec7d8a6e35f9d33ea4294978cdc48293061e098d9a62b06ee9400272d"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-020-M3",
+        "sourceText": "therapy was not started that night",
+        "sentence": "The mask could not be secured and CPAP therapy was not started that night.",
+        "start": 141,
+        "end": 175,
+        "normalizedText": "therapy aborted",
+        "entityType": "health_impact",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated therapy or health impact is routed to IMDRF Annex F.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "F31",
+          "preferredTitle": "Canceled/Aborted Treatment/Therapy",
+          "annex": "F",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.94,
+          "confidenceBand": "strong",
+          "rationale": "The scheduled therapy session was aborted.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "therapy aborted",
+          "sourceRecordHash": "sha256:fe65a8b9e21fefeaed65ed4ecc27fa6460fb4684515d5e53a738aacc1ac80e9c"
+        },
+        "candidates": []
+      },
+      {
+        "id": "CPAP-020-M4",
+        "sourceText": "no facial injury, pain, or other symptoms",
+        "sentence": "The patient explicitly reported no facial injury, pain, or other symptoms.",
+        "start": 209,
+        "end": 250,
+        "normalizedText": "no health consequences",
+        "entityType": "no_harm_statement",
+        "assertion": "present",
+        "temporality": "current",
+        "experiencer": "patient",
+        "statedOrInferred": "stated",
+        "missingContextFlags": [],
+        "routingDecision": {
+          "primaryTerminology": "IMDRF AET",
+          "rationale": "A stated therapy or health impact is routed to IMDRF Annex F.",
+          "snomedFallbackRequired": false
+        },
+        "acceptedCode": {
+          "terminology": "IMDRF AET",
+          "code": "F26",
+          "preferredTitle": "No Health Consequences or Impact",
+          "annex": "F",
+          "releaseOrEdition": "2026",
+          "sourceUrl": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+          "confidence": 0.97,
+          "confidenceBand": "strong",
+          "rationale": "The complaint explicitly reports no injury or symptoms.",
+          "status": "accepted",
+          "humanVerified": false,
+          "queryUsed": "no health consequences",
+          "sourceRecordHash": "sha256:45e9e08f449342b7e78fa94585ac9046332e1cc71ff6a9e2a477595da0719b05"
+        },
+        "candidates": []
+      }
+    ],
+    "provenance": {
+      "generatedAt": "2026-07-27T00:00:00.000Z",
+      "pipelineVersion": "1.1.0",
+      "promptVersion": "deterministic-seed-v1.1",
+      "modelName": "deterministic rules + human-authored demo seed",
+      "terminologyManifestHash": "sha256:dc657c76eac9dd9d8ff3c57a5351f69bb84221b2529acc5402930f17925281f5",
+      "riskRegisterHash": "sha256:91c080f7321d18ef9cc33b2d2e49fee88b433a51b614735f8be020c062e5b808",
+      "reviewer": null,
+      "reviewTimestamp": null
+    }
+  }
+]

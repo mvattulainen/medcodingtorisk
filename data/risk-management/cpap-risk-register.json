@@ -1,0 +1,900 @@
+[
+  {
+    "id": "RISK-CPAP-001",
+    "version": "1.0",
+    "title": "Loss or Interruption of Therapy",
+    "status": "active",
+    "deviceFamily": "CPAP",
+    "hazardOrSourceOfHarm": "Loss of intended positive airway pressure while the user relies on therapy during sleep",
+    "foreseeableSequenceOfEvents": [
+      "Power, tubing, software recovery, or retention component is interrupted",
+      "Airflow is absent or therapy cannot be started",
+      "The user remains without intended PAP therapy until recovery or awareness"
+    ],
+    "hazardousSituation": "User reliant on PAP is asleep or attempting sleep without intended therapy",
+    "anticipatedHarms": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "E0717",
+        "label": "Dyspnea",
+        "annex": "E"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "E0130",
+        "label": "Sleep Dysfunction",
+        "annex": "E"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "E0116",
+        "label": "Headache",
+        "annex": "E"
+      },
+      {
+        "terminology": "local",
+        "label": "Recurrence of sleep-apnoea symptoms"
+      }
+    ],
+    "anticipatedDeviceProblems": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "A1203",
+        "label": "Disconnection",
+        "annex": "A"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "A070801",
+        "label": "Complete Loss of Power",
+        "annex": "A"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "A0719",
+        "label": "Unexpected Shutdown",
+        "annex": "A"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "A0414",
+        "label": "Material Split, Cut or Torn",
+        "annex": "A"
+      }
+    ],
+    "relatedComponents": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "G04069",
+        "label": "Hose",
+        "annex": "G"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "G04086",
+        "label": "Mask",
+        "annex": "G"
+      }
+    ],
+    "riskControls": [
+      {
+        "id": "RC-CPAP-001-01",
+        "type": "inherent-safety",
+        "description": "Connection and retention features resist unintended separation",
+        "verificationReference": "DV-001"
+      },
+      {
+        "id": "RC-CPAP-001-02",
+        "type": "protective-measure",
+        "description": "Defined power-loss and automatic-recovery behavior",
+        "verificationReference": "SV-014"
+      },
+      {
+        "id": "RC-CPAP-001-03",
+        "type": "protective-measure",
+        "description": "Therapy interruption and disconnect notification",
+        "verificationReference": "DV-022"
+      },
+      {
+        "id": "RC-CPAP-001-04",
+        "type": "information-for-safety",
+        "description": "Instructions for connections, wear checks, recovery, and backup-power planning"
+      }
+    ],
+    "severityCategory": "Synthetic S2",
+    "occurrenceCategory": "Synthetic P2 — not recalculated",
+    "residualRiskStatus": "Synthetic accepted — not reassessed by this demo",
+    "ownerRole": "Risk Management Owner",
+    "lastApprovedAt": "2026-07-01",
+    "sourceFile": "data/risk-management/cpap-risk-register.json",
+    "sourceHash": "sha256:61e96841755399b799040a880f920f9d1f147a9fe26fb720896548835faddcd7"
+  },
+  {
+    "id": "RISK-CPAP-002",
+    "version": "1.0",
+    "title": "Excessive Delivered Pressure",
+    "status": "active",
+    "deviceFamily": "CPAP",
+    "hazardOrSourceOfHarm": "Pressurised airflow delivered above the intended therapeutic level",
+    "foreseeableSequenceOfEvents": [
+      "Setting or configuration produces pressure above the intended level",
+      "User is exposed to excessive positive airway pressure",
+      "User experiences intolerance or pressure-related symptoms"
+    ],
+    "hazardousSituation": "User receives excessive PAP while wearing the interface",
+    "anticipatedHarms": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "E233001",
+        "label": "Chest Pain",
+        "annex": "E"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "E1001",
+        "label": "Abdominal Distention",
+        "annex": "E"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "E2311",
+        "label": "Discomfort",
+        "annex": "E"
+      },
+      {
+        "terminology": "local",
+        "label": "Potential pressure-related injury"
+      }
+    ],
+    "anticipatedDeviceProblems": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "A141102",
+        "label": "Increase in Pressure",
+        "annex": "A"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "A2302",
+        "label": "Use of Incorrect Control/Treatment Settings",
+        "annex": "A"
+      }
+    ],
+    "relatedComponents": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "G04086",
+        "label": "Mask",
+        "annex": "G"
+      }
+    ],
+    "riskControls": [
+      {
+        "id": "RC-CPAP-002-01",
+        "type": "inherent-safety",
+        "description": "Pressure output limits and independent monitoring",
+        "verificationReference": "DV-031"
+      },
+      {
+        "id": "RC-CPAP-002-02",
+        "type": "protective-measure",
+        "description": "Configuration validation and out-of-range handling",
+        "verificationReference": "SV-020"
+      },
+      {
+        "id": "RC-CPAP-002-03",
+        "type": "information-for-safety",
+        "description": "Clinician-only setup and pressure review instructions"
+      }
+    ],
+    "severityCategory": "Synthetic S3",
+    "occurrenceCategory": "Synthetic P1 — not recalculated",
+    "residualRiskStatus": "Synthetic accepted — not reassessed by this demo",
+    "ownerRole": "Risk Management Owner",
+    "lastApprovedAt": "2026-07-01",
+    "sourceFile": "data/risk-management/cpap-risk-register.json",
+    "sourceHash": "sha256:61e96841755399b799040a880f920f9d1f147a9fe26fb720896548835faddcd7"
+  },
+  {
+    "id": "RISK-CPAP-003",
+    "version": "1.0",
+    "title": "Insufficient Effective Pressure or Flow",
+    "status": "active",
+    "deviceFamily": "CPAP",
+    "hazardOrSourceOfHarm": "Delivered flow or effective airway pressure is below the intended therapeutic level",
+    "foreseeableSequenceOfEvents": [
+      "Leak, obstruction, maintenance condition, or setting reduces effective therapy",
+      "Therapeutic pressure or flow at the interface is insufficient",
+      "Sleep-disordered breathing symptoms or mucosal discomfort recur"
+    ],
+    "hazardousSituation": "User receives insufficient effective PAP during sleep",
+    "anticipatedHarms": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "E102801",
+        "label": "Dry Mouth",
+        "annex": "E"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "E0761",
+        "label": "Nasal Dryness",
+        "annex": "E"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "E0116",
+        "label": "Headache",
+        "annex": "E"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "E0209",
+        "label": "Sleepiness/Drowsiness/Somnolence",
+        "annex": "E"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "E0754",
+        "label": "Upper Respiratory Tract Irritation",
+        "annex": "E"
+      }
+    ],
+    "anticipatedDeviceProblems": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "A141101",
+        "label": "Decrease in Pressure",
+        "annex": "A"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "A1409",
+        "label": "Obstruction of Flow",
+        "annex": "A"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "A050402",
+        "label": "Gas/Air Leak",
+        "annex": "A"
+      }
+    ],
+    "relatedComponents": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "G04054",
+        "label": "Filter",
+        "annex": "G"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "G04069",
+        "label": "Hose",
+        "annex": "G"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "G04086",
+        "label": "Mask",
+        "annex": "G"
+      }
+    ],
+    "riskControls": [
+      {
+        "id": "RC-CPAP-003-01",
+        "type": "protective-measure",
+        "description": "Pressure and flow monitoring",
+        "verificationReference": "DV-041"
+      },
+      {
+        "id": "RC-CPAP-003-02",
+        "type": "protective-measure",
+        "description": "Leak detection and mask-fit support",
+        "verificationReference": "DV-043"
+      },
+      {
+        "id": "RC-CPAP-003-03",
+        "type": "information-for-safety",
+        "description": "Humidification and interface-fit guidance"
+      },
+      {
+        "id": "RC-CPAP-003-04",
+        "type": "information-for-safety",
+        "description": "Filter inspection and replacement instructions"
+      }
+    ],
+    "severityCategory": "Synthetic S2",
+    "occurrenceCategory": "Synthetic P2 — not recalculated",
+    "residualRiskStatus": "Synthetic accepted — not reassessed by this demo",
+    "ownerRole": "Risk Management Owner",
+    "lastApprovedAt": "2026-07-01",
+    "sourceFile": "data/risk-management/cpap-risk-register.json",
+    "sourceHash": "sha256:61e96841755399b799040a880f920f9d1f147a9fe26fb720896548835faddcd7"
+  },
+  {
+    "id": "RISK-CPAP-004",
+    "version": "1.0",
+    "title": "Thermal or Hot-Water Exposure",
+    "status": "active",
+    "deviceFamily": "CPAP",
+    "hazardOrSourceOfHarm": "Thermal energy or heated water from the humidifier",
+    "foreseeableSequenceOfEvents": [
+      "Heated water remains in or escapes the chamber",
+      "Water contacts the user during handling",
+      "Skin is exposed to a harmful temperature"
+    ],
+    "hazardousSituation": "User skin contacts heated chamber water",
+    "anticipatedHarms": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "E1704",
+        "label": "Burn(s)",
+        "annex": "E"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "E2311",
+        "label": "Discomfort",
+        "annex": "E"
+      }
+    ],
+    "anticipatedDeviceProblems": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "A050401",
+        "label": "Fluid/Blood Leak",
+        "annex": "A"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "A1005",
+        "label": "Overheating of Device",
+        "annex": "A"
+      }
+    ],
+    "relatedComponents": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "G04071",
+        "label": "Humidifier",
+        "annex": "G"
+      }
+    ],
+    "riskControls": [
+      {
+        "id": "RC-CPAP-004-01",
+        "type": "inherent-safety",
+        "description": "Humidifier temperature limits",
+        "verificationReference": "DV-052"
+      },
+      {
+        "id": "RC-CPAP-004-02",
+        "type": "protective-measure",
+        "description": "Chamber closure and spill-resistance design",
+        "verificationReference": "DV-055"
+      },
+      {
+        "id": "RC-CPAP-004-03",
+        "type": "information-for-safety",
+        "description": "Cool-down, filling, closure, and handling instructions"
+      }
+    ],
+    "severityCategory": "Synthetic S2",
+    "occurrenceCategory": "Synthetic P1 — not recalculated",
+    "residualRiskStatus": "Synthetic accepted — not reassessed by this demo",
+    "ownerRole": "Risk Management Owner",
+    "lastApprovedAt": "2026-07-01",
+    "sourceFile": "data/risk-management/cpap-risk-register.json",
+    "sourceHash": "sha256:61e96841755399b799040a880f920f9d1f147a9fe26fb720896548835faddcd7"
+  },
+  {
+    "id": "RISK-CPAP-005",
+    "version": "1.0",
+    "title": "Mask or Headgear Contact Injury",
+    "status": "active",
+    "deviceFamily": "CPAP",
+    "hazardOrSourceOfHarm": "Sustained pressure, friction, or material contact at the mask interface",
+    "foreseeableSequenceOfEvents": [
+      "Mask or headgear is fitted, tightened, or worn against skin",
+      "Local pressure, friction, or material exposure persists",
+      "Skin integrity or comfort is affected"
+    ],
+    "hazardousSituation": "Facial skin is exposed to sustained contact during therapy",
+    "anticipatedHarms": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "E1710",
+        "label": "Localized Skin Lesion",
+        "annex": "E"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "E172003",
+        "label": "Contact Dermatitis",
+        "annex": "E"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "E1720",
+        "label": "Skin Inflammation/ Irritation",
+        "annex": "E"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "E2311",
+        "label": "Discomfort",
+        "annex": "E"
+      }
+    ],
+    "anticipatedDeviceProblems": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "A010103",
+        "label": "Inadequacy of Device Shape and/or Size",
+        "annex": "A"
+      }
+    ],
+    "relatedComponents": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "G04086",
+        "label": "Mask",
+        "annex": "G"
+      }
+    ],
+    "riskControls": [
+      {
+        "id": "RC-CPAP-005-01",
+        "type": "inherent-safety",
+        "description": "Biocompatible patient-contact materials and pressure-distributing cushion design",
+        "verificationReference": "BV-006"
+      },
+      {
+        "id": "RC-CPAP-005-02",
+        "type": "information-for-safety",
+        "description": "Sizing, fitting, adjustment, and wear-inspection instructions"
+      },
+      {
+        "id": "RC-CPAP-005-03",
+        "type": "information-for-safety",
+        "description": "Cleaning, skin-monitoring, and alternate-interface guidance"
+      }
+    ],
+    "severityCategory": "Synthetic S2",
+    "occurrenceCategory": "Synthetic P2 — not recalculated",
+    "residualRiskStatus": "Synthetic accepted — not reassessed by this demo",
+    "ownerRole": "Risk Management Owner",
+    "lastApprovedAt": "2026-07-01",
+    "sourceFile": "data/risk-management/cpap-risk-register.json",
+    "sourceHash": "sha256:61e96841755399b799040a880f920f9d1f147a9fe26fb720896548835faddcd7"
+  },
+  {
+    "id": "RISK-CPAP-006",
+    "version": "1.0",
+    "title": "Air Leak Directed Toward Eyes",
+    "status": "active",
+    "deviceFamily": "CPAP",
+    "hazardOrSourceOfHarm": "Pressurised airflow directed outside the intended breathing path",
+    "foreseeableSequenceOfEvents": [
+      "Mask seal degrades or fit is incomplete",
+      "Leak is directed upward from the mask",
+      "Ocular surface is exposed during sleep"
+    ],
+    "hazardousSituation": "User eyes are exposed to continuous airflow during therapy",
+    "anticipatedHarms": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "E0845",
+        "label": "Eye Irritation",
+        "annex": "E"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "E0815",
+        "label": "Dry Eye(s)",
+        "annex": "E"
+      }
+    ],
+    "anticipatedDeviceProblems": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "A050402",
+        "label": "Gas/Air Leak",
+        "annex": "A"
+      }
+    ],
+    "relatedComponents": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "G04086",
+        "label": "Mask",
+        "annex": "G"
+      }
+    ],
+    "riskControls": [
+      {
+        "id": "RC-CPAP-006-01",
+        "type": "protective-measure",
+        "description": "Mask seal and cushion design",
+        "verificationReference": "DV-061"
+      },
+      {
+        "id": "RC-CPAP-006-02",
+        "type": "information-for-safety",
+        "description": "Fit, leak-response, and cushion-replacement instructions"
+      }
+    ],
+    "severityCategory": "Synthetic S1",
+    "occurrenceCategory": "Synthetic P2 — not recalculated",
+    "residualRiskStatus": "Synthetic accepted — not reassessed by this demo",
+    "ownerRole": "Risk Management Owner",
+    "lastApprovedAt": "2026-07-01",
+    "sourceFile": "data/risk-management/cpap-risk-register.json",
+    "sourceHash": "sha256:61e96841755399b799040a880f920f9d1f147a9fe26fb720896548835faddcd7"
+  },
+  {
+    "id": "RISK-CPAP-007",
+    "version": "1.0",
+    "title": "Contaminated or Condensed Air-Path Exposure",
+    "status": "active",
+    "deviceFamily": "CPAP",
+    "hazardOrSourceOfHarm": "Foreign material, contamination, or condensed water in the patient air path",
+    "foreseeableSequenceOfEvents": [
+      "Water management, cleaning, or filter condition allows material into the breathing circuit",
+      "Airflow carries moisture or material toward the interface",
+      "User is exposed through the respiratory tract"
+    ],
+    "hazardousSituation": "User breathes through an air path containing condensed water or uncharacterised material",
+    "anticipatedHarms": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "E0712",
+        "label": "Cough",
+        "annex": "E"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "E0754",
+        "label": "Upper Respiratory Tract Irritation",
+        "annex": "E"
+      },
+      {
+        "terminology": "local",
+        "label": "Possible infection concern — not inferred from complaint count"
+      }
+    ],
+    "anticipatedDeviceProblems": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "A1801",
+        "label": "Contamination",
+        "annex": "A"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "A1905",
+        "label": "Moisture or Humidity Problem",
+        "annex": "A"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "A1409",
+        "label": "Obstruction of Flow",
+        "annex": "A"
+      }
+    ],
+    "relatedComponents": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "G04071",
+        "label": "Humidifier",
+        "annex": "G"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "G04054",
+        "label": "Filter",
+        "annex": "G"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "G04069",
+        "label": "Hose",
+        "annex": "G"
+      }
+    ],
+    "riskControls": [
+      {
+        "id": "RC-CPAP-007-01",
+        "type": "information-for-safety",
+        "description": "Cleaning, water-use, and drying instructions"
+      },
+      {
+        "id": "RC-CPAP-007-02",
+        "type": "inherent-safety",
+        "description": "Water-management, drainage, and heated-tube design",
+        "verificationReference": "DV-071"
+      },
+      {
+        "id": "RC-CPAP-007-03",
+        "type": "protective-measure",
+        "description": "Replaceable inlet filtration",
+        "verificationReference": "DV-073"
+      },
+      {
+        "id": "RC-CPAP-007-04",
+        "type": "information-for-safety",
+        "description": "Chamber inspection and replacement guidance"
+      }
+    ],
+    "severityCategory": "Synthetic S2",
+    "occurrenceCategory": "Synthetic P2 — not recalculated",
+    "residualRiskStatus": "Synthetic accepted — not reassessed by this demo",
+    "ownerRole": "Risk Management Owner",
+    "lastApprovedAt": "2026-07-01",
+    "sourceFile": "data/risk-management/cpap-risk-register.json",
+    "sourceHash": "sha256:61e96841755399b799040a880f920f9d1f147a9fe26fb720896548835faddcd7"
+  },
+  {
+    "id": "RISK-CPAP-008",
+    "version": "1.0",
+    "title": "Alarm or Notification Not Perceived",
+    "status": "active",
+    "deviceFamily": "CPAP",
+    "hazardOrSourceOfHarm": "Loss of timely awareness of therapy interruption or device fault",
+    "foreseeableSequenceOfEvents": [
+      "An underlying disconnect or fault occurs",
+      "Audible or visual notification is absent, insufficient, or not perceived",
+      "User or caregiver awareness is delayed"
+    ],
+    "hazardousSituation": "Underlying hazardous situation continues without timely user or caregiver response",
+    "anticipatedHarms": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "E0116",
+        "label": "Headache",
+        "annex": "E"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "E0130",
+        "label": "Sleep Dysfunction",
+        "annex": "E"
+      },
+      {
+        "terminology": "local",
+        "label": "Prolonged exposure to the underlying hazardous situation"
+      }
+    ],
+    "anticipatedDeviceProblems": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "A160102",
+        "label": "No Audible Alarm",
+        "annex": "A"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "A160103",
+        "label": "Low Audible Alarm",
+        "annex": "A"
+      }
+    ],
+    "relatedComponents": [
+      {
+        "terminology": "local",
+        "label": "Alarm system"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "G04069",
+        "label": "Hose",
+        "annex": "G"
+      }
+    ],
+    "riskControls": [
+      {
+        "id": "RC-CPAP-008-01",
+        "type": "protective-measure",
+        "description": "Alarm audibility and priority design",
+        "verificationReference": "DV-081"
+      },
+      {
+        "id": "RC-CPAP-008-02",
+        "type": "protective-measure",
+        "description": "Complementary visual notification",
+        "verificationReference": "DV-082"
+      },
+      {
+        "id": "RC-CPAP-008-03",
+        "type": "information-for-safety",
+        "description": "Alarm-volume, placement, and verification instructions"
+      }
+    ],
+    "severityCategory": "Synthetic S3",
+    "occurrenceCategory": "Synthetic P1 — not recalculated",
+    "residualRiskStatus": "Synthetic accepted — not reassessed by this demo",
+    "ownerRole": "Risk Management Owner",
+    "lastApprovedAt": "2026-07-01",
+    "sourceFile": "data/risk-management/cpap-risk-register.json",
+    "sourceHash": "sha256:61e96841755399b799040a880f920f9d1f147a9fe26fb720896548835faddcd7"
+  },
+  {
+    "id": "RISK-CPAP-009",
+    "version": "1.0",
+    "title": "Psychological Distress or Sleep Disturbance",
+    "status": "active",
+    "deviceFamily": "CPAP",
+    "hazardOrSourceOfHarm": "Mask enclosure, unexpected noise, or therapy discomfort",
+    "foreseeableSequenceOfEvents": [
+      "Interface enclosure or device noise is experienced",
+      "User experiences distress or repeated awakening",
+      "Therapy is removed, aborted, or poorly tolerated"
+    ],
+    "hazardousSituation": "User is unable to tolerate or sleep with the therapy interface",
+    "anticipatedHarms": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "E020201",
+        "label": "Anxiety",
+        "annex": "E"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "E0130",
+        "label": "Sleep Dysfunction",
+        "annex": "E"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "E0209",
+        "label": "Sleepiness/Drowsiness/Somnolence",
+        "annex": "E"
+      },
+      {
+        "terminology": "local",
+        "label": "Panic symptoms"
+      }
+    ],
+    "anticipatedDeviceProblems": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "A0508",
+        "label": "Noise, Audible",
+        "annex": "A"
+      }
+    ],
+    "relatedComponents": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "G04086",
+        "label": "Mask",
+        "annex": "G"
+      },
+      {
+        "terminology": "local",
+        "label": "Blower/motor"
+      }
+    ],
+    "riskControls": [
+      {
+        "id": "RC-CPAP-009-01",
+        "type": "information-for-safety",
+        "description": "Gradual acclimatisation and intolerance guidance"
+      },
+      {
+        "id": "RC-CPAP-009-02",
+        "type": "protective-measure",
+        "description": "Alternative interface sizes and styles"
+      },
+      {
+        "id": "RC-CPAP-009-03",
+        "type": "inherent-safety",
+        "description": "Acoustic output limits",
+        "verificationReference": "DV-091"
+      }
+    ],
+    "severityCategory": "Synthetic S2",
+    "occurrenceCategory": "Synthetic P2 — not recalculated",
+    "residualRiskStatus": "Synthetic accepted — not reassessed by this demo",
+    "ownerRole": "Risk Management Owner",
+    "lastApprovedAt": "2026-07-01",
+    "sourceFile": "data/risk-management/cpap-risk-register.json",
+    "sourceHash": "sha256:61e96841755399b799040a880f920f9d1f147a9fe26fb720896548835faddcd7"
+  },
+  {
+    "id": "RISK-CPAP-010",
+    "version": "1.0",
+    "title": "Software, Configuration, or Restart Anomaly",
+    "status": "active",
+    "deviceFamily": "CPAP",
+    "hazardOrSourceOfHarm": "Software or configuration behavior that interrupts or changes therapy",
+    "foreseeableSequenceOfEvents": [
+      "Update, software fault, or configuration anomaly occurs",
+      "Device restarts or therapy behavior differs from the intended configuration",
+      "Pressure delivery is interrupted or not understood by the user"
+    ],
+    "hazardousSituation": "User receives interrupted or potentially incorrect therapy following software/configuration behavior",
+    "anticipatedHarms": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "E2311",
+        "label": "Discomfort",
+        "annex": "E"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "E020201",
+        "label": "Anxiety",
+        "annex": "E"
+      },
+      {
+        "terminology": "local",
+        "label": "Therapy interruption"
+      }
+    ],
+    "anticipatedDeviceProblems": [
+      {
+        "terminology": "IMDRF AET",
+        "code": "A110206",
+        "label": "Application Program Version or Upgrade Problem",
+        "annex": "A"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "A160503",
+        "label": "Inappropriate or Unexpected Reset",
+        "annex": "A"
+      },
+      {
+        "terminology": "IMDRF AET",
+        "code": "A0719",
+        "label": "Unexpected Shutdown",
+        "annex": "A"
+      }
+    ],
+    "relatedComponents": [
+      {
+        "terminology": "local",
+        "label": "Software"
+      },
+      {
+        "terminology": "local",
+        "label": "Configuration data"
+      }
+    ],
+    "riskControls": [
+      {
+        "id": "RC-CPAP-010-01",
+        "type": "inherent-safety",
+        "description": "Software lifecycle controls and update validation",
+        "verificationReference": "SV-101"
+      },
+      {
+        "id": "RC-CPAP-010-02",
+        "type": "protective-measure",
+        "description": "Configuration integrity checks",
+        "verificationReference": "SV-102"
+      },
+      {
+        "id": "RC-CPAP-010-03",
+        "type": "protective-measure",
+        "description": "Safe recovery and rollback behavior",
+        "verificationReference": "SV-103"
+      },
+      {
+        "id": "RC-CPAP-010-04",
+        "type": "information-for-safety",
+        "description": "Update, verification, and support instructions"
+      }
+    ],
+    "severityCategory": "Synthetic S3",
+    "occurrenceCategory": "Synthetic P1 — not recalculated",
+    "residualRiskStatus": "Synthetic accepted — not reassessed by this demo",
+    "ownerRole": "Risk Management Owner",
+    "lastApprovedAt": "2026-07-01",
+    "sourceFile": "data/risk-management/cpap-risk-register.json",
+    "sourceHash": "sha256:61e96841755399b799040a880f920f9d1f147a9fe26fb720896548835faddcd7"
+  }
+]

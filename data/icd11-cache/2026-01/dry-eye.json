@@ -1,0 +1,2171 @@
+{
+  "query": "dry eye",
+  "requestUrl": "https://id.who.int/icd/release/11/2026-01/mms/search?q=dry+eye&useFlexisearch=true&flatResults=true&highlightingEnabled=false&medicalCodingMode=true",
+  "retrievedAt": "2026-07-27T00:00:00.000Z",
+  "apiVersion": "v2",
+  "release": "2026-01",
+  "linearization": "mms",
+  "response": {
+    "destinationEntities": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/868865918/unspecified",
+        "title": "Diseases of the visual system, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/868865918/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "eye diseases NOS",
+            "score": 0.3012130062843292,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/868865918",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "09",
+        "theCode": "9E1Z",
+        "score": 0.3012130062843292,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/347064800/other",
+        "title": "Other specified acquired absence of organs",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/347064800/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "absence of eye",
+            "score": 0.14541576361630662,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1543841543",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Acquired absence of eye",
+            "score": -0.1811186860801347,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1543841543",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "absence of eyeball",
+            "score": -0.38029770822107195,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1543841543",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Acquired absence eyelid",
+            "score": -0.8058532056877287,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/601619592",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "24",
+        "theCode": "QF01.Y",
+        "score": 0.14541576361630662,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/702067523/other",
+        "title": "Other specified structural developmental anomalies of ocular globes",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/702067523/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "eye malformation",
+            "score": 0.13386575615309967,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1981704094",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "congenital abnormality of eye",
+            "score": -0.0471441847843613,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1981704094",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Congenital malformations of the eye",
+            "score": -0.11445088786653596,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1981704094",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Congenital cystic eye",
+            "score": -0.14913389946455982,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2061090928",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "congenital anomaly of eye",
+            "score": -0.15026606224007594,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1981704094",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Anomaly of artery of eye",
+            "score": -0.3323138504111918,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/870624440",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Agenesis of adnexa of eye",
+            "score": -0.546544039247294,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1699761806",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "congenital displacement of eyeball",
+            "score": -0.7822028384189247,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1182493227",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "congenital anomaly NOS of any part of eye",
+            "score": -0.851503042330634,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1981704094",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "congenital deformity of eye",
+            "score": -0.928458440061141,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1981704094",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Congenital malposition of eye",
+            "score": -1.3938726800887402,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1182493227",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "congenital deformity NOS of any part of eye",
+            "score": -1.629695420151699,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1981704094",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "20",
+        "theCode": "LA10.Y",
+        "score": 0.13386575615309967,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1342802999",
+        "title": "Microphthalmos",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1342802999",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Dysplasia of eye",
+            "score": 0.12959851831197566,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1342802999",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Hypoplasia of eye",
+            "score": 0.08097755015842871,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1342802999",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Rudimentary eye",
+            "score": -0.2142218812439836,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1342802999",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "small eyeball",
+            "score": -1.0723335630704987,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1342802999",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "globe of eye small",
+            "score": -1.1823856925511367,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1342802999",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "20",
+        "theCode": "LA10.0",
+        "score": 0.12959851831197566,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/674070950",
+        "title": "Ocular laceration without prolapse or loss of intraocular tissue, unilateral",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/674070950",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Laceration of eye NOS",
+            "score": 0.09201778304254259,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/674070950",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "traumatic rupture of eye, NOS",
+            "score": -0.2377943342983186,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1658158743",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "rupture of eye, unilateral",
+            "score": -0.29758442691261167,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1658158743",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Traumatic rupture of eyeball, unilateral",
+            "score": -1.1857164574890577,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1658158743",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NA06.8D",
+        "score": 0.09201778304254259,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1611503766",
+        "title": "Epiphora",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1611503766",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "watering eye",
+            "score": 0.09125267083889521,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1611503766",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "watery eye",
+            "score": -0.13245997974029453,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1611503766",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "tearing eyes",
+            "score": -0.88737139828416,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1611503766",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MC13",
+        "score": 0.09125267083889521,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1187945554",
+        "title": "Red eye",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1187945554",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MC15",
+        "score": 0.06582964226823851,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1722024459/other",
+        "title": "Other specified retinal vascular occlusions",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1722024459/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Eye embolism",
+            "score": 0.0652578559347697,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1495945297",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Eye thrombosis",
+            "score": 0.061566550446137555,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1568336209",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "09",
+        "theCode": "9B74.Y",
+        "score": 0.0652578559347697,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/895680150",
+        "title": "Visual discomfort",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/895680150",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "eye strain",
+            "score": 0.06104966237194213,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/895680150",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "tired eyes",
+            "score": -0.2142218812439836,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/895680150",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "simple eye strain",
+            "score": -0.35955084370641016,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/895680150",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "09",
+        "theCode": "9D50",
+        "score": 0.06104966237194213,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/286686329",
+        "title": "Limited function or disability of body organ or system",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/286686329",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "disability of eye",
+            "score": 0.043524651495803576,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/995806014",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "limited eye function",
+            "score": -0.2177755374439239,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/995806014",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Limited function or disability of eye",
+            "score": -0.6624517955276521,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/995806014",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "24",
+        "theCode": "QF10",
+        "score": 0.043524651495803576,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/614784200",
+        "title": "Clinical anophthalmos",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/614784200",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Agenesis of eye",
+            "score": 0.025600582002816778,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/614784200",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Aplasia of eye",
+            "score": 0.002610954973375621,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/614784200",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Congenital absence of eye",
+            "score": -0.10290088040332898,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/614784200",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "20",
+        "theCode": "LA10.1",
+        "score": 0.025600582002816778,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/830703931",
+        "title": "Purulent endophthalmitis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/830703931",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "eye infestation NOS",
+            "score": 0.01972230518497248,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/830703931",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "eye infection NOS",
+            "score": -0.21109018404826635,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/830703931",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Abscess of eye, not elsewhere classified",
+            "score": -1.1381622398270315,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1036658667",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "09",
+        "theCode": "9C20.2",
+        "score": 0.01972230518497248,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1085602908/other",
+        "title": "Other specified conjunctival vascular disorders",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1085602908/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Congestive eye",
+            "score": 0.005267502418735781,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1303846534",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "hyperaemia eye",
+            "score": -0.13965459475410597,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/25044873",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "09",
+        "theCode": "9A61.4Y",
+        "score": 0.005267502418735781,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1867050726",
+        "title": "Flat anterior chamber hypotony of eye",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1867050726",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Unspecified hypotony of eye",
+            "score": -0.015512380196048928,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/167977840",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Primary hypotony of eye",
+            "score": -0.31062261127272417,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/222355483",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Hypotony of eye due to other ocular disorders",
+            "score": -0.8096602761786162,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2125362063",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Hypotony of eye due to ocular fistula",
+            "score": -0.8117945043754687,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/468041243",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "09",
+        "theCode": "9A83",
+        "score": -0.015512380196048928,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1075869307",
+        "title": "Eye discharge",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1075869307",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MC14",
+        "score": -0.020408828848859296,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1163249568",
+        "title": "Ocular pain",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1163249568",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "sore eye",
+            "score": -0.052924896436032015,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1163249568",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "pain in eye",
+            "score": -0.414424743630472,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1163249568",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "ocular pain, unspecified eye",
+            "score": -0.8329045391181485,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1163249568",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MC18",
+        "score": -0.052924896436032015,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1207385905",
+        "title": "Pterygium",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1207385905",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "web eye",
+            "score": -0.0748654749879509,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1207385905",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "pterygium of eye",
+            "score": -1.4796198596857628,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1207385905",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent pterygium of eye",
+            "score": -1.8424611108595326,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/418246829",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Central pterygium of eye",
+            "score": -1.845364555341656,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/531510214",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Double pterygium of eye",
+            "score": -1.9737568049017884,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2061893204",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Peripheral pterygium of eye, progressive",
+            "score": -2.2299953643184844,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1816174674",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Peripheral pterygium of eye, stationary",
+            "score": -2.401517116184601,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/151743944",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "09",
+        "theCode": "9A61.1",
+        "score": -0.0748654749879509,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2081682399",
+        "title": "Alveolitis of jaw",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2081682399",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Dry socket",
+            "score": -0.10886179889935828,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2081682399",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "dry tooth socket",
+            "score": -1.2678633828150336,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2081682399",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "13",
+        "theCode": "DA06.1",
+        "score": -0.10886179889935828,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/430383563",
+        "title": "Symptom or complaint of the mouth, tongue or lip",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/430383563",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Dry lip",
+            "score": -0.11557232626196808,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/738887534",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD80.1",
+        "score": -0.11557232626196808,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1527773104/unspecified",
+        "title": "Mucopurulent conjunctivitis, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1527773104/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "pink eye",
+            "score": -0.13245997974029453,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1527773104",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "sticky eye",
+            "score": -0.29138663451844493,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1527773104",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "09",
+        "theCode": "9A60.3Z",
+        "score": -0.13245997974029453,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1810717437",
+        "title": "Xerostomia",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1810717437",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Dry mouth",
+            "score": -0.1694403567106455,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/452680525",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Dry mouth due to sicca syndrome",
+            "score": -1.0554240210881276,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1050582964",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "13",
+        "theCode": "DA02.1",
+        "score": -0.1694403567106455,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1679904912/unspecified",
+        "title": "Injury of eye or orbit, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1679904912/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Injury of eye NOS",
+            "score": -0.1779236769886149,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1679904912",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "eye injury",
+            "score": -0.1779236769886149,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1679904912",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "injury of globe of eye",
+            "score": -0.8136892783066315,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1679904912",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Injury of eye or orbit",
+            "score": -0.8582565083319502,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1679904912",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "22",
+        "theCode": "NA06.Z",
+        "score": -0.1779236769886149,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/230827382",
+        "title": "Mechanical strabismus",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/230827382",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "fibrosis of eye muscle",
+            "score": -0.18468826166291855,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1688725898",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Traumatic limitation of duction of eye muscle",
+            "score": -1.4736411701012404,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1783609490",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Mechanical strabismus due to thyroid eye disease",
+            "score": -1.7888620678073988,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1534723321",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Frozen eyeball syndrome",
+            "score": -2.34972800125234,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1827218823",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "09",
+        "theCode": "9C80.5",
+        "score": -0.18468826166291855,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/973190159/other",
+        "title": "Other specified disorders of extraocular muscles",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/973190159/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Eye muscle paralysis",
+            "score": -0.18933578994681804,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/829642560",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "paralytic contracture of eye muscle",
+            "score": -0.6166600817523918,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2059798933",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "paralysis of rectus muscle of eye",
+            "score": -0.7924311320939783,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/829642560",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "paralysis of extrinsic muscle of eye",
+            "score": -0.8483980341075832,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/829642560",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "09",
+        "theCode": "9C82.Y",
+        "score": -0.18933578994681804,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1731667610",
+        "title": "Hypoalphalipoproteinaemia",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1731667610",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Fish-eye disease",
+            "score": -0.2016008334271727,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1737717544",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "05",
+        "theCode": "5C81.0",
+        "score": -0.2016008334271727,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1034943794/other",
+        "title": "Other specified symptom or complaint of the throat",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1034943794/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Dry throat",
+            "score": -0.20525486285792988,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1693692158",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MD36.Y",
+        "score": -0.20525486285792988,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1995293728",
+        "title": "Eye appearance abnormal",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1995293728",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MC10",
+        "score": -0.23378188897875396,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1677539077",
+        "title": "Eye sensation abnormal",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1677539077",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MC11",
+        "score": -0.2502441125624533,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1787470673/unspecified",
+        "title": "Examination of eyes or vision, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1787470673/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "general eye examination",
+            "score": -0.2733382887783952,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1787470673",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Examination of eyes or vision",
+            "score": -0.32200453009687524,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1787470673",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "routine eye examination",
+            "score": -0.4973845530999438,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1787470673",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "24",
+        "theCode": "QA00.6Z",
+        "score": -0.2733382887783952,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/691350959",
+        "title": "Congenital cranial dysinnervation syndrome",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/691350959",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "eye retraction syndrome",
+            "score": -0.2928234524806701,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/482830550",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "09",
+        "theCode": "9C82.2",
+        "score": -0.2928234524806701,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1243975513",
+        "title": "Penetrating wound of eyeball without foreign body, unilateral",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1243975513",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "traumatic perforation of eye",
+            "score": -0.29285261133128576,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1243975513",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "penetrating laceration of eyeball",
+            "score": -0.9528315924004174,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1243975513",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "penetrating injury of eyeball",
+            "score": -1.2227730524315752,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1243975513",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "penetrating wound of eyeball",
+            "score": -1.7298848150917956,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1243975513",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NA06.84",
+        "score": -0.29285261133128576,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/795755213",
+        "title": "Avulsion of eye, unilateral",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/795755213",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "enucleation of eye",
+            "score": -0.31673570555918407,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/795755213",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NA06.85",
+        "score": -0.31673570555918407,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1565415915",
+        "title": "Duplications with other complex rearrangements",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1565415915",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Cat-eye syndrome",
+            "score": -0.3328122610228788,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1813923633",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "20",
+        "theCode": "LD41.P",
+        "score": -0.3328122610228788,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/697366740/unspecified",
+        "title": "Degeneration of macula or posterior pole, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/697366740/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "macular eye degeneration",
+            "score": -0.3528677574528873,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/697366740",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "posterior pole macular degeneration of eye",
+            "score": -1.3789767991608899,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/697366740",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "09",
+        "theCode": "9B78.3Z",
+        "score": -0.3528677574528873,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1094028194",
+        "title": "Conjunctivitis due to adenovirus",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1094028194",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Shipyard eye",
+            "score": -0.3719105564236633,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/612255284",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "01",
+        "theCode": "1D84.0",
+        "score": -0.3719105564236633,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/490666746/unspecified",
+        "title": "Orbital inflammation, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/490666746/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Tenonitis of eye",
+            "score": -0.3719105564236633,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2010962534",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "tenonitis of eye capsule",
+            "score": -2.104934523618519,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2010962534",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "09",
+        "theCode": "9A22.Z",
+        "score": -0.3719105564236633,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/574611415",
+        "title": "Presence of artificial eye",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/574611415",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "24",
+        "theCode": "QB51.8",
+        "score": -0.3927236931155114,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2132425470",
+        "title": "Ophthalmic devices associated with injury or harm, prosthetic or other implants, materials or accessory devices",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2132425470",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": true,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "prolapse of eye implant",
+            "score": -0.40101325856017905,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/606955906",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Mechanical complications of eye implant",
+            "score": -0.6690934006812421,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/606955906",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "eye implant extrusion",
+            "score": -0.6943174859230695,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/606955906",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "23",
+        "theCode": "PK97.2",
+        "score": -0.40101325856017905,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1106186590",
+        "title": "Buphthalmos",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1106186590",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Cystic eyeball",
+            "score": -0.42653072728230257,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1106186590",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Cystic eyeball, bilateral",
+            "score": -0.8347698446430435,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1386324375",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Cystic eyeball, unilateral",
+            "score": -0.8487393786356634,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1881306098",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "20",
+        "theCode": "LA10.2",
+        "score": -0.42653072728230257,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1792222055",
+        "title": "Family history of eye or ear disorders",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1792222055",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "family history of eye disorders",
+            "score": -0.42739202075830185,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1792222055",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "24",
+        "theCode": "QC66",
+        "score": -0.42739202075830185,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/870769757/unspecified",
+        "title": "Irregular eye movements, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/870769757/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Certain specified irregular eye movements",
+            "score": -0.833819909997539,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/870769757",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "09",
+        "theCode": "9C85.Z",
+        "score": -0.4328073733519649,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/179017711",
+        "title": "Hypertelorism",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/179017711",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "eyes widely set",
+            "score": -0.43781153807845974,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/179017711",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "eyes wide apart",
+            "score": -0.6058194960834237,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/179017711",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "20",
+        "theCode": "LB71.1",
+        "score": -0.43781153807845974,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/755558110",
+        "title": "Xerosis cutis or asteatosis",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/755558110",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Atopic dry skin",
+            "score": -0.44862032276163927,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/827960496",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Dry skin of the elderly",
+            "score": -0.5087002457085896,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1196012271",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "14",
+        "theCode": "ED54",
+        "score": -0.44862032276163927,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/396687076",
+        "title": "Congenital muscular dystrophy",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/396687076",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Muscle Eye Brain disease",
+            "score": -0.4894781253382538,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1330230975",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "MEB - [Muscle Eye Brain disease]",
+            "score": -1.3318272567169527,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1330230975",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "08",
+        "theCode": "8C70.6",
+        "score": -0.4894781253382538,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/184219771",
+        "title": "Vitreous prolapse",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/184219771",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "vitreous prolapse, unspecified eye",
+            "score": -0.4901502889684191,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/184219771",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "09",
+        "theCode": "9B82",
+        "score": -0.4901502889684191,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/541009954/unspecified",
+        "title": "Structural developmental anomalies of eyelids, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/541009954/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": true,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "malformations of eyelids",
+            "score": -0.4908687634544945,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/541009954",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Structural developmental anomalies of eyelids",
+            "score": -1.274254012210733,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/541009954",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "20",
+        "theCode": "LA14.0Z",
+        "score": -0.4908687634544945,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/136743240/other",
+        "title": "Other specified disorders of eyelid",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/136743240/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Steatoma of eyelid",
+            "score": -0.9966450760312573,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/864408435",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "discoid lupus eyelid",
+            "score": -1.2384617222345873,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/743513349",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "dermatitis of eyelid",
+            "score": -1.3149343356124068,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/849793428",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "eyelid dermatitis NOS",
+            "score": -1.3149343356124068,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/849793428",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "dermatosis of eyelid",
+            "score": -1.5619568703811493,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/849793428",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "erythematosus lupus eyelid",
+            "score": -1.9178464685081975,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/743513349",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Xeroderma of eyelid",
+            "score": -1.9926915635853006,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/144401595",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Noninfectious dermatoses of eyelid",
+            "score": -2.1351771902138412,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/849793428",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "noninfectious dermatosis of eyelid",
+            "score": -2.1351771902138412,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/849793428",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "acquired xeroderma of eyelid",
+            "score": -2.319226013281742,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/144401595",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Discoid lupus erythematosus of eyelid",
+            "score": -2.517850141135625,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/743513349",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "non-infectious dermatosis of eyelid",
+            "score": -2.5929783343716073,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/849793428",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "09",
+        "theCode": "9A06.Y",
+        "score": -0.512201710522953,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1787470673/other",
+        "title": "Other specified examination of eyes or vision",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1787470673/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "24",
+        "theCode": "QA00.6Y",
+        "score": -0.5197655475412346,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/744102274 & http://id.who.int/icd/release/11/2026-01/mms/1912153731",
+        "title": "Laceration without foreign body of eyelid or periocular area",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/744102274",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": true,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "laceration of eyelid",
+            "score": -0.5327167365650516,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/390900542",
+            "propertyValueType": 2
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "22",
+        "theCode": "NA01.2&XA17K1",
+        "score": -0.5327167365650516,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 1,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1117762038/unspecified",
+        "title": "Displacement of eyeball, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1117762038/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "TitleOfOtherEntity",
+            "label": "Displacement of eyeball",
+            "score": -0.5338861943992891,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1117762038",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "09",
+        "theCode": "9A20.Z",
+        "score": -0.5338861943992891,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      }
+    ],
+    "error": false,
+    "errorMessage": null,
+    "resultChopped": true,
+    "wordSuggestionsChopped": false,
+    "guessType": 2,
+    "uniqueSearchId": "db414b22-01dc-450f-92c0-b189c17b2bf1",
+    "words": null
+  }
+}

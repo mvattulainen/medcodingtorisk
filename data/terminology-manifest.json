@@ -1,0 +1,204 @@
+{
+  "generatedAt": "2026-07-27T00:00:00.000Z",
+  "deterministicBuild": true,
+  "terminologies": {
+    "icd11": {
+      "terminology": "WHO ICD-11 MMS",
+      "release": "2026-01",
+      "apiVersion": "v2",
+      "language": "en",
+      "linearization": "mms",
+      "apiBase": "https://id.who.int",
+      "documentationUrl": "https://icd.who.int/docs/icd-api/",
+      "cacheEntries": [
+        {
+          "query": "eye irritation",
+          "cacheFile": "data/icd11-cache/2026-01/eye-irritation.json",
+          "responseHash": "sha256:52c8d7726472b4946748bc60d9858def1fcfe991535e98eeea2b8ba6ba216b45",
+          "candidateCount": 10
+        },
+        {
+          "query": "dry eye",
+          "cacheFile": "data/icd11-cache/2026-01/dry-eye.json",
+          "responseHash": "sha256:401dd200c5bc456501b9aa6ff6d1c13806c80e402950187530b3e8e5d4803af7",
+          "candidateCount": 10
+        },
+        {
+          "query": "skin lesion",
+          "cacheFile": "data/icd11-cache/2026-01/skin-lesion.json",
+          "responseHash": "sha256:ebab527642dbda7d0f4e7089ff28d24cce5fe2b7df422f506c7efd586fc5ea45",
+          "candidateCount": 10
+        },
+        {
+          "query": "open wound of nose",
+          "cacheFile": "data/icd11-cache/2026-01/open-wound-of-nose.json",
+          "responseHash": "sha256:de21e1407f3928561b29e6462144b294bdd45621f1a37679eaf4e5f4a310ab3b",
+          "candidateCount": 10
+        },
+        {
+          "query": "skin rash",
+          "cacheFile": "data/icd11-cache/2026-01/skin-rash.json",
+          "responseHash": "sha256:0fabf793effc7f0a828eb939abc79c7453007e6ef5b9e8682bf34fb911eb57ae",
+          "candidateCount": 10
+        },
+        {
+          "query": "dry mouth",
+          "cacheFile": "data/icd11-cache/2026-01/dry-mouth.json",
+          "responseHash": "sha256:d43ce64286ab54063895f5c97f450aa7b2e699e5d9b7e3e13f4e9009be1505a8",
+          "candidateCount": 10
+        },
+        {
+          "query": "sore throat",
+          "cacheFile": "data/icd11-cache/2026-01/sore-throat.json",
+          "responseHash": "sha256:0666977cbf6e2df614da9a10f57d6032edd2a74164e3e559edd3bf3fcc378c04",
+          "candidateCount": 10
+        },
+        {
+          "query": "nasal dryness",
+          "cacheFile": "data/icd11-cache/2026-01/nasal-dryness.json",
+          "responseHash": "sha256:c46d97bb34e98cc74b4b26fe602babf22ee91ac0e78dbd1523cd1aa744ab6c00",
+          "candidateCount": 10
+        },
+        {
+          "query": "epistaxis",
+          "cacheFile": "data/icd11-cache/2026-01/epistaxis.json",
+          "responseHash": "sha256:fa609c065a40f5338cb443eb4da94a0a3c9933277626472bd3a9119b7e167389",
+          "candidateCount": 2
+        },
+        {
+          "query": "abdominal bloating",
+          "cacheFile": "data/icd11-cache/2026-01/abdominal-bloating.json",
+          "responseHash": "sha256:0f2e3537e537070e4f8ff9038c74cde6dde4f408bcad39025e6138a1adf69a84",
+          "candidateCount": 10
+        },
+        {
+          "query": "aerophagia",
+          "cacheFile": "data/icd11-cache/2026-01/aerophagia.json",
+          "responseHash": "sha256:f9aaafebb2818392d513bd15ff1f4963ce371188f93252e7e55c6bf93b10d4eb",
+          "candidateCount": 2
+        },
+        {
+          "query": "headache",
+          "cacheFile": "data/icd11-cache/2026-01/headache.json",
+          "responseHash": "sha256:770a18c4565d7d68914f153ab28c51ce2848612a6f6303830e173d2ed131c3b8",
+          "candidateCount": 10
+        },
+        {
+          "query": "daytime sleepiness",
+          "cacheFile": "data/icd11-cache/2026-01/daytime-sleepiness.json",
+          "responseHash": "sha256:fa44476178d389a1059d76f5b1eafc5367dc695d7a26af46a9b4715b53e55bb9",
+          "candidateCount": 10
+        },
+        {
+          "query": "chest discomfort",
+          "cacheFile": "data/icd11-cache/2026-01/chest-discomfort.json",
+          "responseHash": "sha256:a97785030581f244e551055fe298d3c0b6aff58c71a4c7b20504251015343c0f",
+          "candidateCount": 10
+        },
+        {
+          "query": "anxiety",
+          "cacheFile": "data/icd11-cache/2026-01/anxiety.json",
+          "responseHash": "sha256:02cd23360da9a590296616bbe0b9fdf7282b27ef9b1371f75e72bb7cfde84df4",
+          "candidateCount": 10
+        },
+        {
+          "query": "panic symptoms",
+          "cacheFile": "data/icd11-cache/2026-01/panic-symptoms.json",
+          "responseHash": "sha256:7fa8be73ea7bf55d774f77f5e83364f56d0cac09c9e756279813d38abe3c0747",
+          "candidateCount": 10
+        },
+        {
+          "query": "cough",
+          "cacheFile": "data/icd11-cache/2026-01/cough.json",
+          "responseHash": "sha256:38078c86795754dcb271c04ac50e17f2d6178bbec195023e04c75b6749f85830",
+          "candidateCount": 10
+        },
+        {
+          "query": "choking sensation",
+          "cacheFile": "data/icd11-cache/2026-01/choking-sensation.json",
+          "responseHash": "sha256:2cd156705d40007cd86b9d7f1f0fa90b4927bc0bccf5991ba5d5bb4399b81999",
+          "candidateCount": 10
+        },
+        {
+          "query": "burn of hand",
+          "cacheFile": "data/icd11-cache/2026-01/burn-of-hand.json",
+          "responseHash": "sha256:d4968f0cc7967d376ff0c6a0ad0014646886e75cef063483fe40f6493aab1088",
+          "candidateCount": 10
+        },
+        {
+          "query": "sleep disturbance",
+          "cacheFile": "data/icd11-cache/2026-01/sleep-disturbance.json",
+          "responseHash": "sha256:0c40bb74d43fcdb96b838fe27a3ee9852cc011deda19586abcfdd7e0dc45203e",
+          "candidateCount": 10
+        },
+        {
+          "query": "shortness of breath",
+          "cacheFile": "data/icd11-cache/2026-01/shortness-of-breath.json",
+          "responseHash": "sha256:5667d6d75c41aa32353e4554956363305587af474ac85033ad384cd53c430f17",
+          "candidateCount": 10
+        },
+        {
+          "query": "difficulty exhaling",
+          "cacheFile": "data/icd11-cache/2026-01/difficulty-exhaling.json",
+          "responseHash": "sha256:d342e4ab67c64ba058b5c619a392688f591fa9a1a99a01e42481faae42c18f44",
+          "candidateCount": 10
+        },
+        {
+          "query": "throat irritation",
+          "cacheFile": "data/icd11-cache/2026-01/throat-irritation.json",
+          "responseHash": "sha256:cea95ac6078f48d2567822d3160fb1055f78e903c889b2cb79864b91f44c17f1",
+          "candidateCount": 10
+        },
+        {
+          "query": "insomnia",
+          "cacheFile": "data/icd11-cache/2026-01/insomnia.json",
+          "responseHash": "sha256:cf634d34e945ad0791d7e76d9f6116285cf0f4d5d75743d8d31a43b6ad17beb0",
+          "candidateCount": 5
+        },
+        {
+          "query": "fatigue",
+          "cacheFile": "data/icd11-cache/2026-01/fatigue.json",
+          "responseHash": "sha256:5abf7e73d929b92515bc505bece7099b021bcce4817396cf414c80d375539163",
+          "candidateCount": 10
+        },
+        {
+          "query": "skin redness",
+          "cacheFile": "data/icd11-cache/2026-01/skin-redness.json",
+          "responseHash": "sha256:923a418918b22884e2d18a47b7aa4a3432e0c58fcc78c7401e6645818093def9",
+          "candidateCount": 10
+        },
+        {
+          "query": "belching",
+          "cacheFile": "data/icd11-cache/2026-01/belching.json",
+          "responseHash": "sha256:6f346ca7d3fddd593da4e8fde40e9e3af9cafa94c74bb30ac581e53bfa00b9a5",
+          "candidateCount": 2
+        }
+      ]
+    },
+    "imdrf": {
+      "terminology": "IMDRF AET",
+      "release": "2026",
+      "sourceUrl": "https://www.imdrf.org/sites/default/files/2026-03/annexa-g-consolidated2026-revised_0.JSON",
+      "releasePage": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+      "sourceChecksum": "sha256:e3476b9d588a705569c5c4d4e22faf573b6ad834537645a89a469743456cfe9d",
+      "normalizedRecordCount": 1938,
+      "localFiles": [
+        "data/imdrf/2026/annex-a.json",
+        "data/imdrf/2026/annex-b.json",
+        "data/imdrf/2026/annex-c.json",
+        "data/imdrf/2026/annex-d.json",
+        "data/imdrf/2026/annex-e.json",
+        "data/imdrf/2026/annex-f.json",
+        "data/imdrf/2026/annex-g.json"
+      ]
+    },
+    "snomedCt": {
+      "terminology": "SNOMED CT",
+      "mode": "human-reviewed-web-fallback",
+      "automaticApiAccess": false,
+      "browserUrl": "https://browser.ihtsdotools.org/",
+      "bulkContentIncluded": false
+    }
+  },
+  "manifestHash": "sha256:dc657c76eac9dd9d8ff3c57a5351f69bb84221b2529acc5402930f17925281f5"
+}

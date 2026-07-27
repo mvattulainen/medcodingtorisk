@@ -1,0 +1,218 @@
+@use "./base.scss";
+
+:root {
+  --clinical: #0f766e;
+  --clinical-soft: #ccfbf1;
+  --technical: #1d4ed8;
+  --technical-soft: #dbeafe;
+  --review: #a3410e;
+  --review-soft: #ffedd5;
+  --surface: color-mix(in srgb, var(--light) 92%, var(--secondary));
+}
+
+.page > #quartz-body .center {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.center article {
+  min-width: 0;
+  line-height: 1.68;
+}
+
+.center article h1 {
+  letter-spacing: -0.035em;
+}
+
+.center article h2 {
+  margin-top: 2.6rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--lightgray);
+}
+
+.center article table {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  font-size: 0.91rem;
+}
+
+.center article th {
+  background: color-mix(in srgb, var(--lightgray) 52%, transparent);
+  color: var(--dark);
+}
+
+.demo-hero,
+.metric-grid,
+.trace-chain,
+.source-grid {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.demo-hero {
+  grid-template-columns: 1.6fr 1fr;
+  padding: 1.35rem;
+  margin: 1rem 0 1.5rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 16px;
+  background:
+    radial-gradient(
+      circle at 90% 0%,
+      color-mix(in srgb, var(--secondary) 22%, transparent),
+      transparent 42%
+    ),
+    var(--surface);
+}
+
+.metric-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: 1rem 0 1.5rem;
+}
+
+.metric {
+  padding: 0.95rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 12px;
+  background: var(--light);
+}
+
+.metric strong {
+  display: block;
+  font-size: 1.55rem;
+  line-height: 1.1;
+  color: var(--secondary);
+}
+
+.metric span {
+  display: block;
+  margin-top: 0.35rem;
+  color: var(--darkgray);
+  font-size: 0.82rem;
+}
+
+.trace-chain {
+  grid-template-columns: repeat(5, 1fr);
+  align-items: stretch;
+  margin: 1.1rem 0 1.6rem;
+}
+
+.trace-node {
+  position: relative;
+  padding: 0.8rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 10px;
+  background: var(--light);
+  font-size: 0.82rem;
+}
+
+.trace-node:not(:last-child)::after {
+  content: "→";
+  position: absolute;
+  right: -0.72rem;
+  top: calc(50% - 0.65rem);
+  z-index: 1;
+  padding: 0.05rem 0.2rem;
+  color: var(--secondary);
+  background: var(--light);
+  font-weight: 700;
+}
+
+.trace-node b,
+.trace-node span {
+  display: block;
+}
+
+.trace-node span {
+  margin-top: 0.35rem;
+  color: var(--darkgray);
+}
+
+.trace-node.matched {
+  border-left: 4px solid var(--clinical);
+}
+
+.trace-node.uncertain {
+  border-left: 4px solid var(--review);
+}
+
+.confidence,
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.14rem 0.48rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.confidence.strong,
+.confidence.good {
+  color: var(--clinical);
+  background: color-mix(in srgb, var(--clinical-soft) 65%, var(--light));
+}
+
+.confidence.plausible,
+.confidence.weak,
+.status-pill.review {
+  color: var(--review);
+  background: color-mix(in srgb, var(--review-soft) 65%, var(--light));
+}
+
+.tag-medical,
+.tag-technical {
+  display: inline-block;
+  margin: 0.16rem 0.18rem 0.16rem 0;
+  padding: 0.22rem 0.48rem;
+  border-radius: 6px;
+  font-family: var(--codeFont);
+  font-size: 0.76rem;
+}
+
+.tag-medical {
+  color: var(--clinical);
+  background: color-mix(in srgb, var(--clinical-soft) 70%, var(--light));
+}
+
+.tag-technical {
+  color: var(--technical);
+  background: color-mix(in srgb, var(--technical-soft) 70%, var(--light));
+}
+
+.source-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.source-card {
+  padding: 0.9rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 10px;
+  background: var(--surface);
+}
+
+@media (max-width: 850px) {
+  .demo-hero,
+  .source-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .metric-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .trace-chain {
+    grid-template-columns: 1fr;
+  }
+
+  .trace-node:not(:last-child)::after {
+    content: "↓";
+    right: 50%;
+    top: auto;
+    bottom: -0.82rem;
+  }
+
+}

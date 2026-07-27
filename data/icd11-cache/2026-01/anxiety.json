@@ -1,0 +1,2838 @@
+{
+  "query": "anxiety",
+  "requestUrl": "https://id.who.int/icd/release/11/2026-01/mms/search?q=anxiety&useFlexisearch=true&flatResults=true&highlightingEnabled=false&medicalCodingMode=true",
+  "retrievedAt": "2026-07-27T00:00:00.000Z",
+  "apiVersion": "v2",
+  "release": "2026-01",
+  "linearization": "mms",
+  "response": {
+    "destinationEntities": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2027043655",
+        "title": "Anxiety",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2027043655",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "21",
+        "theCode": "MB24.3",
+        "score": 1,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1712535455",
+        "title": "Generalised anxiety disorder",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1712535455",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "anxiety generalised",
+            "score": 0.7129632421528983,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1712535455",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Anxiety neurosis",
+            "score": 0.4995286095134813,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1712535455",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "neurotic anxiety",
+            "score": 0.4995286095134813,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1712535455",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "GAD - [generalised anxiety disorder]",
+            "score": -0.006343495235094125,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1712535455",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "psychoneurotic anxiety",
+            "score": -0.4564398930487101,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1712535455",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6B00",
+        "score": 0.7129632421528983,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2131412196",
+        "title": "Secondary anxiety syndrome",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2131412196",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Organic anxiety disorder",
+            "score": 0.5822861794293633,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2131412196",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "medical condition causing anxiety disorder",
+            "score": 0.12717283407295593,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2131412196",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "anxiety disorder due to a general medical condition",
+            "score": -0.04682208611085057,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2131412196",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "FullySpecifiedName",
+            "label": "Anxiety syndrome due to health condition not classified under mental and behavioural disorders",
+            "score": -1.9002143004549312,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2131412196",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6E63",
+        "score": 0.5822861794293633,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/675329566/unspecified",
+        "title": "Hypochondriasis, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/675329566/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Health anxiety disorder",
+            "score": 0.540768195602009,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/675329566",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Illness anxiety disorder",
+            "score": -0.3279967356986018,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/675329566",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "06",
+        "theCode": "6B23.Z",
+        "score": 0.540768195602009,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2062286624",
+        "title": "Social anxiety disorder",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2062286624",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6B04",
+        "score": 0.5113169906547156,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/830200631",
+        "title": "Separation anxiety disorder",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/830200631",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Separation anxiety disorder of childhood",
+            "score": 0.13764123463788866,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2144550616",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6B05",
+        "score": 0.4893496132786545,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1900730309",
+        "title": "Nightmare disorder",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1900730309",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Dream anxiety disorder",
+            "score": 0.3106516503532016,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1900730309",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "07",
+        "theCode": "7B01.2",
+        "score": 0.3106516503532016,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1176625878",
+        "title": "Cocaine-induced anxiety disorder",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1176625878",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6C45.71",
+        "score": 0.19482879135519748,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/56162827",
+        "title": "Panic disorder",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/56162827",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "episodic paroxysmal anxiety disorder",
+            "score": 0.17600742023983046,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/56162827",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6B01",
+        "score": 0.17600742023983046,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/963759045",
+        "title": "Opioid-induced anxiety disorder",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/963759045",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Opioid withdrawal-induced anxiety disorder",
+            "score": -0.17952189922068054,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/963759045",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6C43.71",
+        "score": 0.1682237128442362,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1245150953",
+        "title": "Hallucinogen-induced anxiety disorder",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1245150953",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6C49.61",
+        "score": 0.16666300440780263,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1978307484",
+        "title": "Cannabis-induced anxiety disorder",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1978307484",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6C41.71",
+        "score": 0.15721233428136833,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/314468192",
+        "title": "Mixed depressive and anxiety disorder",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/314468192",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "depression with anxiety",
+            "score": 0.15211838356741572,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/314468192",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Anxiety depression",
+            "score": 0.15211838356741572,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/314468192",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "anxiety disorder mixed with depression",
+            "score": -0.3252803015783355,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/314468192",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "anxiety disorder mixed with mild depression",
+            "score": -0.6524705494881811,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/314468192",
+            "propertyValueType": 0
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Anxiety depression, mild or not persistent",
+            "score": -0.681225342355584,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/314468192",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6A73",
+        "score": 0.15211838356741572,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1115271910",
+        "title": "Caffeine-induced anxiety disorder",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1115271910",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6C48.40",
+        "score": 0.14234967876776675,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1119039346",
+        "title": "Prominent anxiety symptoms in mood episodes",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1119039346",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": true,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6A80.0",
+        "score": -0.15897819661575166,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/824927288/other",
+        "title": "Other specified problems associated with finances",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/824927288/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "anxiety concerning bankruptcy",
+            "score": -0.16798573845798678,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/794995641",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "24",
+        "theCode": "QD5Y",
+        "score": -0.16798573845798678,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1918560936",
+        "title": "Volatile inhalant-induced anxiety disorder",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1918560936",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6C4B.71",
+        "score": -0.19948883260381148,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1423983191",
+        "title": "Synthetic cathinone-induced anxiety disorder",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1423983191",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6C47.71",
+        "score": -0.2014521289083094,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1396644446",
+        "title": "Synthetic cannabinoid-induced anxiety disorder",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1396644446",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6C42.71",
+        "score": -0.21859873823616519,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/479763552",
+        "title": "Anxiety symptoms in dementia",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/479763552",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6D86.2",
+        "score": -0.2654120907688614,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/325981339",
+        "title": "MDMA or related drug-induced anxiety disorder",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/325981339",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Ecstasy or related drug-induced anxiety disorder",
+            "score": -0.33254076697609974,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/325981339",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6C4C.71",
+        "score": -0.33254076697609974,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2068155409",
+        "title": "Alcohol-induced anxiety disorder",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2068155409",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6C40.71",
+        "score": -0.36714692138827604,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1336943699/unspecified",
+        "title": "Anxiety or fear-related disorders, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1336943699/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "phobic anxiety disorders",
+            "score": -0.8058104511905042,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1336943699",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "06",
+        "theCode": "6B0Z",
+        "score": -0.6397381913415143,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1506172532",
+        "title": "Sedative, hypnotic or anxiolytic-induced anxiety disorder",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1506172532",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6C44.71",
+        "score": -0.6628386331021916,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1336943699/other",
+        "title": "Other specified anxiety or fear-related disorders",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1336943699/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6B0Y",
+        "score": -0.8023066307196272,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/509176135",
+        "title": "Anxiety disorder induced by other specified psychoactive substance",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/509176135",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6C4E.71",
+        "score": -1.0554002249507122,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1552098464",
+        "title": "Dissociative drug-induced anxiety disorder including ketamine or PCP",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1552098464",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6C4D.61",
+        "score": -1.1429626981064207,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1198710764",
+        "title": "Anxiety disorder induced by multiple specified psychoactive substances",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1198710764",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6C4F.71",
+        "score": -1.1466081781925441,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/62314683",
+        "title": "Anxiety disorder induced by unknown or unspecified psychoactive substance",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/62314683",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6C4G.71",
+        "score": -1.1925446011090308,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1627021441",
+        "title": "Stimulant-induced anxiety disorder including amphetamines, methamphetamine or methcathinone",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1627021441",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6C46.71",
+        "score": -1.290870440045493,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1922675618",
+        "title": "Single episode depressive disorder, mild",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1922675618",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, mild, with prominent anxiety symptoms",
+            "score": -1.4546673503790628,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/833411765",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, mild, with prominent anxiety symptoms and melancholia",
+            "score": -1.8261386687254029,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1002390139",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, mild, with prominent anxiety symptoms and seasonal pattern",
+            "score": -2.0800252884246277,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1369386942",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, mild, with prominent anxiety symptoms, melancholia, and seasonal pattern",
+            "score": -2.4514966067709683,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/971287842",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, mild, with prominent anxiety symptoms, current episode perinatal",
+            "score": -2.8327089175851734,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1585518430",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, mild, with prominent anxiety symptoms and melancholia, current episode perinatal",
+            "score": -3.204180235931514,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/670825812",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, mild, with prominent anxiety symptoms and seasonal pattern, current episode perinatal",
+            "score": -3.4580668556307383,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/43061478",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, mild, with prominent anxiety symptoms, melancholia, and seasonal pattern, current episode perinatal",
+            "score": -3.829538173977078,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2099560807",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6A70.0",
+        "score": -1.4546673503790628,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1462112221/other",
+        "title": "Other specified acute vestibular syndrome",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1462112221/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Acute vestibular syndrome due to anxiety or fear-related disorders",
+            "score": -1.4690985319991505,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1538758612",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "10",
+        "theCode": "AB30.Y",
+        "score": -1.4690985319991505,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1402706403/other",
+        "title": "Other specified episodic vestibular syndrome",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1402706403/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Episodic vestibular syndrome due to anxiety or fear-related disorders",
+            "score": -1.5128883749017257,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/108343066",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "10",
+        "theCode": "AB31.Y",
+        "score": -1.5128883749017257,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/17588040",
+        "title": "Dependent relative needing care at home",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/17588040",
+        "isLeaf": true,
+        "postcoordinationAvailability": 0,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Anxiety (normal) about sick person in family",
+            "score": -1.663913155709051,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/17588040",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "24",
+        "theCode": "QE70.2",
+        "score": -1.663913155709051,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1851882275",
+        "title": "Recurrent depressive disorder, current episode mild",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1851882275",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode mild, with prominent anxiety symptoms",
+            "score": -1.727298978583512,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/28346954",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode mild, with prominent anxiety symptoms and melancholia",
+            "score": -2.0987702969298523,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1438285753",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode mild, with prominent anxiety symptoms and seasonal pattern",
+            "score": -2.352656916629077,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1892717067",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode mild, with prominent anxiety symptoms, melancholia, and seasonal pattern",
+            "score": -2.7241282349754172,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/392308540",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode mild, with prominent anxiety symptoms, current episode perinatal",
+            "score": -2.810793071793624,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/233415584",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode mild, with prominent anxiety symptoms and melancholia, current episode perinatal",
+            "score": -3.182264390139964,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1999246593",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode mild, with prominent anxiety symptoms and seasonal pattern, current episode perinatal",
+            "score": -3.4361510098391883,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1663491515",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode mild, with prominent anxiety symptoms, melancholia, and seasonal pattern, current episode perinatal",
+            "score": -3.807622328185528,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/667939602",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6A71.0",
+        "score": -1.727298978583512,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1931350942",
+        "title": "Bipolar type I disorder, current episode hypomanic",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1931350942",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode hypomanic, with prominent anxiety symptoms",
+            "score": -1.8071580863849375,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/907868132",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode hypomanic, with prominent anxiety symptoms and melancholia",
+            "score": -2.1786294047312778,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/359695650",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode hypomanic, with prominent anxiety symptoms and seasonal pattern",
+            "score": -2.432516024430502,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/731293546",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode hypomanic, with prominent anxiety symptoms and rapid cycling",
+            "score": -2.4877098677552687,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1266230563",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode hypomanic, with prominent anxiety symptoms, melancholia, and seasonal pattern",
+            "score": -2.8039873427768423,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1583080489",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode hypomanic, with prominent anxiety symptom, melancholia, and rapid cycling",
+            "score": -2.8591811861016088,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1623049825",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode hypomanic, with prominent anxiety symptoms, current episode perinatal",
+            "score": -2.8906521795950484,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/459929244",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode hypomanic, with prominent anxiety symptoms and seasonal pattern and rapid cycling",
+            "score": -3.1130678058008336,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1233975654",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode hypomanic, with prominent anxiety symptoms and melancholia, current episode perinatal",
+            "score": -3.2621234979413885,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1497784532",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode hypomanic, with prominent anxiety symptoms, melancholia, seasonal pattern, and rapid cycling",
+            "score": -3.4845391241471737,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2094643404",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode hypomanic, with prominent anxiety symptoms and seasonal pattern, current episode perinatal",
+            "score": -3.516010117640613,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/911352555",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode hypomanic, with prominent anxiety symptoms and rapid cycling, current episode perinatal",
+            "score": -3.5712039609653803,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/122667217",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode hypomanic, with prominent anxiety symptoms, melancholia, and seasonal pattern, current episode perinatal",
+            "score": -3.8874814359869525,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1925237618",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode hypomanic, with prominent anxiety symptoms, melancholia, and rapid cycling, current episode perinatal",
+            "score": -3.942675279311721,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/309133787",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode hypomanic, with prominent anxiety symptoms, seasonal pattern, and rapid cycling, current episode perinatal",
+            "score": -4.196561899010945,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1561248578",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode hypomanic, with prominent anxiety symptoms, melancholia, seasonal pattern, and rapid cycling, current episode perinatal",
+            "score": -4.568033217357286,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/258784588",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6A60.2",
+        "score": -1.8071580863849375,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/729639831",
+        "title": "Bipolar type II disorder, current episode hypomanic",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/729639831",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode hypomanic, with prominent anxiety symptoms",
+            "score": -1.856055254072526,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/489432052",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode hypomanic, with prominent anxiety symptoms and melancholia",
+            "score": -2.227526572418866,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1228282681",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode hypomanic, with prominent anxiety symptoms and seasonal pattern",
+            "score": -2.4814131921180906,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/106289572",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode hypomanic, with prominent anxiety symptoms and rapid cycling",
+            "score": -2.536607035442857,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/679043678",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode hypomanic, with prominent anxiety symptoms, melancholia, and seasonal pattern",
+            "score": -2.8528845104644307,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1527340744",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode hypomanic, with prominent anxiety symptom, melancholia, and rapid cycling",
+            "score": -2.908078353789197,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/618104135",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode hypomanic, with prominent anxiety symptoms, current episode perinatal",
+            "score": -2.9395493472826377,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/162404816",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode hypomanic, with prominent anxiety symptoms and seasonal pattern and rapid cycling",
+            "score": -3.161964973488421,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/462511137",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode hypomanic, with prominent anxiety symptoms and melancholia, current episode perinatal",
+            "score": -3.311020665628978,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2057072036",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode hypomanic, with prominent anxiety symptoms, melancholia, seasonal pattern, and rapid cycling",
+            "score": -3.5334362918347613,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/120593310",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode hypomanic, with prominent anxiety symptoms and seasonal pattern, current episode perinatal",
+            "score": -3.5649072853282013,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1682933680",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode hypomanic, with prominent anxiety symptoms and rapid cycling, current episode perinatal",
+            "score": -3.620101128652968,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1954881050",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode hypomanic, with prominent anxiety symptoms, melancholia, and seasonal pattern, current episode perinatal",
+            "score": -3.936378603674541,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/346241198",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode hypomanic, with prominent anxiety symptoms, melancholia, and rapid cycling, current episode perinatal",
+            "score": -3.9915724469993075,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1240670763",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode hypomanic, with prominent anxiety symptoms, seasonal pattern, and rapid cycling, current episode perinatal",
+            "score": -4.245459066698533,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2028912657",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode hypomanic, with prominent anxiety symptoms, melancholia, seasonal pattern, and rapid cycling, current episode perinatal",
+            "score": -4.616930385044874,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/350318672",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6A61.0",
+        "score": -1.856055254072526,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/104129373",
+        "title": "Single episode depressive disorder, severe, with psychotic symptoms",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/104129373",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, severe, with psychotic symptoms, with prominent anxiety symptoms",
+            "score": -2.264658278497743,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/992872236",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, severe, with psychotic symptoms, with prominent anxiety symptoms and melancholia",
+            "score": -2.6361295968440834,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1399163152",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, severe, with psychotic symptoms, with prominent anxiety symptoms and seasonal pattern",
+            "score": -2.8900162165433074,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/167312861",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, severe, with psychotic symptoms, with prominent anxiety symptoms, melancholia, and seasonal pattern",
+            "score": -3.2614875348896475,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/695879891",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, severe, with psychotic symptoms, with prominent anxiety symptoms, current episode perinatal",
+            "score": -3.642699845703853,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/433560827",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, severe, with psychotic symptoms, with prominent anxiety symptoms and melancholia, current episode perinatal",
+            "score": -4.014171164050194,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1754139498",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, severe, with psychotic symptoms, with prominent anxiety symptoms and seasonal pattern, current episode perinatal",
+            "score": -4.26805778374942,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1389739806",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, severe, with psychotic symptoms, with prominent anxiety symptoms, melancholia, and seasonal pattern, current episode perinatal",
+            "score": -4.63952910209576,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/830693826",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6A70.4",
+        "score": -2.264658278497743,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/651947494",
+        "title": "Single episode depressive disorder, moderate, with psychotic symptoms",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/651947494",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, moderate, with psychotic symptoms, with prominent anxiety symptoms",
+            "score": -2.355553945267668,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/80375993",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, moderate, with psychotic symptoms, with prominent anxiety symptoms and melancholia",
+            "score": -2.7270252636140087,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1074404606",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, moderate, with psychotic symptoms, with prominent anxiety symptoms and seasonal pattern",
+            "score": -2.980911883313233,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/527433133",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, moderate, with psychotic symptoms, with prominent anxiety symptoms, melancholia, and seasonal pattern",
+            "score": -3.3523832016595736,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1430509562",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, moderate, with psychotic symptoms, with prominent anxiety symptoms, current episode perinatal",
+            "score": -3.7335955124737783,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/21570059",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, moderate, with psychotic symptoms, with prominent anxiety symptoms and melancholia, current episode perinatal",
+            "score": -4.105066830820119,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1416486474",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, moderate, with psychotic symptoms, with prominent anxiety symptoms and seasonal pattern, current episode perinatal",
+            "score": -4.358953450519345,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1999499491",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, moderate, with psychotic symptoms, with prominent anxiety symptoms, melancholia, and seasonal pattern, current episode perinatal",
+            "score": -4.730424768865685,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1212312427",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6A70.2",
+        "score": -2.355553945267668,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1669279433",
+        "title": "Single episode depressive disorder, severe, without psychotic symptoms",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1669279433",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, severe, without psychotic symptoms, with prominent anxiety symptoms",
+            "score": -2.4909894337346903,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2106135905",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, severe, without psychotic symptoms, with prominent anxiety symptoms and melancholia",
+            "score": -2.862460752081031,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/183472724",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, severe, without psychotic symptoms, with prominent anxiety symptoms and seasonal pattern",
+            "score": -3.1163473717802557,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/448852850",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, severe, without psychotic symptoms, with prominent anxiety symptoms, melancholia, and seasonal pattern",
+            "score": -3.4878186901265957,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/622335416",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, severe, without psychotic symptoms, with prominent anxiety symptoms, current episode perinatal",
+            "score": -3.8690310009408013,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/468646594",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, severe, without psychotic symptoms, with prominent anxiety symptoms and melancholia, current episode perinatal",
+            "score": -4.240502319287143,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/524526016",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, severe, without psychotic symptoms, with prominent anxiety symptoms and seasonal pattern, current episode perinatal",
+            "score": -4.494388938986366,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/444042814",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, severe, without psychotic symptoms, with prominent anxiety symptoms, melancholia, and seasonal pattern, current episode perinatal",
+            "score": -4.865860257332707,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/24490844",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6A70.3",
+        "score": -2.4909894337346903,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1811820459/other",
+        "title": "Other specified secondary tremor",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1811820459/other",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Tremor due to anxiety, stress, or fatigue",
+            "score": -2.4955067026870554,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/214584974",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": true,
+        "isResidualUnspecified": false,
+        "chapter": "08",
+        "theCode": "8A04.3Y",
+        "score": -2.4955067026870554,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/129188707",
+        "title": "Bipolar type I disorder, current episode depressive, mild",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/129188707",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode depressive, mild, with prominent anxiety symptoms",
+            "score": -2.5311635937521713,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1365581129",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode depressive, mild, with prominent anxiety symptoms and melancholia",
+            "score": -2.9026349120985113,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1839755109",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode depressive, mild, with prominent anxiety symptoms and seasonal pattern",
+            "score": -3.156521531797736,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2103637715",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode depressive, mild, with prominent anxiety symptoms and rapid cycling",
+            "score": -3.2117153751225023,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1565998737",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode depressive, mild, with prominent anxiety symptoms, melancholia, and seasonal pattern",
+            "score": -3.527992850144076,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/646123116",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode depressive, mild, with prominent anxiety symptom, melancholia, and rapid cycling",
+            "score": -3.5831866934688423,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1495244035",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode depressive, mild, with prominent anxiety symptoms, current episode perinatal",
+            "score": -3.614657686962283,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/52221556",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode depressive, mild, with prominent anxiety symptoms and seasonal pattern and rapid cycling",
+            "score": -3.8370733131680677,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/564038295",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode depressive, mild, with prominent anxiety symptoms and melancholia, current episode perinatal",
+            "score": -3.986129005308623,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/263336297",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode depressive, mild, with prominent anxiety symptoms, melancholia, seasonal pattern, and rapid cycling",
+            "score": -4.208544631514409,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2078247176",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode depressive, mild, with prominent anxiety symptoms and seasonal pattern, current episode perinatal",
+            "score": -4.240015625007848,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/4845851",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode depressive, mild, with prominent anxiety symptoms and rapid cycling, current episode perinatal",
+            "score": -4.295209468332614,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1328165762",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode depressive, mild, with prominent anxiety symptoms, melancholia, and seasonal pattern, current episode perinatal",
+            "score": -4.611486943354188,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/889062269",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode depressive, mild, with prominent anxiety symptoms, melancholia, and rapid cycling, current episode perinatal",
+            "score": -4.6666807866789535,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1260443890",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode depressive, mild, with prominent anxiety symptoms, seasonal pattern, and rapid cycling, current episode perinatal",
+            "score": -4.920567406378179,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/456133453",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode depressive, mild, with prominent anxiety symptoms, melancholia, seasonal pattern, and rapid cycling, current episode perinatal",
+            "score": -5.29203872472452,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/141200512",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6A60.3",
+        "score": -2.5311635937521713,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/449588190",
+        "title": "Recurrent depressive disorder, current episode severe, with psychotic symptoms",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/449588190",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode severe, with psychotic symptoms, with prominent anxiety symptoms",
+            "score": -2.537289906702192,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/934742379",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode severe, with psychotic symptoms, with prominent anxiety symptoms and melancholia",
+            "score": -2.908761225048532,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1355985685",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode severe, with psychotic symptoms, with prominent anxiety symptoms and seasonal pattern",
+            "score": -3.1626478447477564,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1787365219",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode severe, with psychotic symptoms, with prominent anxiety symptoms, melancholia, and seasonal pattern",
+            "score": -3.5341191630940965,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1539671967",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode severe, with psychotic symptoms, with prominent anxiety symptoms, current episode perinatal",
+            "score": -3.620783999912303,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1806110419",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode severe, with psychotic symptoms, with prominent anxiety symptoms and melancholia, current episode perinatal",
+            "score": -3.9922553182586435,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/999142820",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode severe, with psychotic symptoms, with prominent anxiety symptoms and seasonal pattern, current episode perinatal",
+            "score": -4.246141937957869,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1688869911",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode severe, with psychotic symptoms, with prominent anxiety symptoms, melancholia, and seasonal pattern, current episode perinatal",
+            "score": -4.61761325630421,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2141725043",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6A71.4",
+        "score": -2.537289906702192,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/485378793",
+        "title": "Bipolar type II disorder, current episode depressive, mild",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/485378793",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode depressive, mild, with prominent anxiety symptoms",
+            "score": -2.5800607614397597,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1974339883",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode depressive, mild, with prominent anxiety symptoms and melancholia",
+            "score": -2.9515320797861,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/285812978",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode depressive, mild, with prominent anxiety symptoms and seasonal pattern",
+            "score": -3.2054186994853247,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/804195002",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode depressive, mild, with prominent anxiety symptoms and rapid cycling",
+            "score": -3.260612542810091,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1325435121",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode depressive, mild, with prominent anxiety symptoms, melancholia, and seasonal pattern",
+            "score": -3.5768900178316643,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1139549964",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode depressive, mild, with prominent anxiety symptom, melancholia, and rapid cycling",
+            "score": -3.632083861156431,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2097808708",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode depressive, mild, with prominent anxiety symptoms, current episode perinatal",
+            "score": -3.6635548546498717,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/115226047",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode depressive, mild, with prominent anxiety symptoms and seasonal pattern and rapid cycling",
+            "score": -3.885970480855655,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1307923638",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode depressive, mild, with prominent anxiety symptoms and melancholia, current episode perinatal",
+            "score": -4.035026172996211,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1564462336",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode depressive, mild, with prominent anxiety symptoms, melancholia, seasonal pattern, and rapid cycling",
+            "score": -4.257441799201995,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1873948993",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode depressive, mild, with prominent anxiety symptoms and seasonal pattern, current episode perinatal",
+            "score": -4.288912792695436,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/841715513",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode depressive, mild, with prominent anxiety symptoms and rapid cycling, current episode perinatal",
+            "score": -4.344106636020203,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/53898499",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode depressive, mild, with prominent anxiety symptoms, melancholia, and seasonal pattern, current episode perinatal",
+            "score": -4.660384111041776,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2061493337",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode depressive, mild, with prominent anxiety symptoms, melancholia, and rapid cycling, current episode perinatal",
+            "score": -4.715577954366543,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/443690738",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode depressive, mild, with prominent anxiety symptoms, seasonal pattern, and rapid cycling, current episode perinatal",
+            "score": -4.969464574065768,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1315261133",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type II disorder, current episode depressive, mild, with prominent anxiety symptoms, melancholia, seasonal pattern, and rapid cycling, current episode perinatal",
+            "score": -5.340935892412109,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/77710586",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6A61.1",
+        "score": -2.5800607614397597,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/399670840",
+        "title": "Single episode depressive disorder, moderate, without psychotic symptoms",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/399670840",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, moderate, without psychotic symptoms, with prominent anxiety symptoms",
+            "score": -2.5818851005046155,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1293363949",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, moderate, without psychotic symptoms, with prominent anxiety symptoms and melancholia",
+            "score": -2.953356418850956,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/477663782",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, moderate, without psychotic symptoms, with prominent anxiety symptoms and seasonal pattern",
+            "score": -3.2072430385501813,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/379469638",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, moderate, without psychotic symptoms, with prominent anxiety symptoms, melancholia, and seasonal pattern",
+            "score": -3.578714356896522,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/435929240",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, moderate, without psychotic symptoms, with prominent anxiety symptoms, current episode perinatal",
+            "score": -3.9599266677107265,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/142700340",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, moderate, without psychotic symptoms, with prominent anxiety symptoms and melancholia, current episode perinatal",
+            "score": -4.331397986057068,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/963229862",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, moderate, without psychotic symptoms, with prominent anxiety symptoms and seasonal pattern, current episode perinatal",
+            "score": -4.585284605756291,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1716392215",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Single episode depressive disorder, moderate, without psychotic symptoms, with prominent anxiety symptoms, melancholia, and seasonal pattern, current episode perinatal",
+            "score": -4.956755924102632,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1686258306",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6A70.1",
+        "score": -2.5818851005046155,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/167688690",
+        "title": "Bipolar type I disorder, current episode mixed, with psychotic symptoms",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/167688690",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, with psychotic symptoms, with prominent anxiety symptoms",
+            "score": -2.584063792084731,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/536116296",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, with psychotic symptoms, with prominent anxiety symptoms and melancholia",
+            "score": -2.9555351104310716,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1733725865",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, with psychotic symptoms, with prominent anxiety symptoms and seasonal pattern",
+            "score": -3.209421730130296,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/129567972",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, with psychotic symptoms, with prominent anxiety symptoms and rapid cycling",
+            "score": -3.2646155734550626,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/233364684",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, with psychotic symptoms, with prominent anxiety symptoms, melancholia, and seasonal pattern",
+            "score": -3.5808930484766366,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/900956497",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, with psychotic symptoms, with prominent anxiety symptom, melancholia, and rapid cycling",
+            "score": -3.636086891801403,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/361122067",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, with psychotic symptoms, with prominent anxiety symptoms, current episode perinatal",
+            "score": -3.667557885294843,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/856620676",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, with psychotic symptoms, with prominent anxiety symptoms and seasonal pattern and rapid cycling",
+            "score": -3.8899735115006266,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1965786040",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, with psychotic symptoms, with prominent anxiety symptoms and melancholia, current episode perinatal",
+            "score": -4.039029203641183,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1271767536",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, with psychotic symptoms, with prominent anxiety symptoms, melancholia, seasonal pattern, and rapid cycling",
+            "score": -4.261444829846968,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/298773121",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, with psychotic symptoms, with prominent anxiety symptoms and seasonal pattern, current episode perinatal",
+            "score": -4.292915823340407,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1105082686",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, with psychotic symptoms, with prominent anxiety symptoms and rapid cycling, current episode perinatal",
+            "score": -4.348109666665174,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1360306312",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, with psychotic symptoms, with prominent anxiety symptoms, melancholia, and seasonal pattern, current episode perinatal",
+            "score": -4.664387141686748,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1384431347",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, with psychotic symptoms, with prominent anxiety symptoms, melancholia, and rapid cycling, current episode perinatal",
+            "score": -4.719580985011515,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1934869887",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, with psychotic symptoms, with prominent anxiety symptoms, seasonal pattern, and rapid cycling, current episode perinatal",
+            "score": -4.973467604710739,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1568636545",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, with psychotic symptoms, with prominent anxiety symptoms, melancholia, seasonal pattern, and rapid cycling, current episode perinatal",
+            "score": -5.344938923057079,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2102048451",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6A60.A",
+        "score": -2.584063792084731,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/419823765",
+        "title": "Recurrent depressive disorder, current episode moderate, with psychotic symptoms",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/419823765",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode moderate, with psychotic symptoms, with prominent anxiety symptoms",
+            "score": -2.628185573472117,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/618175643",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode moderate, with psychotic symptoms, with prominent anxiety symptoms and melancholia",
+            "score": -2.999656891818457,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1815176757",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode moderate, with psychotic symptoms, with prominent anxiety symptoms and seasonal pattern",
+            "score": -3.253543511517681,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1285758471",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode moderate, with psychotic symptoms, with prominent anxiety symptoms, melancholia, and seasonal pattern",
+            "score": -3.625014829864022,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1801173011",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode moderate, with psychotic symptoms, with prominent anxiety symptoms, current episode perinatal",
+            "score": -3.711679666682229,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1388072563",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode moderate, with psychotic symptoms, with prominent anxiety symptoms and melancholia, current episode perinatal",
+            "score": -4.083150985028569,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/250290090",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode moderate, with psychotic symptoms, with prominent anxiety symptoms and seasonal pattern, current episode perinatal",
+            "score": -4.3370376047277945,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/199176280",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode moderate, with psychotic symptoms, with prominent anxiety symptoms, melancholia, and seasonal pattern, current episode perinatal",
+            "score": -4.7085089230741355,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/543167526",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6A71.2",
+        "score": -2.628185573472117,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1660456695",
+        "title": "Bipolar type I disorder, current episode manic, with psychotic symptoms",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1660456695",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode manic, with psychotic symptoms, with prominent anxiety symptoms",
+            "score": -2.6491936407088974,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1746875281",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode manic, with psychotic symptoms, with prominent anxiety symptoms and melancholia",
+            "score": -3.0206649590552375,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/36467824",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode manic, with psychotic symptoms, with prominent anxiety symptoms and seasonal pattern",
+            "score": -3.2745515787544615,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/738250638",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode manic, with psychotic symptoms, with prominent anxiety symptoms and rapid cycling",
+            "score": -3.329745422079228,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/232240132",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode manic, with psychotic symptoms, with prominent anxiety symptoms, melancholia, and seasonal pattern",
+            "score": -3.6460228971008015,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/962610788",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode manic, with psychotic symptoms, with prominent anxiety symptom, melancholia, and rapid cycling",
+            "score": -3.701216740425568,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1730915975",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode manic, with psychotic symptoms, with prominent anxiety symptoms, current episode perinatal",
+            "score": -3.7326877339190085,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1119123097",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode manic, with psychotic symptoms, with prominent anxiety symptoms and seasonal pattern and rapid cycling",
+            "score": -3.9551033601247934,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1614162556",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode manic, with psychotic symptoms, with prominent anxiety symptoms and melancholia, current episode perinatal",
+            "score": -4.104159052265349,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/535359987",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode manic, with psychotic symptoms, with prominent anxiety symptoms, melancholia, seasonal pattern, and rapid cycling",
+            "score": -4.326574678471134,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/341545491",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode manic, with psychotic symptoms, with prominent anxiety symptoms and seasonal pattern, current episode perinatal",
+            "score": -4.358045671964574,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1895609290",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode manic, with psychotic symptoms, with prominent anxiety symptoms and rapid cycling, current episode perinatal",
+            "score": -4.413239515289341,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1355381642",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode manic, with psychotic symptoms, with prominent anxiety symptoms, melancholia, and seasonal pattern, current episode perinatal",
+            "score": -4.729516990310915,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1422102778",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode manic, with psychotic symptoms, with prominent anxiety symptoms, melancholia, and rapid cycling, current episode perinatal",
+            "score": -4.784710833635681,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1519954854",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode manic, with psychotic symptoms, with prominent anxiety symptoms, seasonal pattern, and rapid cycling, current episode perinatal",
+            "score": -5.038597453334905,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1803897246",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode manic, with psychotic symptoms, with prominent anxiety symptoms, melancholia, seasonal pattern, and rapid cycling, current episode perinatal",
+            "score": -5.410068771681246,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1417795612",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6A60.1",
+        "score": -2.6491936407088974,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/2139612744",
+        "title": "Recurrent depressive disorder, current episode severe, without psychotic symptoms",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/2139612744",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode severe, without psychotic symptoms, with prominent anxiety symptoms",
+            "score": -2.7636210619391397,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1044827008",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode severe, without psychotic symptoms, with prominent anxiety symptoms and melancholia",
+            "score": -3.1350923802854798,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1358066327",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode severe, without psychotic symptoms, with prominent anxiety symptoms and seasonal pattern",
+            "score": -3.388978999984704,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/635651732",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode severe, without psychotic symptoms, with prominent anxiety symptoms, melancholia, and seasonal pattern",
+            "score": -3.760450318331045,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/953349819",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode severe, without psychotic symptoms, with prominent anxiety symptoms, current episode perinatal",
+            "score": -3.8471151551492513,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/482299991",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode severe, without psychotic symptoms, with prominent anxiety symptoms and melancholia, current episode perinatal",
+            "score": -4.218586473495592,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/651011791",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode severe, without psychotic symptoms, with prominent anxiety symptoms and seasonal pattern, current episode perinatal",
+            "score": -4.472473093194818,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1472033714",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Recurrent depressive disorder, current episode severe, without psychotic symptoms, with prominent anxiety symptoms, melancholia, and seasonal pattern, current episode perinatal",
+            "score": -4.843944411541159,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1758652472",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6A71.3",
+        "score": -2.7636210619391397,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1706773916",
+        "title": "Bipolar type I disorder, current episode mixed, without psychotic symptoms",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1706773916",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, without psychotic symptoms, with prominent anxiety symptoms",
+            "score": -2.810394947321679,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/650542602",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, without psychotic symptoms, with prominent anxiety symptoms and melancholia",
+            "score": -3.1818662656680194,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/95030476",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, without psychotic symptoms, with prominent anxiety symptoms and seasonal pattern",
+            "score": -3.4357528853672443,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2054477635",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, without psychotic symptoms, with prominent anxiety symptoms and rapid cycling",
+            "score": -3.490946728692011,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/99107886",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, without psychotic symptoms, with prominent anxiety symptoms, melancholia, and seasonal pattern",
+            "score": -3.807224203713585,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/656953385",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, without psychotic symptoms, with prominent anxiety symptom, melancholia, and rapid cycling",
+            "score": -3.8624180470383513,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1204277858",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, without psychotic symptoms, with prominent anxiety symptoms, current episode perinatal",
+            "score": -3.8938890405317905,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1582036083",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, without psychotic symptoms, with prominent anxiety symptoms and seasonal pattern and rapid cycling",
+            "score": -4.116304666737575,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1745476178",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, without psychotic symptoms, with prominent anxiety symptoms and melancholia, current episode perinatal",
+            "score": -4.26536035887813,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/399966685",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, without psychotic symptoms, with prominent anxiety symptoms, melancholia, seasonal pattern, and rapid cycling",
+            "score": -4.487775985083916,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1812148514",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, without psychotic symptoms, with prominent anxiety symptoms and seasonal pattern, current episode perinatal",
+            "score": -4.519246978577356,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/910308017",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, without psychotic symptoms, with prominent anxiety symptoms and rapid cycling, current episode perinatal",
+            "score": -4.574440821902122,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1133474288",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, without psychotic symptoms, with prominent anxiety symptoms, melancholia, and seasonal pattern, current episode perinatal",
+            "score": -4.890718296923697,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/552660418",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, without psychotic symptoms, with prominent anxiety symptoms, melancholia, and rapid cycling, current episode perinatal",
+            "score": -4.945912140248463,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1596864079",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, without psychotic symptoms, with prominent anxiety symptoms, seasonal pattern, and rapid cycling, current episode perinatal",
+            "score": -5.1997987599476865,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1340387321",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Bipolar type I disorder, current episode mixed, without psychotic symptoms, with prominent anxiety symptoms, melancholia, seasonal pattern, and rapid cycling, current episode perinatal",
+            "score": -5.571270078294027,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/532034726",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6A60.9",
+        "score": -2.810394947321679,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      }
+    ],
+    "error": false,
+    "errorMessage": null,
+    "resultChopped": true,
+    "wordSuggestionsChopped": false,
+    "guessType": 2,
+    "uniqueSearchId": "22f16cc8-1ec2-4c79-8bac-49cde6eecf66",
+    "words": null
+  }
+}

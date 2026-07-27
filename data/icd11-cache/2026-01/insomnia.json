@@ -1,0 +1,189 @@
+{
+  "query": "insomnia",
+  "requestUrl": "https://id.who.int/icd/release/11/2026-01/mms/search?q=insomnia&useFlexisearch=true&flatResults=true&highlightingEnabled=false&medicalCodingMode=true",
+  "retrievedAt": "2026-07-27T00:00:00.000Z",
+  "apiVersion": "v2",
+  "release": "2026-01",
+  "linearization": "mms",
+  "response": {
+    "destinationEntities": [
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1038292737/unspecified",
+        "title": "Insomnia disorders, unspecified",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1038292737/unspecified",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": true,
+        "chapter": "07",
+        "theCode": "7A0Z",
+        "score": 0.6873349209915774,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1832877760",
+        "title": "Short-term insomnia",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1832877760",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "Acute insomnia",
+            "score": 0.5575026100318099,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/1832877760",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "07",
+        "theCode": "7A01",
+        "score": 0.5575026100318099,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/323148092",
+        "title": "Chronic insomnia",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/323148092",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "primary insomnia",
+            "score": 0.4813547491553517,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/323148092",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "07",
+        "theCode": "7A00",
+        "score": 0.5427035446480831,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/669154658",
+        "title": "Fatal familial insomnia",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/669154658",
+        "isLeaf": true,
+        "postcoordinationAvailability": 1,
+        "hasCodingNote": false,
+        "hasMaternalChapterLink": true,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Synonym",
+            "label": "FFI - [fatal familial insomnia]",
+            "score": -1.9209806475613946,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/669154658",
+            "propertyValueType": 0
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "08",
+        "theCode": "8E02.2",
+        "score": -0.5630569920789321,
+        "titleIsASearchResult": true,
+        "titleIsTopScore": true,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      },
+      {
+        "id": "http://id.who.int/icd/release/11/2026-01/mms/1206955889",
+        "title": "Dementia due to prion disease",
+        "stemId": "http://id.who.int/icd/release/11/2026-01/mms/1206955889",
+        "isLeaf": true,
+        "postcoordinationAvailability": 2,
+        "hasCodingNote": true,
+        "hasMaternalChapterLink": false,
+        "hasPerinatalChapterLink": false,
+        "matchingPVs": [
+          {
+            "propertyId": "Title",
+            "label": "Dementia due to fatal familial insomnia",
+            "score": -2.7661884608172667,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/467518334",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Title",
+            "label": "Dementia due to sporadic fatal insomnia",
+            "score": -3.093389899889373,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2144182249",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Dementia due to FFI - [fatal familial insomnia]",
+            "score": -4.124112116299729,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/467518334",
+            "propertyValueType": 1
+          },
+          {
+            "propertyId": "Synonym",
+            "label": "Dementia due to SFI - [sporadic fatal insomnia]",
+            "score": -4.60500379891303,
+            "important": false,
+            "foundationUri": "http://id.who.int/icd/entity/2144182249",
+            "propertyValueType": 1
+          }
+        ],
+        "propertiesTruncated": false,
+        "isResidualOther": false,
+        "isResidualUnspecified": false,
+        "chapter": "06",
+        "theCode": "6D85.5",
+        "score": -2.7661884608172667,
+        "titleIsASearchResult": false,
+        "titleIsTopScore": false,
+        "entityType": 0,
+        "important": false,
+        "descendants": []
+      }
+    ],
+    "error": false,
+    "errorMessage": null,
+    "resultChopped": false,
+    "wordSuggestionsChopped": false,
+    "guessType": 2,
+    "uniqueSearchId": "99cab4d5-1434-4479-9626-884e5f85ab58",
+    "words": null
+  }
+}

@@ -1,0 +1,811 @@
+{
+  "terminology": "IMDRF AET",
+  "release": "2026",
+  "officialPublicationDate": "2026-03-23",
+  "importedAt": "2026-07-27T00:00:00.000Z",
+  "sourceUrl": "https://www.imdrf.org/sites/default/files/2026-03/annexa-g-consolidated2026-revised_0.JSON",
+  "releasePage": "https://www.imdrf.org/documents/terminologies-categorized-adverse-event-reporting-aer-terms-terminology-and-codes",
+  "sourceChecksum": "sha256:e3476b9d588a705569c5c4d4e22faf573b6ad834537645a89a469743456cfe9d",
+  "officialRecordCount": 2140,
+  "normalizedRecordCount": 1938,
+  "duplicateExceptionCount": 202,
+  "duplicatePolicy": "Only byte-equivalent code/term/definition/hierarchy duplicates in the official source are merged; conflicting duplicates fail the import.",
+  "duplicateExceptions": [
+    {
+      "code": "E0104",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0521",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0607",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E050303",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0707",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0850",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0851",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0852",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0853",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0901",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0904",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0739",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0740",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1202",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E120201",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E120202",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1303",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1306",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1210",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1506",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1507",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1509",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1512",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E151201",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E151202",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1513",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1516",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1519",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1505",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1511",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1607",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1621",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1644",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1645",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0146",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1005",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1013",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0526",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0114",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0121",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0306",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0610",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0733",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E073301",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0744",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0803",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0816",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0818",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E081801",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1021",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1024",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1102",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1310",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E131001",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1414",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1504",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1609",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1628",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1632",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1719",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E172001",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E172002",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E190103",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0908",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E090801",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E090802",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0910",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1640",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0102",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E010201",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0108",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0123",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E012301",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0124",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E012401",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0128",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0710",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0749",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0819",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E081901",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E081902",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E081903",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E081904",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E081905",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E081906",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0912",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1023",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1603",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E160301",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E160302",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E160303",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E160304",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E160305",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1606",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1610",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1614",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E161401",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1631",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1633",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1701",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1704",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E170401",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E170402",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E170403",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E170404",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E170405",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E170406",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0615",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2005",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1713",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1718",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2012",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0762",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0144",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1026",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1646",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2008",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E200801",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2104",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E210401",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2105",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0511",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E051101",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0604",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0614",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0745",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0811",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1006",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1022",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1406",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1415",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2115",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2116",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2121",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2122",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2123",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2125",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2126",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2127",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2135",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0847",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0848",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0849",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1108",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1109",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0624",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0507",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0508",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0603",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0713",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0714",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0715",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0716",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0719",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0720",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1205",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E120501",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1206",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1209",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1404",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1510",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2202",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2203",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2205",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E040202",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E083802",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1705",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E170501",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2302",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2306",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2307",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2101",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2317",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E232401",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E232402",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0116",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0820",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0907",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1002",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1622",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1623",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1651",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2106",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2109",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2110",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2112",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2332",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E040201",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2337",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0103",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0736",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0807",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E080701",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E080702",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E0830",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1702",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2340",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E2341",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    },
+    {
+      "code": "E1420",
+      "reason": "Official Annex E JSON repeats an identical code/term/definition under multiple category or hierarchy paths; categories and alternate paths were preserved."
+    }
+  ]
+}
